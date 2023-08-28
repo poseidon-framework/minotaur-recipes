@@ -41,7 +41,7 @@ TODO: Please replace the DOI and the study accession (and URL to the public sequ
 
 ## Will you work on this?
 
-If you are planning to work on comppiling the `.ssf` file required to add this
+If you are planning to work on compiling the `.ssf` file required to add this
 package, please assign yourself to this issue. This helps the community
 collaborate effectively and avoid duplicating work.
 
