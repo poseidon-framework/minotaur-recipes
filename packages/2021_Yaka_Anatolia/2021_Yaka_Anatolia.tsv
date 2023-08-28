@@ -1,0 +1,23 @@
+Sample_Name	Library_ID	Lane	Colour_Chemistry	SeqType	Organism	Strandedness	UDG_Treatment	R1	R2	BAM	R1_target_file	R2_target_file
+Ash128	Ash128_Ash128_all	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/Ash128_Ash128_all_L1_R1.fastq.gz	NA	NA	ERR4332637.fastq.gz	NA
+pch034	pch034_pch034_all	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/pch034_pch034_all_L1_R1.fastq.gz	NA	NA	ERR4332641.fastq.gz	NA
+CCH285	CCH285_CCH285_L1	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/CCH285_CCH285_L1_L1_R1.fastq.gz	NA	NA	ERR4332646.fastq.gz	NA
+CCH294	CCH294_CCH294_L1	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/CCH294_CCH294_L1_L1_R1.fastq.gz	NA	NA	ERR4332649.fastq.gz	NA
+Ash002	Ash002_Ash002_all	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/Ash002_Ash002_all_L1_R1.fastq.gz	NA	NA	ERR4332592.fastq.gz	NA
+Ash136	Ash136_Ash136_all	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/Ash136_Ash136_all_L1_R1.fastq.gz	NA	NA	ERR4332632.fastq.gz	NA
+Ash133	Ash133_Ash133_all	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/Ash133_Ash133_all_L1_R1.fastq.gz	NA	NA	ERR4332633.fastq.gz	NA
+cth217	cth217_cth217_all	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/cth217_cth217_all_L1_R1.fastq.gz	NA	NA	ERR4332634.fastq.gz	NA
+cth842	cth842_cth842_all	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/cth842_cth842_all_L1_R1.fastq.gz	NA	NA	ERR4332640.fastq.gz	NA
+CCH163	CCH163_CCH163_L1	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/CCH163_CCH163_L1_L1_R1.fastq.gz	NA	NA	ERR4332645.fastq.gz	NA
+CCH289	CCH289_CCH289_L1	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/CCH289_CCH289_L1_L1_R1.fastq.gz	NA	NA	ERR4332647.fastq.gz	NA
+CCH290	CCH290_CCH290_L1	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/CCH290_CCH290_L1_L1_R1.fastq.gz	NA	NA	ERR4332648.fastq.gz	NA
+Ash033	Ash033_Ash033_all	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/Ash033_Ash033_all_L1_R1.fastq.gz	NA	NA	ERR4331996.fastq.gz	NA
+Ash040	Ash040_Ash040_all	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/Ash040_Ash040_all_L1_R1.fastq.gz	NA	NA	ERR4332593.fastq.gz	NA
+Ash129	Ash129_Ash129_all	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/Ash129_Ash129_all_L1_R1.fastq.gz	NA	NA	ERR4332594.fastq.gz	NA
+Ash131	Ash131_Ash131_all	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/Ash131_Ash131_all_L1_R1.fastq.gz	NA	NA	ERR4332631.fastq.gz	NA
+cth006	cth006_cth006_all	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/cth006_cth006_all_L1_R1.fastq.gz	NA	NA	ERR4332635.fastq.gz	NA
+cth728	cth728_cth728_all	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/cth728_cth728_all_L1_R1.fastq.gz	NA	NA	ERR4332636.fastq.gz	NA
+cth747	cth747_cth747_all	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/cth747_cth747_all_L1_R1.fastq.gz	NA	NA	ERR4332638.fastq.gz	NA
+cth739	cth739_cth739_all	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/cth739_cth739_all_L1_R1.fastq.gz	NA	NA	ERR4332639.fastq.gz	NA
+CCH144	CCH144_CCH144_L1	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/CCH144_CCH144_L1_L1_R1.fastq.gz	NA	NA	ERR4332643.fastq.gz	NA
+CCH311	CCH311_CCH311_L1	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/CCH311_CCH311_L1_L1_R1.fastq.gz	NA	NA	ERR4332650.fastq.gz	NA
