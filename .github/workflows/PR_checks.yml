@@ -1,0 +1,47 @@
+name: CI for  PRs that add or update packages
+# This workflow runs minimal required validation steps for merging of PRs that add or update packages
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  ssf_validation:
+    name: Validate SSF
+    ## Run on PRs that contain the right label
+    if: contains(github.event.pull_request.labels.*.name, 'new package') || contains(github.event.pull_request.labels.*.name, 'package update')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      ## Commands that require a github token cannot be used here, because forked repos do not have access to secrets.
+      ## Use the gh cli to check out the PR
+      # - name: Checkout Pull Request
+      #   run: gh pr checkout ${{ github.event.pull_request.number }}
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.delphis_bot_auth_token }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.10.11
+
+      - name: Get changed files
+        id: changes
+        # Set outputs using the command.
+        run: |
+          echo "PR base sha: ${{ github.event.pull_request.base.sha }}"
+          echo "PR head sha: ${{ github.sha }}"
+          echo "ssf=$(git diff --name-only --diff-filter=ACMRT ${{ github.event.pull_request.base.sha }} ${{ github.sha }} | grep '.ssf$')" >> $GITHUB_OUTPUT
+
+      - name: Check SSF
+        if: ${{ steps.changes.outputs.ssf }}
+        run: |
+          ## Validate contents of each SSF file.
+          for ssf_fn in ${{ steps.changes.outputs.ssf }}; do
+            echo "Validating: '${ssf_fn}'"
+            python scripts/ssf_validator.py ${ssf_fn}
+          done

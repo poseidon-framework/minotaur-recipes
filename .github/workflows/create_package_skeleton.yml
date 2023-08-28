@@ -1,0 +1,111 @@
+name: Create additional PR files
+on:
+  issue_comment:
+    types: [created]
+
+jobs:
+  deploy:
+    # Only run if comment is on a PR with the main repo, and if it contains the magic keywords
+    if: >
+      contains(github.event.comment.html_url, '/pull/') &&
+      startsWith(github.event.comment.body, '@delphis-bot create backbone') &&
+      github.repository == 'poseidon-framework/poseidon-eager'
+    runs-on: ubuntu-latest
+    steps:
+
+      # indication that the process has started
+      - name: React on comment
+        uses: peter-evans/create-or-update-comment@v2
+        with:
+          comment-id: ${{ github.event.comment.id }}
+          reactions: eyes
+          token: ${{ secrets.delphis_bot_auth_token }}
+
+      # Use the @delphis-bot token to check out so we can push later
+      - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.delphis_bot_auth_token }}
+
+      # Action runs on the issue comment, so we don't get the PR by default
+      # Use the gh cli to check out the PR
+      - name: Checkout Pull Request
+        run: gh pr checkout ${{ github.event.issue.number }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.delphis_bot_auth_token }}
+
+      - uses: actions/setup-node@v3
+
+      - name: Get package names from added ssf files
+        id: get_package_names
+        run: |
+          offending_ssfs=''
+          package_names=''
+
+          while read r; do
+            package_name="$(basename -s .ssf ${r})"
+            package_dir="$(basename $(dirname ${r}))"
+            if [[ ${package_name} != ${package_dir} ]]; then
+              offending_ssfs+="${r} "
+            fi
+            package_names+="${package_name} "
+          done < <( gh api /repos/poseidon-framework/poseidon-eager/pulls/${{ github.event.issue.number }}/files -q '.[].filename' | grep '.ssf$' )
+
+          echo "offending_ssfs=${offending_ssfs% }" >>$GITHUB_OUTPUT
+          echo "package_names=${package_names% }" >>$GITHUB_OUTPUT
+        env:
+          GITHUB_TOKEN: ${{ secrets.delphis_bot_auth_token }}
+        
+      - name: Post comment listing offending packages
+        if: steps.get_package_names.outputs.offending_ssfs != ''
+        uses: peter-evans/create-or-update-comment@v2
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          token: ${{ secrets.delphis_bot_auth_token }}
+          body: |
+            SSF files MUST be named after their respective package. The following SSF files break this rule:
+              ${{ steps.get_package_names.outputs.offending_ssfs }}
+
+      - name: Create eager TSV from SSF
+        id: create_tsv
+        if: steps.get_package_names.outputs.offending_ssfs == ''
+        run: |
+          for package_name in ${{ steps.get_package_names.outputs.package_names }}; do
+            ./scripts/create_eager_input.sh ${package_name}
+          done
+
+      - name: Add nextflow config from template
+        id: add_config
+        if: steps.get_package_names.outputs.offending_ssfs == ''
+        run: |
+          for package_name in ${{ steps.get_package_names.outputs.package_names }}; do
+            cp ./assets/template.config ./packages/${package_name}/${package_name}.config
+          done
+
+      - name: Add tsv_patch from template
+        id: add_tsv_patch
+        if: steps.get_package_names.outputs.offending_ssfs == ''
+        run: |
+          for package_name in ${{ steps.get_package_names.outputs.package_names }}; do
+            cp ./assets/template.tsv_patch.sh ./packages/${package_name}/${package_name}.tsv_patch.sh
+            chmod +x ./packages/${package_name}/${package_name}.tsv_patch.sh
+          done
+
+      - name: Commit & push changes
+        id: commit_changes
+        if: steps.create_tsv.outcome == 'success'
+        run: |
+          git config user.email "delphis-bot@poseidon-adna.org"
+          git config user.name "delphis-bot"
+          git config push.default upstream
+          git add .
+          git status
+          git commit -m "[automated] Create processing backbone from SSF files"
+          git push
+
+      # # indication that the process is done
+      # - name: React on comment
+      #   if: steps.commit_changes.outcome == 'success' || steps.commit_changes.outcome == 'failure'
+      #   uses: peter-evans/create-or-update-comment@v2
+      #   with:
+      #     comment-id: ${{ github.event.comment.id }}
+      #     reactions: eyes
