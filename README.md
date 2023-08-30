@@ -19,13 +19,13 @@ server-client infrastructure.
 
 The Minotaur Workflow consists of three parts:
 
-- Creating the Poseidon Package Skeleton
+- Creating the Poseidon Package recipe
 - Processing of the public data with [nf-core/eager](https://nf-co.re/eager)
 - Poseidon Package preparation for upload to the PMA
 
 Details on each part can be found below.
 
-## Creating the Poseidon Package Skeleton
+## Creating a Poseidon Package recipe
 
 This is the community-facing entrypoint to the workflow, and takes place on the
 [minotaur-recipes GitHub repository](https://github.com/poseidon-framework/minotaur-recipes),
@@ -40,7 +40,7 @@ Upon activation, `delphis-bot` will create:
 - the package `tsv_patch.sh` that can be ued to localise the TSV precursor into
   a valid input for nf-core/eager,
 - a `script_versions.txt` file, with the versions of the scripts used during the
-  package skeleton creation.
+  package recipe creation.
 
 For a step-by-step guide on how to contribute to the PMA, see
 [this guide](docs/contributing.md).
@@ -50,18 +50,18 @@ For a step-by-step guide on how to contribute to the PMA, see
 This step takes place locally at [MPI-EVA](https://www.eva.mpg.de/index). The
 machinery described in the
 [poseidon-eager GitHub repository](https://github.com/poseidon-framework/poseidon-eager)
-uses the package skeleton to:
+uses the package recipe to:
 
 - download the raw data from the public archive URLs in the SSF file (using
   `scripts/download_ena_data.py` and `scripts/run_download.sh`)
 - Validate the downloaded data, and create symlinks with clearer naming
   (`scripts/validate_downloaded_data.sh`). This allows the one-to-many
   relationship between raw data and `poseidon_ids`.
-- Apply the `*_tsv_patch.sh` of the package skeleton to create the finalised
+- Apply the `*_tsv_patch.sh` of the package recipe to create the finalised
   nf-core/eager TSV.
 - Use `run_eager.sh` to run nf-core/eager.
   - This uses the finalised TSV as its input
-  - And load the `.config` of the package skeleton to apply all default
+  - And load the `.config` of the package recipe to apply all default
     parameters, as well as any relevant `CaptureType` and package-specific
     parameters.
 
