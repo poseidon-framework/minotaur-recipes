@@ -1,4 +1,4 @@
-name: Create additional PR files
+name: Create package recipe from SSF
 on:
   issue_comment:
     types: [created]
@@ -8,30 +8,29 @@ jobs:
     # Only run if comment is on a PR with the main repo, and if it contains the magic keywords
     if: >
       contains(github.event.comment.html_url, '/pull/') &&
-      startsWith(github.event.comment.body, '@delphis-bot create backbone') &&
-      github.repository == 'poseidon-framework/poseidon-eager'
+      startsWith(github.event.comment.body, '@delphis-bot create recipe') &&
+      github.repository == 'poseidon-framework/minotaur-recipes'
     runs-on: ubuntu-latest
     steps:
-
       # indication that the process has started
       - name: React on comment
         uses: peter-evans/create-or-update-comment@v2
         with:
           comment-id: ${{ github.event.comment.id }}
           reactions: eyes
-          token: ${{ secrets.delphis_bot_auth_token }}
+          token: ${{ secrets.delphis_bot_org_token }}
 
       # Use the @delphis-bot token to check out so we can push later
       - uses: actions/checkout@v3
         with:
-          token: ${{ secrets.delphis_bot_auth_token }}
+          token: ${{ secrets.delphis_bot_org_token }}
 
       # Action runs on the issue comment, so we don't get the PR by default
       # Use the gh cli to check out the PR
       - name: Checkout Pull Request
         run: gh pr checkout ${{ github.event.issue.number }}
         env:
-          GITHUB_TOKEN: ${{ secrets.delphis_bot_auth_token }}
+          GITHUB_TOKEN: ${{ secrets.delphis_bot_org_token }}
 
       - uses: actions/setup-node@v3
 
@@ -48,19 +47,19 @@ jobs:
               offending_ssfs+="${r} "
             fi
             package_names+="${package_name} "
-          done < <( gh api /repos/poseidon-framework/poseidon-eager/pulls/${{ github.event.issue.number }}/files -q '.[].filename' | grep '.ssf$' )
+          done < <( gh api /repos/poseidon-framework/minotaur-recipes/pulls/${{ github.event.issue.number }}/files -q '.[].filename' | grep '.ssf$' )
 
           echo "offending_ssfs=${offending_ssfs% }" >>$GITHUB_OUTPUT
           echo "package_names=${package_names% }" >>$GITHUB_OUTPUT
         env:
-          GITHUB_TOKEN: ${{ secrets.delphis_bot_auth_token }}
-        
+          GITHUB_TOKEN: ${{ secrets.delphis_bot_org_token }}
+
       - name: Post comment listing offending packages
         if: steps.get_package_names.outputs.offending_ssfs != ''
         uses: peter-evans/create-or-update-comment@v2
         with:
           issue-number: ${{ github.event.issue.number }}
-          token: ${{ secrets.delphis_bot_auth_token }}
+          token: ${{ secrets.delphis_bot_org_token }}
           body: |
             SSF files MUST be named after their respective package. The following SSF files break this rule:
               ${{ steps.get_package_names.outputs.offending_ssfs }}
@@ -99,7 +98,7 @@ jobs:
           git config push.default upstream
           git add .
           git status
-          git commit -m "[automated] Create processing backbone from SSF files"
+          git commit -m "[automated] Create package recipe from SSF files"
           git push
 
       # # indication that the process is done
