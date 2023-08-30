@@ -1,15 +1,16 @@
 ---
 name: "Please update: [PACKAGE_NAME]"
-about: Suggest an update to an already-existing poseidon package.
+about:
+  Suggest an update to an already-existing Poseidon Minotaur Archive Package.
 labels: "package update"
 ---
 
 <!--
-# poseidon-framework/minotaur-recipes package request
+# poseidon-framework/minotaur-recipes package update request
 
 Hello there!
 
-Thank you for suggesting changes to a package in the Poseidon Package Directory!
+Thank you for suggesting changes to a package in the Poseidon Minotaur Archive!
 Please ensure you are completing all the TODOs outlined in these comments for each section.
 -->
 

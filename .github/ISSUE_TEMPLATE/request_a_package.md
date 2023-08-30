@@ -1,6 +1,6 @@
 ---
 name: "Please add: [PACKAGE_NAME]"
-about: Request to add data from a publication to the Poseidon Package Directory
+about: Request to add data from a publication to the Poseidon Minotaur Archive
 labels: "new package"
 ---
 
@@ -18,7 +18,7 @@ Please ensure you are completing all the TODOs outlined in these comments for ea
 I have checked the following places for the requested package and could not find
 it:
 
-- [ ] Poseidon Package Directory
+- [ ] Poseidon Minotaur Archive
 - [ ] The `packages/` directory in this repository
 - [ ] Open issues in this repository
 - [ ] Open pull requests in this repository
@@ -46,6 +46,6 @@ package, please assign yourself to this issue. This helps the community
 collaborate effectively and avoid duplicating work.
 
 <!--
-We really appreciate users compiling the SSF file for packages they want added to the Poseidon Package Directory.
+We really appreciate users compiling the SSF file for packages they want added to the Poseidon Minotaur Archive.
 If you would like to contribute but are unsure how, feel free to ask the community for help/advice at: https://poseidon-8el7276.slack.com
 -->
