@@ -22,7 +22,7 @@ If adding a package:
       package.
 - [ ] The name of the `.ssf` file(s) matches the package name (i.e.
       `packages/2023_my_package/2023_my_package.ssf`).
-- [ ] Comment `@delphis-bot create backbone` to this pull request to awaken
+- [ ] Comment `@delphis-bot create recipe` to this pull request to awaken
       Poseidon's trusty helper. (This should be repeated whenever changes are
       made to the SSF file contents).
 

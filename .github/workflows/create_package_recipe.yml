@@ -69,7 +69,7 @@ jobs:
         if: steps.get_package_names.outputs.offending_ssfs == ''
         run: |
           for package_name in ${{ steps.get_package_names.outputs.package_names }}; do
-            ./scripts/create_eager_input.sh ${package_name}
+            ./scripts/delphis-bot_scripts/create_eager_input.sh ${package_name}
           done
 
       - name: Add nextflow config from template
