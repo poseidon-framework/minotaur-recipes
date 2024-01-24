@@ -11,12 +11,12 @@ Closes #XXX <!-- TODO: Please link the issue requesting the package here. -->
 
 ## PR Checklist
 
-- [ ] Add the appropriate label to your PR (`new package` or `package_update`).
+- [ ] Add the appropriate label to your PR (`new package` or `package update`).
 - [ ] The PR title is in the format `Add/update package: {package_name}`.
 - [ ] The PR description includes a link to the issue requesting the package its
       update. (Add to `Closes #XXX` above.)
 
-If adding a package:
+If adding or updating a package:
 
 - [ ] This PR contains a sequencingSourceFile (`.ssf`) for the requested
       package.
