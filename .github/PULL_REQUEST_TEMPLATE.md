@@ -16,7 +16,7 @@ Closes #XXX <!-- TODO: Please link the issue requesting the package here. -->
 - [ ] The PR description includes a link to the issue requesting the package its
       update. (Add to `Closes #XXX` above.)
 
-If adding a package:
+If adding or updating a package:
 
 - [ ] This PR contains a sequencingSourceFile (`.ssf`) for the requested
       package.
