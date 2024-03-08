@@ -137,4 +137,4 @@ I35081	I35081_I35081	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DAT
 I35095	I35095_I35095	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I35095_I35095_L1_R1.fastq.gz	NA	NA	ERR12121349.fastq.gz	NA
 I4664	I4664_I4664	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I4664_I4664_L1_R1.fastq.gz	NA	NA	ERR12121352.fastq.gz	NA
 I4803	I4803_I4803	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I4803_I4803_L1_R1.fastq.gz	NA	NA	ERR12121354.fastq.gz	NA
-I5404_ss	I5404_ss_I5404_ss	1	4	SE	Homo sapiens (modern human)	single	full	<PATH_TO_DATA>/I5404_ss_I5404_ss_L1_R1.fastq.gz	NA	NA	ERR12121357.fastq.gz	NA
+I5404	I5404_I5404	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I5404_I5404_L1_R1.fastq.gz	NA	NA	ERR12121357.fastq.gz	NA
