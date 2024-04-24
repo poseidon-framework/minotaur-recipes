@@ -7,14 +7,14 @@ Thanks for suggesting a new publication to add to the Poseidon Minotaur Archive!
 Please ensure you are completing all the TODOs outlined in these comments for each section.
 -->
 
-Closes #XXX <!-- TODO: Please link the issue requesting the package here. -->
+Linked to #XXX <!-- TODO: Please link the issue requesting the package here. -->
 
 ## PR Checklist
 
 - [ ] Add the appropriate label to your PR (`new package` or `package update`).
 - [ ] The PR title is in the format `Add/update package: {package_name}`.
 - [ ] The PR description includes a link to the issue requesting the package its
-      update. (Add to `Closes #XXX` above.)
+      update. (Add to `Linked to #XXX` above.)
 
 If adding or updating a package:
 
