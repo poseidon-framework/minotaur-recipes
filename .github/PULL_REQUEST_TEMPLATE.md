@@ -22,6 +22,9 @@ If adding or updating a package:
       package.
 - [ ] The name of the `.ssf` file(s) matches the package name (i.e.
       `packages/2023_my_package/2023_my_package.ssf`).
+- [ ] The `.ssf` file MUST contain a new line at the end of the file.
+      A check for this exists in the CI. This check should pass before
+      you continue with this list.
 - [ ] Comment `@delphis-bot create recipe` to this pull request to awaken
       Poseidon's trusty helper. (This should be repeated whenever changes are
       made to the SSF file contents).
