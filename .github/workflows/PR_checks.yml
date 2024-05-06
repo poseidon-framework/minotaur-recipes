@@ -9,7 +9,9 @@ jobs:
   ssf_validation:
     name: Validate SSF
     ## Run on PRs that contain the right label
-    if: contains(github.event.pull_request.labels.*.name, 'new package') || contains(github.event.pull_request.labels.*.name, 'package update')
+    if:
+      contains(github.event.pull_request.labels.*.name, 'new package') ||
+      contains(github.event.pull_request.labels.*.name, 'package update')
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -25,7 +27,7 @@ jobs:
       #     GITHUB_TOKEN: ${{ secrets.delphis_bot_auth_token }}
 
       - name: Setup Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v5
         with:
           python-version: 3.10.11
 
