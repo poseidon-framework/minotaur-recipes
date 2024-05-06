@@ -43,7 +43,7 @@ Upon activation, `delphis-bot` will create:
   package recipe creation.
 
 For a step-by-step guide on how to contribute to the PMA, see
-[this guide](docs/contributing.md).
+[this guide](https://www.poseidon-adna.org/#/minotaur?id=requesting-a-package-recipe).
 
 ## Processing of data with nf-core/eager
 
