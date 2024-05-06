@@ -1,17 +1,11 @@
-Sample_Name	Library_ID	Lane	Colour_Chemistry	SeqType	Organism	Strandedness	UDG_Treatment	R1	R2	BAM
-GUP001	GUP001_GUP001.A0101	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/GUP001_GUP001.A0101_L1_R1.fastq.gz	NA	NA
-GUP001	GUP001_GUP001.A0101	2	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/GUP001_GUP001.A0101_L2_R1.fastq.gz	NA	NA
-GUP001	GUP001_GUP001.A0101	3	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/GUP001_GUP001.A0101_L3_R1.fastq.gz	NA	NA
-GUP001	GUP001_GUP001.A0101	4	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/GUP001_GUP001.A0101_L4_R1.fastq.gz	NA	NA
-GUP001_SG	GUP001_SG_GUP001.A0101	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/GUP001_SG_GUP001.A0101_L1_R1.fastq.gz	NA	NA
-GUP001	GUP001_GUP001.A0101	5	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/GUP001_GUP001.A0101_L5_R1.fastq.gz	NA	NA
-GUP001_TF	GUP001_TF_GUP001.A0101	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/GUP001_TF_GUP001.A0101_L1_R1.fastq.gz	NA	NA
-GUP001	GUP001_GUP001.A0101	6	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/GUP001_GUP001.A0101_L6_R1.fastq.gz	NA	NA
-GUP001_TF	GUP001_TF_GUP001.A0101	2	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/GUP001_TF_GUP001.A0101_L2_R1.fastq.gz	NA	NA
-GUP001	GUP001_GUP001.A0101	7	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/GUP001_GUP001.A0101_L7_R1.fastq.gz	NA	NA
-GUP001_TF	GUP001_TF_GUP001.A0101	3	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/GUP001_TF_GUP001.A0101_L3_R1.fastq.gz	NA	NA
-GUP001_ss	GUP001_ss_GUP001.A0102_ss	1	4	SE	Homo sapiens (modern human)	single	none	<PATH_TO_DATA>/GUP001_ss_GUP001.A0102_ss_L1_R1.fastq.gz	NA	NA
-GUP001_ss	GUP001_ss_GUP001.A0102_ss	2	4	SE	Homo sapiens (modern human)	single	none	<PATH_TO_DATA>/GUP001_ss_GUP001.A0102_ss_L2_R1.fastq.gz	NA	NA
-GUP001_SG_ss	GUP001_SG_ss_GUP001.A0102_ss	1	4	SE	Homo sapiens (modern human)	single	none	<PATH_TO_DATA>/GUP001_SG_ss_GUP001.A0102_ss_L1_R1.fastq.gz	NA	NA
-GUP001_ss	GUP001_ss_GUP001.A0102_ss	3	4	SE	Homo sapiens (modern human)	single	none	<PATH_TO_DATA>/GUP001_ss_GUP001.A0102_ss_L3_R1.fastq.gz	NA	NA
-GUP001_TF_ss	GUP001_TF_ss_GUP001.A0102_ss	1	4	SE	Homo sapiens (modern human)	single	none	<PATH_TO_DATA>/GUP001_TF_ss_GUP001.A0102_ss_L1_R1.fastq.gz	NA	NA
+Sample_Name	Library_ID	Lane	Colour_Chemistry	SeqType	Organism	Strandedness	UDG_Treatment	R1	R2	BAM	R1_target_file	R2_target_file
+GUP001	GUP001_GUP001.A0101	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/GUP001_GUP001.A0101_L1_R1.fastq.gz	NA	NA	ERR5490520.fastq.gz	NA
+GUP001	GUP001_GUP001.A0101	2	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/GUP001_GUP001.A0101_L2_R1.fastq.gz	NA	NA	ERR5490521.fastq.gz	NA
+GUP001	GUP001_GUP001.A0101	3	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/GUP001_GUP001.A0101_L3_R1.fastq.gz	NA	NA	ERR5490522.fastq.gz	NA
+GUP001	GUP001_GUP001.A0101	4	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/GUP001_GUP001.A0101_L4_R1.fastq.gz	NA	NA	ERR5490523.fastq.gz	NA
+GUP001	GUP001_GUP001.A0101	5	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/GUP001_GUP001.A0101_L5_R1.fastq.gz	NA	NA	ERR5490524.fastq.gz	NA
+GUP001	GUP001_GUP001.A0101	6	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/GUP001_GUP001.A0101_L6_R1.fastq.gz	NA	NA	ERR5490525.fastq.gz	NA
+GUP001	GUP001_GUP001.A0101	7	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/GUP001_GUP001.A0101_L7_R1.fastq.gz	NA	NA	ERR5490526.fastq.gz	NA
+GUP001_ss	GUP001_ss_GUP001.A0102_ss	1	4	SE	Homo sapiens (modern human)	single	none	<PATH_TO_DATA>/GUP001_ss_GUP001.A0102_ss_L1_R1.fastq.gz	NA	NA	ERR5490527.fastq.gz	NA
+GUP001_ss	GUP001_ss_GUP001.A0102_ss	2	4	SE	Homo sapiens (modern human)	single	none	<PATH_TO_DATA>/GUP001_ss_GUP001.A0102_ss_L2_R1.fastq.gz	NA	NA	ERR5490528.fastq.gz	NA
+GUP001_ss	GUP001_ss_GUP001.A0102_ss	3	4	SE	Homo sapiens (modern human)	single	none	<PATH_TO_DATA>/GUP001_ss_GUP001.A0102_ss_L3_R1.fastq.gz	NA	NA	ERR5490529.fastq.gz	NA

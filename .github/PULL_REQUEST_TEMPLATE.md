@@ -7,21 +7,24 @@ Thanks for suggesting a new publication to add to the Poseidon Minotaur Archive!
 Please ensure you are completing all the TODOs outlined in these comments for each section.
 -->
 
-Closes #XXX <!-- TODO: Please link the issue requesting the package here. -->
+Linked to #XXX <!-- TODO: Please link the issue requesting the package here. -->
 
 ## PR Checklist
 
-- [ ] Add the appropriate label to your PR (`new package` or `package_update`).
+- [ ] Add the appropriate label to your PR (`new package` or `package update`).
 - [ ] The PR title is in the format `Add/update package: {package_name}`.
 - [ ] The PR description includes a link to the issue requesting the package its
-      update. (Add to `Closes #XXX` above.)
+      update. (Add to `Linked to #XXX` above.)
 
-If adding a package:
+If adding or updating a package:
 
 - [ ] This PR contains a sequencingSourceFile (`.ssf`) for the requested
       package.
 - [ ] The name of the `.ssf` file(s) matches the package name (i.e.
       `packages/2023_my_package/2023_my_package.ssf`).
+- [ ] The `.ssf` file MUST contain a new line at the end of the file.
+      A check for this exists in the CI. This check should pass before
+      you continue with this list.
 - [ ] Comment `@delphis-bot create recipe` to this pull request to awaken
       Poseidon's trusty helper. (This should be repeated whenever changes are
       made to the SSF file contents).
