@@ -1,0 +1,28 @@
+name: "SSF File: Check Newline at EOF"
+
+on:
+  pull_request:
+    paths:
+      - "**.ssf"
+
+jobs:
+  check_newline:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Check Newline at EOF
+        ## From: https://stackoverflow.com/questions/77046462/github-new-line-missing-end-of-file-negative-consequences
+        run: |
+          PR_NUMBER=$(echo $GITHUB_REF | awk 'BEGIN { FS = "/" } ; { print $3 }')
+          FILES_CHANGED=$(curl -s -X GET -G https://api.github.com/repos/$GITHUB_REPOSITORY/pulls/$PR_NUMBER/files | jq -r '.[] | .filename')
+          for FILE in $FILES_CHANGED; do
+            if [[ "$FILE" == *.ssf ]]; then
+              if [ "$(tail -c1 "$FILE")" != "" ]; then
+                echo "File $FILE does not end with a newline. Please add a newline at the end of this file."
+                exit 1
+              fi
+            fi
+          done
