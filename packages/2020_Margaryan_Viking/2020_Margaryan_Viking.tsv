@@ -440,3 +440,4 @@ VK536	VK536_unspecified	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_
 VK538	VK538_unspecified	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/VK538_unspecified_L1_R1.fastq.gz	NA	NA	ERR4059899.fastq.gz	NA
 VK540	VK540_unspecified	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/VK540_unspecified_L1_R1.fastq.gz	NA	NA	ERR4059901.fastq.gz	NA
 VK543	VK543_unspecified	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/VK543_unspecified_L1_R1.fastq.gz	NA	NA	ERR4059904.fastq.gz	NA
+VK582	VK582_unspecified	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/VK582_unspecified_L1_R1.fastq.gz	NA	NA	ERR4059918.fastq.gz	NA
