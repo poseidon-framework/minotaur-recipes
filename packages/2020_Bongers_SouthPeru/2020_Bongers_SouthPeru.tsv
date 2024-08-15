@@ -1,0 +1,7 @@
+Sample_Name	Library_ID	Lane	Colour_Chemistry	SeqType	Organism	Strandedness	UDG_Treatment	R1	R2	BAM	R1_target_file	R2_target_file
+UC12-20_ss	UC12-20_ss_SC79-L1098_ss	1	4	PE	Homo sapiens (modern human)	single	half	<PATH_TO_DATA>/UC12-20_ss_SC79-L1098_ss_L1_R1.fastq.gz	<PATH_TO_DATA>/UC12-20_ss_SC79-L1098_ss_L1_R2.fastq.gz	NA	ERR4017943_1.fastq.gz	ERR4017943_2.fastq.gz
+UC12-12_ss	UC12-12_ss_SC79-L1101_ss	1	4	PE	Homo sapiens (modern human)	single	half	<PATH_TO_DATA>/UC12-12_ss_SC79-L1101_ss_L1_R1.fastq.gz	<PATH_TO_DATA>/UC12-12_ss_SC79-L1101_ss_L1_R2.fastq.gz	NA	ERR4017942_1.fastq.gz	ERR4017942_2.fastq.gz
+UC8-8173_ss	UC8-8173_ss_SC79-L1095_ss	1	4	PE	Homo sapiens (modern human)	single	half	<PATH_TO_DATA>/UC8-8173_ss_SC79-L1095_ss_L1_R1.fastq.gz	<PATH_TO_DATA>/UC8-8173_ss_SC79-L1095_ss_L1_R2.fastq.gz	NA	ERR4017947_1.fastq.gz	ERR4017947_2.fastq.gz
+UC12-25_ss	UC12-25_ss_SC79-L1097_ss	1	4	PE	Homo sapiens (modern human)	single	half	<PATH_TO_DATA>/UC12-25_ss_SC79-L1097_ss_L1_R1.fastq.gz	<PATH_TO_DATA>/UC12-25_ss_SC79-L1097_ss_L1_R2.fastq.gz	NA	ERR4017945_1.fastq.gz	ERR4017945_2.fastq.gz
+UC12-24_ss	UC12-24_ss_SC79-L1096_ss	1	4	PE	Homo sapiens (modern human)	single	half	<PATH_TO_DATA>/UC12-24_ss_SC79-L1096_ss_L1_R1.fastq.gz	<PATH_TO_DATA>/UC12-24_ss_SC79-L1096_ss_L1_R2.fastq.gz	NA	ERR4017944_1.fastq.gz	ERR4017944_2.fastq.gz
+UC8-8168_ss	UC8-8168_ss_SC79-L1099_ss	1	4	PE	Homo sapiens (modern human)	single	half	<PATH_TO_DATA>/UC8-8168_ss_SC79-L1099_ss_L1_R1.fastq.gz	<PATH_TO_DATA>/UC8-8168_ss_SC79-L1099_ss_L1_R2.fastq.gz	NA	ERR4017946_1.fastq.gz	ERR4017946_2.fastq.gz

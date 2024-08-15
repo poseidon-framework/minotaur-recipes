@@ -2,7 +2,7 @@
 set -uo pipefail ## Pipefail, complain on new unassigned variables.
 
 ## Track the version of the TSV_patch template used
-VERSION='0.2.1dev'
+VERSION='0.2.0dev'
 
 ## This script is applied to the eager input TSV file locally to edit the dummy
 ##    path to the fastQ files added by `create_eager_input.sh` to a real local
@@ -10,13 +10,13 @@ VERSION='0.2.1dev'
 ##    TSV before running eager should be added below that in the form of bash
 ##    commands to aid in reproducibility.
 
-## usage tsv_patch.sh <local_data_dir> <input_tsv> <path/to/source_me.sh>
+## usage tsv_patch.sh <local_data_dir> <input_tsv>
 
 local_data_dir="$(readlink -f ${1})"
 input_tsv="$(readlink -f ${2})"
 output_tsv="$(dirname ${local_data_dir})/$(basename -s ".tsv" ${input_tsv}).finalised.tsv"
 columns_to_keep=("Sample_Name" "Library_ID" "Lane" "Colour_Chemistry" "SeqType" "Organism" "Strandedness" "UDG_Treatment" "R1" "R2" "BAM")
-source $(readlink -f ${3}) ## Path to helper function script should be provided as 3rd argument. https://github.com/poseidon-framework/poseidon-eager/blob/main/scripts/source_me.sh
+source $(dirname ${2})/../../scripts/source_me.sh ## Load helper functions
 
 ## Index non-proliferated columns and exclude them from the finalised TSV
 cut_selector=''
