@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-HELPER_FUNCTION_VERSION='0.2.1dev'
+HELPER_FUNCTION_VERSION='0.2.2dev'
 
 ## Print coloured messages to stderr
 #   errecho -r will print in red
@@ -108,7 +108,7 @@ function number_of_entries() {
 ##  <delim> MUST be a single character
 ##  <index> is 0-based
 # usage: pull_by_index <delim> <field_contents> <index>
-# number_of_entries ';' 'ABC001;ABC001_subset' 1 ## Returns 'ABC001'
+# pull_by_index ';' 'ABC001;ABC001_subset' 1 ## Returns 'ABC001_subset'
 function pull_by_index() {
   local delim
   local value
@@ -234,16 +234,25 @@ function r1_r2_from_ena_fastq() {
   local r1
   local r2
   local seq_type
+  local n_entries
 
   value="${1}"
-  r1=$(basename "$(pull_by_index ';' ${value} 0)")
-  r2=$(basename "$(pull_by_index ';' ${value} 1)")
-  seq_type="PE"
 
-  ## If no R2, then SE
-  if [[ "${r2}" == '' ]]; then
+  ## BAMs containing collapsed PE reads will have 3 entries in the ENA (merged, R1 unmerged, R2 unmerged), but we only need the first (merged reads).
+  n_entries=$(number_of_entries ';' ${value})
+
+  r1=$(basename "$(pull_by_index ';' ${value} 0)")
+  if [[ ${n_entries} -eq 2 ]]; then
+    ## If there are two entries, then it's PE
+    r2=$(basename "$(pull_by_index ';' ${value} 1)")
+    seq_type="PE"
+  elif [[ ${n_entries} -eq 1  || ${n_entries} -eq 3 ]]; then
+    ## If there is only one entry, then it's SE. With three, it is a BAM with collapsed reads, so keep only merged reads (treat as SE).
     r2="NA"
     seq_type="SE"
+  else
+    errecho -r "Unexpected number of entries in fastq_ftp field: ${value}."
+    exit 1
   fi
 
   echo "${seq_type} ${r1} ${r2}"
@@ -264,16 +273,22 @@ function dummy_r1_r2_from_ena_fastq() {
   prefix="${1}"
   out_fn_prefix="${2}"
   value="${3}"
+
+  ## BAMs containing collapsed PE reads will have 3 entries in the ENA (merged, R1 unmerged, R2 unmerged), but we only need the first (merged reads).
   n_entries=$(number_of_entries ';' ${value})
 
   r1="${prefix}/${out_fn_prefix}_R1.fastq.gz"
-  if [[ ${n_entries} -gt 1 ]]; then
+  if [[ ${n_entries} -eq 2 ]]; then
+    ## If there are two entries, then it's PE
     r2="${prefix}/${out_fn_prefix}_R2.fastq.gz"
     seq_type="PE"
-  else
-  ## If no R2, then SE
+  elif [[ ${n_entries} -eq 1 || ${n_entries} -eq 3 ]]; then
+    ## If there is only one entry, then it's SE. With three, it is a BAM with collapsed reads, so keep only merged reads (treat as SE).
     r2="NA"
     seq_type="SE"
+  else
+    errecho -r "Unexpected number of entries in fastq_ftp field: ${value}."
+    exit 1
   fi
 
   echo "${seq_type} ${r1} ${r2}"
@@ -299,19 +314,24 @@ function symlink_names_from_ena_fastq() {
   out_fn_prefix="${3}"
   value="${4}"
 
+  ## BAMs containing collapsed PE reads will have 3 entries in the ENA (merged, R1 unmerged, R2 unmerged), but we only need the first (merged reads).
   n_entries=$(number_of_entries ';' ${value})
 
   r1="${download_path}/$(basename $(pull_by_index ';' ${value} 0))"
   r1_symlink="${output_path}/${out_fn_prefix}_R1.fastq.gz"
-  if [[ ${n_entries} -gt 1 ]]; then
+  if [[ ${n_entries} -eq 2 ]]; then
+    ## If there are two entries, then it's PE
     r2="${download_path}/$(basename $(pull_by_index ';' ${value} 1))"
     r2_symlink="${output_path}/${out_fn_prefix}_R2.fastq.gz"
     seq_type="PE"
-  else
-  ## If no R2, then SE
+  elif [[ ${n_entries} -eq 1 || ${n_entries} -eq 3 ]]; then
+    ## If there is only one entry, then it's SE. With three, it is a BAM with collapsed reads, so keep only merged reads (treat as SE).
     r2="NA"
     r2_symlink="NA"
     seq_type="SE"
+  else
+    errecho -r "Unexpected number of entries in fastq_ftp field: ${value}."
+    exit 1
   fi
 
   echo "${seq_type} ${r1} ${r1_symlink} ${r2} ${r2_symlink}"
