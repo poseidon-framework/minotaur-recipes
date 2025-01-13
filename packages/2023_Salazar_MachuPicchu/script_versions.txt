@@ -1,7 +1,7 @@
 create_eager_input.sh:	0.2.1dev
-source_me.sh for initial TSV:	0.2.1dev
-download_ena_data.py:	0.2.0dev
+source_me.sh for initial TSV:	0.2.3dev
+download_ena_data.py:	0.3.0dev
 validate_downloaded_data.sh:	0.2.2dev
 source_me.sh for data validation:	0.2.1dev
-2023_OlaldeCarrion_Roman.tsv_patch.sh:	0.2.1dev
+2023_Salazar_MachuPicchu.tsv_patch.sh:	0.2.1dev
 source_me.sh for final TSV:	0.2.1dev
