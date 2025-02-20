@@ -16,7 +16,9 @@ Linked to #XXX <!-- TODO: Please link the issue requesting the package here. -->
 - [ ] The PR description includes a link to the issue requesting the package its
       update. (Add to `Linked to #XXX` above.)
 
-If adding or updating a package:
+## If adding or updating a package:
+
+### SSF file Todo list
 
 - [ ] This PR contains a sequencingSourceFile (`.ssf`) for the requested
       package.
@@ -25,12 +27,19 @@ If adding or updating a package:
 - [ ] The `.ssf` file MUST contain a new line at the end of the file.
       A check for this exists in the CI. This check should pass before
       you continue with this list.
+- [ ] I confirm that the `poseidon_IDs`, `udg`, and `library_built` are filled
+      and correct.
+- [ ] I made sure to leave `notes` where necessary to explain any special
+      cases/judgement calls made for data entries.
+
+### Recipe creation and validation
+
 - [ ] Comment `@delphis-bot create recipe` to this pull request to awaken
       Poseidon's trusty helper. (This should be repeated whenever changes are
       made to the SSF file contents).
 
-Delphis-bot will then add a number of files to the PR. Check that they are all
-there:
+After a few second, Delphis-bot will add a number of files to the PR. 
+Using the 'Files changed' tab, check that all of the following files were added:
 
 - [ ] The file `packages/{package_name}/{package_name}.tsv` was added to the PR.
 - [ ] The file `packages/{package_name}/{package_name}.tsv_patch.sh` was added
@@ -41,30 +50,15 @@ there:
     PR from template.
 <!-- TODO: Follow the steps outlined above and tick them off as you go. -->
 
-## Human validation
+### Additional configuration
 
-<!-- TODO: Please do the minimal validation of the files outlined below -->
+Additional configuration may be required when processing the data through nf-core/eager.
+If you think this may be the case here, please either leave a comment about it in the PR or
+add the relevant parameters within the `params` section at the end of the package config file.
+For example, if the published data from the paper have internal barcodes, please mention that
+in a comment, or provide the relevant nf-core/eager parameters in the `params` section.
 
-### Package SSF file (`*.ssf`)
-
-- [ ] I confirm that the `poseidon_IDs`, `udg`, and `library_built` are filled
-      and correct.
-- [ ] I made sure to leave `notes` where necessary to explain any special
-      cases/judgement calls made for data entries.
-
-### Package TSV file (`*.tsv`)
-
-- [ ] I confirm that the `UDG`, `Strandedness` columns are correct for each
-      library.
-- [ ] I confirm that the `R1_target_file` and `R2_target_file` columns point to
-      the correct FastQ files for the library (i.e. consistent with SSF file).
-
-### Package config file (`*.config`)
-
-The template config file includes a few `TODO` statements, and information about
-them. Please ensure that you:
-
-- [ ] I have selected the appropriate config for the CaptureType of the package.
+<!-- - [ ] I have selected the appropriate config for the CaptureType of the package. -->
 - [ ] If any nf-core/eager parameters need to be altered from their defaults, I
-      have added them within the `params` section at the end of the package
-      config file.
+      have commented so in this PR (or added the relevant parameters within the 
+      `params` section at the end of the package config file).
