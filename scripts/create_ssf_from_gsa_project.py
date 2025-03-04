@@ -9,7 +9,7 @@ import pandas as pd
 import openpyxl
 
 headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"}
-def download_xlsx(accession_number):
+def download_xlsx(accession_number: str):
     requests_text = requests.get(f"https://ngdc.cncb.ac.cn/gsa-human/browse/{accession_number}", headers=headers).text
     base_url = "https://ngdc.cncb.ac.cn"
 
@@ -45,7 +45,7 @@ def download_xlsx(accession_number):
         print(f"Failed to download file. Status code: {response.status_code}")
 
 
-def create_ssf_from_df(df, cols_to_add, output_file):
+def create_ssf_from_df(df: pd.DataFrame, cols_to_add: dict, output_file: str):
     data = {}
     for key, value in cols_to_add.items():
         if key == "instrument_platform" and value in df.columns and not df[value].isna().all():
@@ -58,41 +58,6 @@ def create_ssf_from_df(df, cols_to_add, output_file):
     result_df = pd.DataFrame(data)
     result_df.to_csv(output_file, index=False)
     print(f"'{output_file}' created successfully.")
-
-
-def add_columns_to_gsa_table(gsa_table_lines, column_names=None, column_value=None, byte_encoding="utf-8"):
-    """
-    Add columns with given name and value to the ENA table
-    """
-    ## column_names is required
-    if column_names is None:
-        raise ValueError("column_names is required")
-    ## should be a list
-    elif type(column_names) is list:
-        columns_to_add = column_names
-    ## or a single string
-    elif type(column_names) is str:
-        columns_to_add = [column_names]
-    else:
-        raise ValueError("column_names must be a list or a string")
-
-    ## column_names is required and a single string
-    if column_value is None:
-        raise ValueError("column_value is required")
-    elif type(column_value) is not str:
-        raise ValueError("column_value must be a string")
-
-    ## Convert the column names and values to bytes
-    added_columns = ("\t".join(columns_to_add) + "\t").encode(byte_encoding)
-    added_values = ("\t".join([column_value] * len(columns_to_add)) + "\t").encode(byte_encoding)
-
-    l = gsa_table_lines
-    ## Add the columns to the start of the header and the values to the start of each line
-    l[0] = added_columns + l[0]
-    for i in range(1, len(l)):
-        l[i] = added_values + l[i]
-
-    return l
 
 
 parser = argparse.ArgumentParser(
