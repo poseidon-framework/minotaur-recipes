@@ -10,8 +10,6 @@ import re
 import pandas as pd
 import openpyxl
 
-#TODO refactor scripts to be instances of class?
-#TODO add unit tests??
 
 headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"}
 VALID_PLATFORMS = [
@@ -193,6 +191,7 @@ for sheet_name, df in dfs.items():
         merged_df = df  # Initialize with the first sheet
     else:
         merged_df = merged_df.merge(df, on="Individual Name", how="outer", suffixes=("", "_"+sheet_name))
+        # This takes care of empty cells in original xlsx file
         merged_df.replace('', 'n/a', inplace=True)
 
 create_ssf_from_df(merged_df, gsa_cols, args.output_file)
