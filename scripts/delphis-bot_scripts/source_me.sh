@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-HELPER_FUNCTION_VERSION='0.2.3dev'
+HELPER_FUNCTION_VERSION='0.3.0dev'
 
 ## Print coloured messages to stderr
 #   errecho -r will print in red
@@ -198,40 +198,51 @@ function infer_library_strandedness() {
 }
 
 ## Function to create R1 and R2 columns from ena_table fastq_fn entries
-#   usage: r1_r2_from_ena_fastq <fastq_ftp>
-#   Returns: a thrupple of: seq_type R1 R2
+#   usage: r1_r2_from_ena_fastq <fastq_ftp> <submitted_ftp>
+#   Returns: a quadrupple of: seq_type R1 R2 BAM
 function r1_r2_from_ena_fastq() {
   local value
+  local value2
   local r1
   local r2
+  local bam
   local seq_type
   local n_entries
 
   value="${1}"
+  value2="${2}"
 
+  echo ${value} ${value2}
   ## BAMs containing collapsed PE reads will have 3 entries in the ENA (merged, R1 unmerged, R2 unmerged), but we only need the first (merged reads).
   n_entries=$(number_of_entries ';' ${value})
 
-  r1=$(basename "$(pull_by_index ';' ${value} 0)")
+  r1="NA"
+  r2="NA"
+  bam="NA"
   if [[ ${n_entries} -eq 2 ]]; then
     ## If there are two entries, then it's PE
+    r1=$(basename "$(pull_by_index ';' ${value} 0)")
     r2=$(basename "$(pull_by_index ';' ${value} 1)")
     seq_type="PE"
   elif [[ ${n_entries} -eq 1  || ${n_entries} -eq 3 ]]; then
     ## If there is only one entry, then it's SE. With three, it is a BAM with collapsed reads, so keep only merged reads (treat as SE).
-    r2="NA"
+    r1=$(basename "$(pull_by_index ';' ${value} 0)")
+    seq_type="SE"
+  elif [[ ${n_entries} -eq 0 ]]; then
+    ## If there are no entries, then use the BAM (assumed SE). Check that the submitted_ftp is a BAM happens in main script.
+    bam=$(basename "$(pull_by_index ';' "${value2}" 0)") ## This ensures we pull the BAM when a bai is also provided.
     seq_type="SE"
   else
     errecho -r "Unexpected number of entries in fastq_ftp field: ${value}."
     exit 1
   fi
 
-  echo "${seq_type} ${r1} ${r2}"
+  echo "${seq_type} ${r1} ${r2} ${bam}"
 }
 
 ## Function to create R1 and R2 columns from ena_table fastq_fn entries
-#   usage: dummy_r1_r2_from_ena_fastq <path_prefix> <out_fn_prefix> <fastq_ftp> 
-#   Returns: a thrupple of: seq_type R1 R2
+#   usage: dummy_r1_r2_from_ena_fastq <path_prefix> <out_fn_prefix> <fastq_ftp>
+#   Returns: a quadrupple of: seq_type R1 R2 BAM
 function dummy_r1_r2_from_ena_fastq() {
   local prefix
   local out_fn_prefix
@@ -240,6 +251,7 @@ function dummy_r1_r2_from_ena_fastq() {
   local r2
   local seq_type
   local n_entries
+  local bam
 
   prefix="${1}"
   out_fn_prefix="${2}"
@@ -249,6 +261,7 @@ function dummy_r1_r2_from_ena_fastq() {
   n_entries=$(number_of_entries ';' ${value})
 
   r1="${prefix}/${out_fn_prefix}_R1.fastq.gz"
+  bam="NA"
   if [[ ${n_entries} -eq 2 ]]; then
     ## If there are two entries, then it's PE
     r2="${prefix}/${out_fn_prefix}_R2.fastq.gz"
@@ -257,110 +270,19 @@ function dummy_r1_r2_from_ena_fastq() {
     ## If there is only one entry, then it's SE. With three, it is a BAM with collapsed reads, so keep only merged reads (treat as SE).
     r2="NA"
     seq_type="SE"
+  elif [[ ${n_entries} -eq 0 ]]; then
+    ## If there are no entries, then use the BAM (assumed SE). Check that the submitted_ftp is a BAM happens in main script.
+    r1="NA"
+    r2="NA"
+    bam="${prefix}/${out_fn_prefix}.bam"
+    seq_type="SE"
   else
     errecho -r "Unexpected number of entries in fastq_ftp field: ${value}."
     exit 1
   fi
 
-  echo "${seq_type} ${r1} ${r2}"
+  echo "${seq_type} ${r1} ${r2} ${bam}"
 }
-
-# ## NOTE: The following commands will be removed soon. currently commented out for testing. they are used in poseidon-eager only, and need not be here.
-# ## Function to check if all items of array X are in array Y, and return any entries exclusive to X.
-# #   all_x_in_y <length_of_list_x> X1 [X2 X3 ...] <length_of_list_y> Y1 [Y2 Y3 ...]
-# #   Returns: A space separated list of exclusive elements in X
-# function all_x_in_y() {
-#   local length_x
-#   local x
-#   local length_y
-#   local y
-#   local exclusive_entries
-#   local xid
-
-#   let length_x=${1}
-#   shift 1
-#   x=("${@:1:${length_x}}")
-#   shift ${length_x}
-#   let length_y=${1}
-#   shift 1
-#   y=("${@:1:${length_y}}")
-#   exclusive_entries=()
-
-#   for xid in ${x[@]}; do
-#     if [[ $(count_instances ${xid} "${y[@]}") == 0 ]]; then
-#       exclusive_entries+=("${xid}")
-#     fi
-#   done
-
-#   echo "${exclusive_entries[@]}"
-# }
-
-# ## Function to create R1 and R2 columns from ena_table fastq_fn entries
-# #   usage: symlink_names_from_ena_fastq <download_path> <output_path> <out_fn_prefix> <fastq_ftp>
-# #   Returns: a space separated list of seq_type R1 R1_symlink R2 R2_symlink
-# function symlink_names_from_ena_fastq() {
-#   local download_path
-#   local output_path
-#   local out_fn_prefix
-#   local value
-#   local r1
-#   local r1_symlink
-#   local r2
-#   local r2_symlink
-#   local seq_type
-#   local n_entries
-
-#   download_path="${1}"
-#   output_path="${2}"
-#   out_fn_prefix="${3}"
-#   value="${4}"
-
-#   ## BAMs containing collapsed PE reads will have 3 entries in the ENA (merged, R1 unmerged, R2 unmerged), but we only need the first (merged reads).
-#   n_entries=$(number_of_entries ';' ${value})
-
-#   r1="${download_path}/$(basename $(pull_by_index ';' ${value} 0))"
-#   r1_symlink="${output_path}/${out_fn_prefix}_R1.fastq.gz"
-#   if [[ ${n_entries} -eq 2 ]]; then
-#     ## If there are two entries, then it's PE
-#     r2="${download_path}/$(basename $(pull_by_index ';' ${value} 1))"
-#     r2_symlink="${output_path}/${out_fn_prefix}_R2.fastq.gz"
-#     seq_type="PE"
-#   elif [[ ${n_entries} -eq 1 || ${n_entries} -eq 3 ]]; then
-#     ## If there is only one entry, then it's SE. With three, it is a BAM with collapsed reads, so keep only merged reads (treat as SE).
-#     r2="NA"
-#     r2_symlink="NA"
-#     seq_type="SE"
-#   else
-#     errecho -r "Unexpected number of entries in fastq_ftp field: ${value}."
-#     exit 1
-#   fi
-
-#   echo "${seq_type} ${r1} ${r1_symlink} ${r2} ${r2_symlink}"
-# }
-
-# ## Function to create R1 and R2 columns from ena_table fastq_fn entries
-# #   usage: local_r1_r2_from_ena_fastq ${path_to_ena_data} ${fastq_fn}
-# #   Returns: a thrupple of: seq_type R1 R2
-# function local_r1_r2_from_ena_fastq() {
-#   local data_path
-#   local value
-#   local r1
-#   local r2
-#   local seq_type
-
-#   data_path=$1
-#   value=$2
-#   r1="${data_path}/${value%%;*}"
-#   r2="${data_path}/${value##*;}"
-#   seq_type="PE"
-
-#   if [[ "${r2}" == "${r1}" ]]; then
-#     r2="NA"
-#     seq_type="SE"
-#   fi
-
-#   echo "${seq_type} ${r1} ${r2}"
-# }
 
 ## Function to infer colour chemistry from an ENA-approved instrument model
 #   Usage: infer_colour_chemistry ${instrument_platform} ${instrument_model}
