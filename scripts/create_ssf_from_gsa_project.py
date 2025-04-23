@@ -30,7 +30,7 @@ VALID_PLATFORMS = [
         "Illumina HiSeq X",
         "HiSeq X Five",
         "HiSeq X Ten",
-        "Illumina HiSeq X Five", #TODO ask about adding illumina prefix to some models.
+        "Illumina HiSeq X Five",
         "Illumina HiSeq X Ten",
         "Illumina Genome Analyzer",
         "Illumina Genome Analyzer II",
@@ -50,7 +50,6 @@ def extract_release_date(accession_number: str) -> str:
 def download_xlsx(accession_number: str) -> pd.ExcelFile:
     requests_text = requests.get(f"https://ngdc.cncb.ac.cn/gsa-human/browse/{accession_number}", headers=headers).text
     base_url = "https://ngdc.cncb.ac.cn"
-    #TODO assert whether these regex patterns work for different datasets
     action_match = re.search(r"f\.action\s*=\s*[\"']([^\"']+)[\"']", requests_text)
     study_id_match = re.search(r"var study_id\s*=\s*'(\d+)'", requests_text)
     request_flag_match = re.search(r"var requestFlag\s*=\s*'(\d+)'", requests_text)
@@ -91,7 +90,6 @@ def create_ssf_from_df(df: pd.DataFrame, cols_to_add: dict, output_file: str):
             elif key =="instrument_model":
                 for model in df[value].tolist():
                     if model not in VALID_PLATFORMS:
-                        #TODO extend this to catching all invalid models
                         print(f"Invalid instrument model: {model}, stopping ssf creation")
                         return
                 data[key] = df[value].tolist()
@@ -136,7 +134,6 @@ parser.add_argument('-o', '--output_file', required=True, help="The name of the 
 
 args = parser.parse_args()
 
-#TODO assert column names are consistent across different projects
 gsa_cols = {
     "poseidon_IDs": None,
     "udg": None,
@@ -148,7 +145,7 @@ gsa_cols = {
     "sample_alias": "Individual Name",
     "secondary_sample_accession": None,
     "first_public": "first_public",
-    "last_updated": "last_updated",#TODO handle cases where this exists
+    "last_updated": "last_updated",
     "instrument_model": "Platform",
     "library_layout": "Layout",
     "library_source": "Source",
@@ -169,7 +166,6 @@ gsa_cols = {
 RELEASE_DATE = extract_release_date(args.accession_id)
 xls = download_xlsx(args.accession_id)
 
-#TODO assert sheet names are consistent in archive
 column_mappings = {
     "Individual": "Individual Name",
     "Sample": "Sample Name",
