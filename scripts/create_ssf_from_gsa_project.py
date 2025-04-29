@@ -80,6 +80,47 @@ def download_xlsx(accession_number: str) -> pd.ExcelFile:
         print(f"Failed to download file. Status code: {response.status_code}")
         return None
 
+def merge_sheets_by_accessions(xls: pd.ExcelFile, accession_col_name: str) -> pd.DataFrame:
+    """Merges all sheets in the GSA Excel file into one large pandas dataframe, based on the accession number in each sheet.
+
+    Args:
+        xls (pd.ExcelFile): The Excel file object containing the sheets to be merged.
+        accession_col_name (str): The name of the column containing the accession numbers in each sheet.
+            This should be the same for all sheets, and should be the accession of the row in the current sheet (i.e. the Run Accession for the Runs sheet).
+
+    Returns:
+        pd.DataFrame: A merged pandas dataframe containing all the data from the sheets, merged by their corresponding accession numbers.
+    """
+    ## Rename "Accession" column of each sheet to include sheet name.
+    dfs = {}
+    for sheet in xls.sheet_names:
+        df = xls.parse(sheet)
+        df.rename(columns={"Accession": f"{sheet} accession"}, inplace=True)  # Standardized column name
+        dfs[sheet] = df
+    ## One additional rename for the Experiment sheet
+    dfs["Experiment"].rename(columns={"BioSample accession": "Sample accession"}, inplace=True)
+    ## One additional rename for the Sample sheet (seems not standardised capitalisation in the GSA file)
+    dfs["Sample"].rename(columns={"Individual Accession": "Individual accession"}, inplace=True)
+    
+    ## Merge dataframes in hierarchical order
+    merged_df = None
+    ## dfs.keys = ['Individual', 'Sample', 'Experiment', 'Run'], as is the order in the excel file.
+    for sheet_name, df in dfs.items():
+        if merged_df is None:
+            merged_df = df  # Initialize with the first sheet (Individual)
+        else:
+            merged_df = merged_df.merge(df, on=f"{last_sheet_name} accession", how="outer", suffixes=("", "_"+sheet_name))
+            # This takes care of empty cells in original xlsx file
+            merged_df.replace('', 'n/a', inplace=True)
+        ## Keep track of the last sheet name for the next iteration
+        last_sheet_name = sheet_name
+    
+    ## This takes care of empty cells in original xlsx file
+    merged_df.replace('', 'n/a', inplace=True)
+    return merged_df
+
+## TODO The current implementation of the function does multiple columns together when some keys come up (e.g. submitted_ftp and submitted_md5).
+##   Would be better to create a simple translation dict to convert dfs to SSF, then run quick validations on that before printing.
 def create_ssf_from_df(df: pd.DataFrame, cols_to_add: dict, output_file: str):
     data = {}
     try:
@@ -96,11 +137,12 @@ def create_ssf_from_df(df: pd.DataFrame, cols_to_add: dict, output_file: str):
             elif key == "instrument_platform":
                 data[key] = ["Illumina"] * len(df)
             elif key == "first_public" or key == "last_updated":
+                ## TODO This could be updated to record post-release updates to the data files correctly (no example of such yet)
                 data[key] = [RELEASE_DATE] * len(df)
             elif key == "submitted_ftp":
                 if df["Run data file type"][0] == "bam":
                     data[key] = df[value].tolist()
-                    data["bam_md5"] = df["MD5 checksum 1"].tolist()
+                    data["submitted_md5"] = df["MD5 checksum 1"].tolist()
                     if not df["DownLoad2"].isnull().all():
                         print(df["DownLoad2"])
                         data[key] = [a_ + b_ for a_, b_ in zip(df[value].tolist(), df["DownLoad2"].tolist())]
@@ -134,6 +176,7 @@ parser.add_argument('-o', '--output_file', required=True, help="The name of the 
 
 args = parser.parse_args()
 
+## TODO: if the submitted files are FastQs, then the files should make it to the correct columns in the SSF.
 gsa_cols = {
     "poseidon_IDs": None,
     "udg": None,
@@ -162,10 +205,13 @@ gsa_cols = {
 }
 
 
-
+## Release dta is pulled directly from the GSA website.
+## TODO: work out how to see if the data gets updated after initial release.
 RELEASE_DATE = extract_release_date(args.accession_id)
 xls = download_xlsx(args.accession_id)
 
+## The following column names are used in the GSA project and seem to store the same values (submitter Individual name)
+## TODO this needs to actually link together based on accession numbers in each column pair.
 column_mappings = {
     "Individual": "Individual Name",
     "Sample": "Sample Name",
@@ -173,12 +219,7 @@ column_mappings = {
     "Run": "Run title"
 }
 
-# Read all sheets and rename the column for consistency
-dfs = {}
-for sheet, col_name in column_mappings.items():
-    df = xls.parse(sheet)
-    df.rename(columns={col_name: "Individual Name"}, inplace=True)  # Standardized column name
-    dfs[sheet] = df
+
 
 # Merge all DataFrames on standardized column 'Individual Name' using an outer join
 merged_df = None
