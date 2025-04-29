@@ -157,8 +157,8 @@ gsa_cols = {
     "fastq_bytes": None,
     "fastq_md5": None,
     "read_count": None,
-    "bam_md5": None,
     "submitted_ftp": "DownLoad1",
+    "submitted_md5": "MD5 checksum 1",
 }
 
 
