@@ -39,6 +39,32 @@ VALID_PLATFORMS = [
         "Illumina MiSeq",
     ]
 
+SSF_COLUMNS = {
+    "poseidon_IDs": "Individual Name",
+    "udg": None,
+    "library_built": None,
+    "notes": None,
+    "sample_accession" : "Individual accession",
+    "study_accession": None,
+    "run_accession": "Run accession",
+    "sample_alias": "Individual Name",
+    "secondary_sample_accession": None,
+    "first_public": "first_public",
+    "last_updated": "last_updated",
+    "instrument_model": "Platform",
+    "library_layout": "Layout",
+    "library_source": "Source",
+    "instrument_platform": "Platform",
+    "library_name": "Experiment title",
+    "library_strategy": "Strategy",
+    "fastq_ftp": "DownLoad1;Download2",
+    "fastq_aspera": None,
+    "fastq_bytes": None,
+    "fastq_md5": "MD5 checksum 1;MD5 checksum 2",
+    "read_count": None,
+    "submitted_ftp": "DownLoad1",
+    "submitted_md5": "MD5 checksum 1",
+}
 
 def extract_release_date(accession_number: str) -> str:
     requests_text = requests.get(f"https://ngdc.cncb.ac.cn/gsa-human/browse/{accession_number}", headers=headers).text
@@ -94,7 +120,7 @@ def merge_sheets_by_accessions(xls: pd.ExcelFile, accession_col_name: str) -> pd
     ## Rename "Accession" column of each sheet to include sheet name.
     dfs = {}
     for sheet in xls.sheet_names:
-        df = xls.parse(sheet)
+        df = xls.parse(sheet, dtype=str)
         df.rename(columns={"Accession": f"{sheet} accession"}, inplace=True)  # Standardized column name
         dfs[sheet] = df
     ## One additional rename for the Experiment sheet
@@ -116,8 +142,41 @@ def merge_sheets_by_accessions(xls: pd.ExcelFile, accession_col_name: str) -> pd
         last_sheet_name = sheet_name
     
     ## This takes care of empty cells in original xlsx file
-    merged_df.replace('', 'n/a', inplace=True)
+    merged_df.fillna('n/a', inplace=True)
     return merged_df
+
+def df_to_ssf_df(df: pd.DataFrame, column_mapping: dict) -> dict:
+    """Converts a pandas dataframe to a SSF file format.
+
+    Args:
+        df (pd.DataFrame): The pandas dataframe to be converted.
+        cols_to_add (dict): A dictionary containing the columns to be added to the SSF file.
+            The keys are the names of the columns in the SSF file, and the values are the names of the columns in the dataframe.
+
+    Returns:
+        None
+    """
+    data = {}
+    for index,row in df.iterrows():
+        ## Initialise the row with all n/a values
+        data[row["Individual Name"]] = {f"{colname}":"n/a" for colname in column_mapping.keys()}
+        for key, value in column_mapping.items():
+            try:
+                if value is None:
+                    pass
+                elif len(value.split(';')) > 1:
+                    split_vals = value.split(';')
+                    if split_vals[1] == "n/a":
+                        result = row[split_vals[0]]
+                    else:
+                        result = ";".join([row[v] for v in split_vals])
+                        ## TODO this needs more TLC. currently prints nothing for fastq, and includes `;n/a` for md5sum
+                    data[row["Individual Name"]][key] = result
+                else:
+                    data[row["Individual Name"]][key] = row[value]
+            except Exception as e:
+                print(f"Failed to create ssf file due to: {e}")
+    return pd.DataFrame.from_dict(data, orient='index')
 
 ## TODO The current implementation of the function does multiple columns together when some keys come up (e.g. submitted_ftp and submitted_md5).
 ##   Would be better to create a simple translation dict to convert dfs to SSF, then run quick validations on that before printing.
@@ -165,75 +224,27 @@ def create_ssf_from_df(df: pd.DataFrame, cols_to_add: dict, output_file: str):
     print(f"'{output_file}' created successfully.")
 
 
-parser = argparse.ArgumentParser(
+def main(accession_id: str = None, output_file: str = None) -> None:
+    ## Release dta is pulled directly from the GSA website.
+    ## TODO: work out how to see if the data gets updated after initial release.
+    RELEASE_DATE = extract_release_date(accession_id)
+    xls          = download_xlsx(accession_id)
+    merged_df    = merge_sheets_by_accessions(xls, "Accession")
+    ssf          = df_to_ssf_df(merged_df, SSF_COLUMNS)
+
+    ## Save SSF to file.
+    with open(output_file, 'w') as f:
+        ssf.to_csv(f, header= True, index=False, sep='\t')
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(
     prog='get_gsa_table',
     description='This script downloads a table with '
                 'links to the raw data and metadata provided by '
                 'GSA for a given project accession ID')
 
-parser.add_argument('accession_id', help="Example: HRA008755")
-parser.add_argument('-o', '--output_file', required=True, help="The name of the output file")
+    parser.add_argument('accession_id', help="Example: HRA008755")
+    parser.add_argument('-o', '--output_file', required=True, help="The name of the output file")
 
-args = parser.parse_args()
-
-## TODO: if the submitted files are FastQs, then the files should make it to the correct columns in the SSF.
-gsa_cols = {
-    "poseidon_IDs": None,
-    "udg": None,
-    "library_built": None,
-    "notes": None,
-    "sample_accession" : "Accession",
-    "study_accession": None,
-    "run_accession": "Accession_Run",
-    "sample_alias": "Individual Name",
-    "secondary_sample_accession": None,
-    "first_public": "first_public",
-    "last_updated": "last_updated",
-    "instrument_model": "Platform",
-    "library_layout": "Layout",
-    "library_source": "Source",
-    "instrument_platform": None,
-    "library_name": "Library name",
-    "library_strategy": "Strategy",
-    "fastq_ftp": None,
-    "fastq_aspera": None,
-    "fastq_bytes": None,
-    "fastq_md5": None,
-    "read_count": None,
-    "submitted_ftp": "DownLoad1",
-    "submitted_md5": "MD5 checksum 1",
-}
-
-
-## Release dta is pulled directly from the GSA website.
-## TODO: work out how to see if the data gets updated after initial release.
-RELEASE_DATE = extract_release_date(args.accession_id)
-xls = download_xlsx(args.accession_id)
-
-## The following column names are used in the GSA project and seem to store the same values (submitter Individual name)
-## TODO this needs to actually link together based on accession numbers in each column pair.
-column_mappings = {
-    "Individual": "Individual Name",
-    "Sample": "Sample Name",
-    "Experiment": "Experiment title",
-    "Run": "Run title"
-}
-
-
-
-# Merge all DataFrames on standardized column 'Individual Name' using an outer join
-merged_df = None
-for sheet_name, df in dfs.items():
-    if merged_df is None:
-        merged_df = df  # Initialize with the first sheet
-    else:
-        merged_df = merged_df.merge(df, on="Individual Name", how="outer", suffixes=("", "_"+sheet_name))
-        # This takes care of empty cells in original xlsx file
-        merged_df.replace('', 'n/a', inplace=True)
-
-create_ssf_from_df(merged_df, gsa_cols, args.output_file)
-
-
-
-
-
+    args = parser.parse_args()
+    main(args.accession_id, args.output_file)
