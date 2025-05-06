@@ -181,7 +181,7 @@ def df_to_ssf_df(df: pd.DataFrame, cols_to_add: dict, accession_number: str) -> 
     except Exception as e:
         print(f"Failed to create ssf file due to: {e}")
     result_df = pd.DataFrame(data)
-        print(f"Created ssf file with {len(result_df)} rows and {len(result_df.columns)} columns.")
+    print(f"Created ssf file with {len(result_df)} rows and {len(result_df.columns)} columns.")
     return result_df
 
 def save_ssf_to_file(df: pd.DataFrame, output_file: str) -> None:
