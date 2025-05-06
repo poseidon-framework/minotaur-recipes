@@ -72,6 +72,7 @@ ena_cols = [
     "fastq_md5", 
     "read_count", 
     "submitted_ftp",
+    "submitted_md5",
     ]
 
 additional_cols = ["poseidon_IDs", "udg", "library_built", "notes"]
