@@ -44,9 +44,9 @@ SSF_COLUMNS = {
     "udg": None,
     "library_built": None,
     "notes": None,
-    "sample_accession" : "Individual accession",
-    "study_accession": None,
     "run_accession": "Run accession",
+    "study_accession": None,
+    "sample_accession" : "Individual accession",
     "sample_alias": "Individual Name",
     "secondary_sample_accession": None,
     "first_public": "first_public",
@@ -57,7 +57,7 @@ SSF_COLUMNS = {
     "instrument_platform": "Platform",
     "library_name": "Experiment title",
     "library_strategy": "Strategy",
-    "fastq_ftp": "DownLoad1;Download2",
+    "fastq_ftp": "DownLoad1;DownLoad2",
     "fastq_aspera": None,
     "fastq_bytes": None,
     "fastq_md5": "MD5 checksum 1;MD5 checksum 2",
@@ -145,48 +145,23 @@ def merge_sheets_by_accessions(xls: pd.ExcelFile, accession_col_name: str) -> pd
     merged_df.fillna('n/a', inplace=True)
     return merged_df
 
-def df_to_ssf_df(df: pd.DataFrame, column_mapping: dict) -> dict:
-    """Converts a pandas dataframe to a SSF file format.
+## Helper formatter to combine values in the two provided columns if the file_type value DOES NOT match the type_matches value.
+def combine_values(file_type:str, type_matches: str, value1: str, value2: str) -> str:
+    if file_type == type_matches:
+        result = 'n/a'
+    elif value2 == "n/a":
+        result = f"{value1}"
+    else:
+        result = f"{value1};{value2}"
+    return result
 
-    Args:
-        df (pd.DataFrame): The pandas dataframe to be converted.
-        cols_to_add (dict): A dictionary containing the columns to be added to the SSF file.
-            The keys are the names of the columns in the SSF file, and the values are the names of the columns in the dataframe.
-
-    Returns:
-        None
-    """
-    data = {}
-    for index,row in df.iterrows():
-        ## Initialise the row with all n/a values
-        data[row["Individual Name"]] = {f"{colname}":"n/a" for colname in column_mapping.keys()}
-        for key, value in column_mapping.items():
-            try:
-                if value is None:
-                    pass
-                elif len(value.split(';')) > 1:
-                    split_vals = value.split(';')
-                    if split_vals[1] == "n/a":
-                        result = row[split_vals[0]]
-                    else:
-                        result = ";".join([row[v] for v in split_vals])
-                        ## TODO this needs more TLC. currently prints nothing for fastq, and includes `;n/a` for md5sum
-                    data[row["Individual Name"]][key] = result
-                else:
-                    data[row["Individual Name"]][key] = row[value]
-            except Exception as e:
-                print(f"Failed to create ssf file due to: {e}")
-    return pd.DataFrame.from_dict(data, orient='index')
-
-## TODO The current implementation of the function does multiple columns together when some keys come up (e.g. submitted_ftp and submitted_md5).
-##   Would be better to create a simple translation dict to convert dfs to SSF, then run quick validations on that before printing.
-def create_ssf_from_df(df: pd.DataFrame, cols_to_add: dict, output_file: str):
+def df_to_ssf_df(df: pd.DataFrame, cols_to_add: dict, accession_number: str) -> pd.DataFrame:
     data = {}
     try:
         for key, value in cols_to_add.items():
             data[key] = ["n/a"] * len(df)
             if key == "study_accession":
-                data[key] = [args.accession_id] * len(df)
+                data[key] = [accession_number] * len(df)
             elif key =="instrument_model":
                 for model in df[value].tolist():
                     if model not in VALID_PLATFORMS:
@@ -194,47 +169,33 @@ def create_ssf_from_df(df: pd.DataFrame, cols_to_add: dict, output_file: str):
                         return
                 data[key] = df[value].tolist()
             elif key == "instrument_platform":
-                data[key] = ["Illumina"] * len(df)
+                data[key] = ["ILLUMINA"] * len(df)
             elif key == "first_public" or key == "last_updated":
-                ## TODO This could be updated to record post-release updates to the data files correctly (no example of such yet)
-                data[key] = [RELEASE_DATE] * len(df)
-            elif key == "submitted_ftp":
-                if df["Run data file type"][0] == "bam":
-                    data[key] = df[value].tolist()
-                    data["submitted_md5"] = df["MD5 checksum 1"].tolist()
-                    if not df["DownLoad2"].isnull().all():
-                        print(df["DownLoad2"])
-                        data[key] = [a_ + b_ for a_, b_ in zip(df[value].tolist(), df["DownLoad2"].tolist())]
-                        data["bam_md5"] = [a_ + ";" + b_ for a_, b_ in zip(df["MD5 checksum 1"].tolist(), df["MD5 checksum 2"].tolist())]
-                else:
-                    data["fastq_ftp"] = df[value].tolist()
-                    data["fastq_md5"] = df["MD5 checksum 1"].tolist()
-                    if not df["Download2"].isnull().all():
-                        data["fastq_ftp"] = [a_ + b_ for a_, b_ in zip(df[value].tolist(), df["DownLoad2"].tolist())]
-                        data["fastq_md5"] = [a_ + ";" + b_ for a_, b_ in zip(df["MD5 checksum 1"].tolist(), df["MD5 checksum 2"].tolist())]
-
+                data[key] = [extract_release_date(accession_number)] * len(df)
+            elif key == "fastq_ftp":
+                data[key] = df.apply(lambda row: combine_values(row['Run data file type'], 'bam', row['DownLoad1'], row['DownLoad2']), axis=1)
+            elif key == "fastq_md5":
+                data[key] = df.apply(lambda row: combine_values(row['Run data file type'], 'bam', row['MD5 checksum 1'], row['MD5 checksum 2']), axis=1)
             elif value and value in df.columns and not df[value].isnull().all():
                 data[key] = df[value].tolist()
     except Exception as e:
         print(f"Failed to create ssf file due to: {e}")
-
-
     result_df = pd.DataFrame(data)
-    result_df.to_csv(output_file, index=False, sep='\t')
+        print(f"Created ssf file with {len(result_df)} rows and {len(result_df.columns)} columns.")
+    return result_df
+
+def save_ssf_to_file(df: pd.DataFrame, output_file: str) -> None:
+    df.to_csv(output_file, index=False, sep='\t')
     print(f"'{output_file}' created successfully.")
 
-
-def main(accession_id: str = None, output_file: str = None) -> None:
-    ## Release dta is pulled directly from the GSA website.
+def main(accession_number: str = None, output_file: str = None) -> None:
     ## TODO: work out how to see if the data gets updated after initial release.
-    RELEASE_DATE = extract_release_date(accession_id)
-    xls          = download_xlsx(accession_id)
+    xls          = download_xlsx(accession_number)
     merged_df    = merge_sheets_by_accessions(xls, "Accession")
-    ssf          = df_to_ssf_df(merged_df, SSF_COLUMNS)
+    ssf          = df_to_ssf_df(merged_df, SSF_COLUMNS, accession_number)
 
     ## Save SSF to file.
-    with open(output_file, 'w') as f:
-        ssf.to_csv(f, header= True, index=False, sep='\t')
+    save_ssf_to_file(ssf, output_file)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
@@ -243,8 +204,8 @@ if __name__ == "__main__":
                 'links to the raw data and metadata provided by '
                 'GSA for a given project accession ID')
 
-    parser.add_argument('accession_id', help="Example: HRA008755")
+    parser.add_argument('accession_number', help="Example: HRA008755")
     parser.add_argument('-o', '--output_file', required=True, help="The name of the output file")
 
     args = parser.parse_args()
-    main(args.accession_id, args.output_file)
+    main(args.accession_number, args.output_file)
