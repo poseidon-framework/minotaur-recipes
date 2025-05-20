@@ -213,7 +213,6 @@ function r1_r2_from_ena_fastq() {
   value="${1}"
   value2="${2}"
 
-  echo ${value} ${value2}
   ## BAMs containing collapsed PE reads will have 3 entries in the ENA (merged, R1 unmerged, R2 unmerged), but we only need the first (merged reads).
   n_entries=$(number_of_entries ';' ${value})
 
