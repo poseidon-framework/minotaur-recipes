@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-HELPER_FUNCTION_VERSION='0.5.0'
+HELPER_FUNCTION_VERSION='0.5.1'
 
 ## Print coloured messages to stderr
 #   errecho -r will print in red
@@ -212,14 +212,17 @@ function r1_r2_from_ena_fastq() {
   value="${1}"
   value2="${2}"
 
-  echo ${value} ${value2}
   ## BAMs containing collapsed PE reads will have 3 entries in the ENA (merged, R1 unmerged, R2 unmerged), but we only need the first (merged reads).
   n_entries=$(number_of_entries ';' ${value})
 
   r1="NA"
   r2="NA"
   bam="NA"
-  if [[ ${n_entries} -eq 2 ]]; then
+  if [[ ${value} == "n/a" || ${n_entries} -eq 0 ]]; then
+    ## If there are no entries, then use the BAM (assumed SE). Check that the submitted_ftp is a BAM happens in main script.
+    bam=$(basename "$(pull_by_index ';' "${value2}" 0)") ## This ensures we pull the BAM when a bai is also provided.
+    seq_type="SE"
+  elif [[ ${n_entries} -eq 2 ]]; then
     ## If there are two entries, then it's PE
     r1=$(basename "$(pull_by_index ';' ${value} 0)")
     r2=$(basename "$(pull_by_index ';' ${value} 1)")
@@ -227,10 +230,6 @@ function r1_r2_from_ena_fastq() {
   elif [[ ${n_entries} -eq 1  || ${n_entries} -eq 3 ]]; then
     ## If there is only one entry, then it's SE. With three, it is a BAM with collapsed reads, so keep only merged reads (treat as SE).
     r1=$(basename "$(pull_by_index ';' ${value} 0)")
-    seq_type="SE"
-  elif [[ ${n_entries} -eq 0 ]]; then
-    ## If there are no entries, then use the BAM (assumed SE). Check that the submitted_ftp is a BAM happens in main script.
-    bam=$(basename "$(pull_by_index ';' "${value2}" 0)") ## This ensures we pull the BAM when a bai is also provided.
     seq_type="SE"
   else
     errecho -r "Unexpected number of entries in fastq_ftp field: ${value}."
@@ -262,19 +261,19 @@ function dummy_r1_r2_from_ena_fastq() {
 
   r1="${prefix}/${out_fn_prefix}_R1.fastq.gz"
   bam="NA"
-  if [[ ${n_entries} -eq 2 ]]; then
+  if [[ ${value} == "n/a" || ${n_entries} -eq 0 ]]; then
+    ## If there are no entries, then use the BAM (assumed SE). Check that the submitted_ftp is a BAM happens in main script.
+    r1="NA"
+    r2="NA"
+    bam="${prefix}/${out_fn_prefix}.bam"
+    seq_type="SE"
+  elif [[ ${n_entries} -eq 2 ]]; then
     ## If there are two entries, then it's PE
     r2="${prefix}/${out_fn_prefix}_R2.fastq.gz"
     seq_type="PE"
   elif [[ ${n_entries} -eq 1 || ${n_entries} -eq 3 ]]; then
     ## If there is only one entry, then it's SE. With three, it is a BAM with collapsed reads, so keep only merged reads (treat as SE).
     r2="NA"
-    seq_type="SE"
-  elif [[ ${n_entries} -eq 0 ]]; then
-    ## If there are no entries, then use the BAM (assumed SE). Check that the submitted_ftp is a BAM happens in main script.
-    r1="NA"
-    r2="NA"
-    bam="${prefix}/${out_fn_prefix}.bam"
     seq_type="SE"
   else
     errecho -r "Unexpected number of entries in fastq_ftp field: ${value}."
