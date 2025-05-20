@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-VERSION='0.5.0'
+
+VERSION='0.5.1'
 set -o pipefail ## Pipefail, complain on new unassigned variables.
 
 ## Helptext function
@@ -101,7 +102,7 @@ let submitted_is_not_bam_count=0
 
 ## Paste together stuff to make a TSV. Header will flush older tsv if it exists.
 errecho -y "[${package_name}] Creating TSV input for nf-core/eager (v2.*)."
-echo -e "Sample_Name\tLibrary_ID\tLane\tColour_Chemistry\tSeqType\tOrganism\tStrandedness\tUDG_Treatment\tR1\tR2\tBAM\tR1_target_file\tR2_target_file" > ${out_file}
+echo -e "Sample_Name\tLibrary_ID\tLane\tColour_Chemistry\tSeqType\tOrganism\tStrandedness\tUDG_Treatment\tR1\tR2\tBAM\tR1_target_file\tR2_target_file\tBAM_target" > ${out_file}
 organism="Homo sapiens (modern human)"
 while read line; do
   poseidon_id=$(echo "${line}" | awk -F "\t" -v X=${pid_col} '{print $X}')
@@ -118,7 +119,7 @@ while read line; do
   udg_treatment=$(infer_library_udg ${udg_treatment_field} 0)
 
   ## If there is no FastQ file for this entry, skip it.
-  if [[ -z ${fastq_fn} ]] && [[ ${submitted_fn} =~ \.(bam|bai)$ ]]; then
+  if [[ -z ${fastq_fn}  || ${fastq_fn} == "n/a" ]] && [[ ${submitted_fn} =~ \.(bam|bai)$ ]]; then
     ## Count the number of entries without a FastQ file, but with a BAM file.
     let missing_fastq_count+=1
     ## These entries get the BAM picked up so they can be converted within eager.
@@ -146,7 +147,7 @@ while read line; do
     ## Get intended input file names on local system (R1, R2)
     read -r seq_type r1 r2 bam < <(dummy_r1_r2_from_ena_fastq "${raw_data_dummy_path}" "${row_lib_id}_L${lane}" "${fastq_fn}")
     ## Also add column with the file that those will symlink to, for transparency during PR review.
-    read -r seq_type2 r1_target r2_target bam_target < <(r1_r2_from_ena_fastq "${fastq_fn}" "${submitted_ftp}")
+    read -r seq_type2 r1_target r2_target bam_target < <(r1_r2_from_ena_fastq "${fastq_fn}" "${submitted_fn}")
     echo -e "${row_pid}\t${row_lib_id}\t${lane}\t${colour_chemistry}\t${seq_type}\t${organism}\t${library_built}\t${udg_treatment}\t${r1}\t${r2}\t${bam}\t${r1_target}\t${r2_target}\t${bam_target}" >> ${out_file}
 
     ## Keep track of observed values
