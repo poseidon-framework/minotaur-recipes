@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-VERSION='0.2.1dev'
+VERSION='0.5.0'
 set -o pipefail ## Pipefail, complain on new unassigned variables.
 
 ## Helptext function
@@ -89,6 +89,7 @@ let lib_name_col=$(get_index_of 'library_name' "${ssf_header[@]}")+1
 let instrument_model_col=$(get_index_of 'instrument_model' "${ssf_header[@]}")+1
 let instrument_platform_col=$(get_index_of 'instrument_platform' "${ssf_header[@]}")+1
 let fastq_col=$(get_index_of 'fastq_ftp' "${ssf_header[@]}")+1
+let submitted_col=$(get_index_of 'submitted_ftp' "${ssf_header[@]}")+1
 let lib_built_col=$(get_index_of 'library_built' "${ssf_header[@]}")+1
 let lib_udg_col=$(get_index_of 'udg' "${ssf_header[@]}")+1
 
@@ -96,6 +97,7 @@ let lib_udg_col=$(get_index_of 'udg' "${ssf_header[@]}")+1
 poseidon_ids=()
 library_ids=()
 let missing_fastq_count=0
+let submitted_is_not_bam_count=0
 
 ## Paste together stuff to make a TSV. Header will flush older tsv if it exists.
 errecho -y "[${package_name}] Creating TSV input for nf-core/eager (v2.*)."
@@ -105,6 +107,7 @@ while read line; do
   poseidon_id=$(echo "${line}" | awk -F "\t" -v X=${pid_col} '{print $X}')
   lib_name=$(echo "${line}" | awk -F "\t" -v X=${lib_name_col} '{print $X}')
   fastq_fn=$(echo "${line}" | awk -F "\t" -v X=${fastq_col} '{print $X}')         # | rev | cut -d "/" -f 1 | rev )
+  submitted_fn=$(echo "${line}" | awk -F "\t" -v X=${submitted_col} '{print $X}')
   instrument_model=$(echo "${line}" | awk -F "\t" -v X=${instrument_model_col} '{print $X}')
   instrument_platform=$(echo "${line}" | awk -F "\t" -v X=${instrument_platform_col} '{print $X}')
   colour_chemistry=$(infer_colour_chemistry "${instrument_platform}" "${instrument_model}")
@@ -115,9 +118,14 @@ while read line; do
   udg_treatment=$(infer_library_udg ${udg_treatment_field} 0)
 
   ## If there is no FastQ file for this entry, skip it.
-  if [[ -z ${fastq_fn} ]]; then
-    ## Count the number of entries without a FastQ file
+  if [[ -z ${fastq_fn} ]] && [[ ${submitted_fn} =~ \.(bam|bai)$ ]]; then
+    ## Count the number of entries without a FastQ file, but with a BAM file.
     let missing_fastq_count+=1
+    ## These entries get the BAM picked up so they can be converted within eager.
+  elif [[ -z ${fastq_fn} ]]; then
+    ## Count number of entries without a FastQ file, where the submitted file is not BAM.
+    let submitted_is_not_bam_count+=1
+    ## These get skipped and a warning is printed at the end.
     continue
   fi
 
@@ -136,10 +144,10 @@ while read line; do
     let lane=$(count_instances ${row_lib_id} "${library_ids[@]}")+1
 
     ## Get intended input file names on local system (R1, R2)
-    read -r seq_type r1 r2 < <(dummy_r1_r2_from_ena_fastq ${raw_data_dummy_path} ${row_lib_id}_L${lane} ${fastq_fn})
+    read -r seq_type r1 r2 bam < <(dummy_r1_r2_from_ena_fastq "${raw_data_dummy_path}" "${row_lib_id}_L${lane}" "${fastq_fn}")
     ## Also add column with the file that those will symlink to, for transparency during PR review.
-    read -r seq_type2 r1_target r2_target < <(r1_r2_from_ena_fastq ${fastq_fn})
-    echo -e "${row_pid}\t${row_lib_id}\t${lane}\t${colour_chemistry}\t${seq_type}\t${organism}\t${library_built}\t${udg_treatment}\t${r1}\t${r2}\tNA\t${r1_target}\t${r2_target}" >> ${out_file}
+    read -r seq_type2 r1_target r2_target bam_target < <(r1_r2_from_ena_fastq "${fastq_fn}" "${submitted_ftp}")
+    echo -e "${row_pid}\t${row_lib_id}\t${lane}\t${colour_chemistry}\t${seq_type}\t${organism}\t${library_built}\t${udg_treatment}\t${r1}\t${r2}\t${bam}\t${r1_target}\t${r2_target}\t${bam_target}" >> ${out_file}
 
     ## Keep track of observed values
     poseidon_ids+=(${row_pid})
@@ -150,7 +158,10 @@ done < <(tail -n +2 ${ena_table})
 
 ## Print warning if there are lines with missing FastQ files
 if [[ ${missing_fastq_count} -gt 0 ]]; then
-  errecho -y "[${package_name}] There are ${missing_fastq_count} entries in the SSF file without a FastQ file.\n\tThese entries have been ignored."
+  errecho -y "[${package_name}] There are ${missing_fastq_count} entries in the SSF file without a FastQ file.\n\tUsing submitted BAM instead."
+fi
+if [[ ${submitted_is_not_bam_count} -gt 0 ]]; then
+  errecho -y "[${package_name}] There are ${submitted_is_not_bam_count} entries in the SSF file without a FastQ file or BAM file.\n\tThese entries have been ignored."
 fi
 
 errecho -y "[${package_name}] TSV creation completed"

@@ -1,2 +1,2 @@
-create_eager_input.sh:	0.2.1dev
-source_me.sh for initial TSV:	0.2.3dev
+create_eager_input.sh:	0.5.0
+source_me.sh for initial TSV:	0.5.0
