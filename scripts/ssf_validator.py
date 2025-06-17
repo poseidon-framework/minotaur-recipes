@@ -2,7 +2,7 @@
 
 # MIT License (c) 2023 Thiseas C. Lamnidis
 
-VERSION = "1.0.0"
+VERSION = "1.0.1"
 
 import os
 import sys
@@ -151,11 +151,15 @@ def validate_date_field(date_field, field_name, error_counter, line_num, file_na
 
 
 def validate_instrument_model(instrument_model, error_counter, line_num, file_name):
+    ## Any updates to these lists should be reflected in `source_me.sh`.
     two_chem_seqs = [
+        "NextSeq 2000",
         "NextSeq 1000",
         "NextSeq 500",
         "NextSeq 550",
         "Illumina NovaSeq 6000",
+        "Illumina NovaSeq X",
+        "Illumina NovaSeq X Plus",
         "Illumina MiniSeq",
     ]
     four_chem_seqs = [
@@ -166,7 +170,8 @@ def validate_instrument_model(instrument_model, error_counter, line_num, file_na
         "Illumina HiSeq 3000",
         "Illumina HiSeq 4000",
         "Illumina HiSeq X",
-        "Illumina HiSeq X Ten",
+        "Illumina HiSeq X Five", ## Same as below, but formatted differently in GSA.
+        "Illumina HiSeq X Ten",  ## Same as below, but formatted differently in GSA.
         "HiSeq X Five",
         "HiSeq X Ten",
         "Illumina Genome Analyzer",
