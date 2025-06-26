@@ -2,7 +2,7 @@
 
 # MIT License (c) 2023 Thiseas C. Lamnidis
 
-VERSION = "0.3.0dev"
+VERSION = "1.0.1"
 
 import os
 import sys
@@ -36,6 +36,10 @@ def read_ssf_file(file_path, required_fields=None, error_counter=0):
                 )
             )
             sys.exit(1)
+    if "submitted_md5" not in headers:
+        print(
+            f"[ssf_validator.py] [File: {file_name}] WARNING: submitted_md5 column not found in SSF file. Please use the latest version of the SSF file creation scripts. This warning can be ignored if you are validating older SSF files."
+        )
     return map(lambda row: dict(zip(headers, row.strip().split("\t"))), l[1:])
 
 
@@ -147,11 +151,15 @@ def validate_date_field(date_field, field_name, error_counter, line_num, file_na
 
 
 def validate_instrument_model(instrument_model, error_counter, line_num, file_name):
+    ## Any updates to these lists should be reflected in `source_me.sh`.
     two_chem_seqs = [
+        "NextSeq 2000",
         "NextSeq 1000",
         "NextSeq 500",
         "NextSeq 550",
         "Illumina NovaSeq 6000",
+        "Illumina NovaSeq X",
+        "Illumina NovaSeq X Plus",
         "Illumina MiniSeq",
     ]
     four_chem_seqs = [
@@ -162,6 +170,8 @@ def validate_instrument_model(instrument_model, error_counter, line_num, file_na
         "Illumina HiSeq 3000",
         "Illumina HiSeq 4000",
         "Illumina HiSeq X",
+        "Illumina HiSeq X Five", ## Same as below, but formatted differently in GSA.
+        "Illumina HiSeq X Ten",  ## Same as below, but formatted differently in GSA.
         "HiSeq X Five",
         "HiSeq X Ten",
         "Illumina Genome Analyzer",
@@ -217,6 +227,7 @@ def validate_ssf(file_in):
             "fastq_md5",
             "read_count",
             "submitted_ftp",
+            "submitted_md5",
         ]
         REQUIRED_FIELDS = [
             "poseidon_IDs",
@@ -226,6 +237,7 @@ def validate_ssf(file_in):
             "instrument_platform",
             "library_name",
             "fastq_ftp",
+            "submitted_ftp",
         ]
 
         ## Check entries
@@ -341,15 +353,9 @@ def validate_ssf(file_in):
 
             ## Validate fastq_ftp
             for reads in [ssf_entry["fastq_ftp"]]:
-                ## Can be empty string in some cases where input is a BAM, but then data won't be processes (atm)
+                ## Since v 1.0.0, fastq_ftp can be empty, since then the bam in submitted_ftp will be converted back to FastQ automatically.
                 if isNAstr(reads):
-                    error_counter = print_error(
-                        "[Fastq_ftp is 'n/a'] fastq_ftp cannot be 'n/a'!",
-                        "Line",
-                        line_num,
-                        error_counter,
-                        file_name,
-                    )
+                    pass
                 elif reads.find(" ") != -1:
                     error_counter = print_error(
                         "[Spaces in FastQ name] File names cannot contain spaces! Please rename.",
@@ -373,6 +379,29 @@ def validate_ssf(file_in):
                         error_counter,
                         file_name,
                     )
+                    
+            ## Ensure that submitted_ftp and submitted_md5 are not empty (should never be the case, but still.)
+            if isNAstr(ssf_entry["submitted_ftp"]):
+                error_counter = print_error(
+                    "[Submitted_ftp missing] submitted_ftp entry has not been specified!",
+                    "Line",
+                    line_num,
+                    error_counter,
+                    file_name,
+                )
+            
+            try:
+                if isNAstr(ssf_entry["submitted_md5"]):
+                    error_counter = print_error(
+                        "[Submitted_md5 missing] submitted_md5 entry has not been specified!",
+                        "Line",
+                        line_num,
+                        error_counter,
+                        file_name,
+                    )
+            except KeyError:
+                ## This should only be validated if the column is present in the header, hence a KeyError is expected.
+                pass
 
     ## If formatting errors have occurred print their number and fail.
     if error_counter > 0:
