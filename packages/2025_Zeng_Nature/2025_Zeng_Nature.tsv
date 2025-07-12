@@ -1,0 +1,196 @@
+Sample_Name	Library_ID	Lane	Colour_Chemistry	SeqType	Organism	Strandedness	UDG_Treatment	R1	R2	BAM	R1_target_file	R2_target_file	BAM_target
+I0991	I0991_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I0991__L1_R1.fastq.gz	NA	NA	ERR14766762.fastq.gz	NA	NA
+I0992	I0992_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I0992__L1_R1.fastq.gz	NA	NA	ERR14766763.fastq.gz	NA	NA
+I0994	I0994_	1	4	SE	Homo sapiens (modern human)			<PATH_TO_DATA>/I0994__L1_R1.fastq.gz	NA	NA	ERR14766764.fastq.gz	NA	NA
+I0995	I0995_	1	4	SE	Homo sapiens (modern human)			<PATH_TO_DATA>/I0995__L1_R1.fastq.gz	NA	NA	ERR14766765.fastq.gz	NA	NA
+I0996	I0996_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I0996__L1_R1.fastq.gz	NA	NA	ERR14766766.fastq.gz	NA	NA
+I0996.SG	I0996.SG_ERS24514243	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I0996.SG_ERS24514243_L1_R1.fastq.gz	NA	NA	ERR14987608.fastq.gz	NA	NA
+I0997_d	I0997_d_	1	4	SE	Homo sapiens (modern human)			<PATH_TO_DATA>/I0997_d__L1_R1.fastq.gz	NA	NA	ERR14766767.fastq.gz	NA	NA
+I0998	I0998_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I0998__L1_R1.fastq.gz	NA	NA	ERR14766768.fastq.gz	NA	NA
+I0999	I0999_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I0999__L1_R1.fastq.gz	NA	NA	ERR14766769.fastq.gz	NA	NA
+I1000	I1000_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I1000__L1_R1.fastq.gz	NA	NA	ERR14766770.fastq.gz	NA	NA
+I1001	I1001_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I1001__L1_R1.fastq.gz	NA	NA	ERR14766771.fastq.gz	NA	NA
+I10900_d	I10900_d_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I10900_d__L1_R1.fastq.gz	NA	NA	ERR14766772.fastq.gz	NA	NA
+I10961	I10961_ERS24422986	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I10961_ERS24422986_L1_R1.fastq.gz	NA	NA	ERR14936911.fastq.gz	NA	NA
+I10962	I10962_ERS24422987	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I10962_ERS24422987_L1_R1.fastq.gz	NA	NA	ERR14936912.fastq.gz	NA	NA
+I10963	I10963_ERS24422988	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I10963_ERS24422988_L1_R1.fastq.gz	NA	NA	ERR14936913.fastq.gz	NA	NA
+I10965	I10965_ERS24422989	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I10965_ERS24422989_L1_R1.fastq.gz	NA	NA	ERR14936914.fastq.gz	NA	NA
+I10998	I10998_ERS24422990	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I10998_ERS24422990_L1_R1.fastq.gz	NA	NA	ERR14936915.fastq.gz	NA	NA
+I11002	I11002_ERS24422991	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I11002_ERS24422991_L1_R1.fastq.gz	NA	NA	ERR14936916.fastq.gz	NA	NA
+I11003	I11003_ERS24422992	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I11003_ERS24422992_L1_R1.fastq.gz	NA	NA	ERR14936917.fastq.gz	NA	NA
+I11101	I11101_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I11101__L1_R1.fastq.gz	NA	NA	ERR14766780.fastq.gz	NA	NA
+I11102	I11102_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I11102__L1_R1.fastq.gz	NA	NA	ERR14766781.fastq.gz	NA	NA
+I11103	I11103_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I11103__L1_R1.fastq.gz	NA	NA	ERR14766782.fastq.gz	NA	NA
+I11104	I11104_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I11104__L1_R1.fastq.gz	NA	NA	ERR14766783.fastq.gz	NA	NA
+I11107	I11107_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I11107__L1_R1.fastq.gz	NA	NA	ERR14766784.fastq.gz	NA	NA
+I11405	I11405_ERS24422993	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I11405_ERS24422993_L1_R1.fastq.gz	NA	NA	ERR14936918.fastq.gz	NA	NA
+I11637	I11637_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I11637__L1_R1.fastq.gz	NA	NA	ERR14766786.fastq.gz	NA	NA
+I11741_d	I11741_d_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I11741_d__L1_R1.fastq.gz	NA	NA	ERR14766787.fastq.gz	NA	NA
+I11742	I11742_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I11742__L1_R1.fastq.gz	NA	NA	ERR14766788.fastq.gz	NA	NA
+I11744	I11744_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I11744__L1_R1.fastq.gz	NA	NA	ERR14766789.fastq.gz	NA	NA
+I11745	I11745_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I11745__L1_R1.fastq.gz	NA	NA	ERR14766790.fastq.gz	NA	NA
+I11747	I11747_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I11747__L1_R1.fastq.gz	NA	NA	ERR14766791.fastq.gz	NA	NA
+I11748	I11748_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I11748__L1_R1.fastq.gz	NA	NA	ERR14766792.fastq.gz	NA	NA
+I11750	I11750_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I11750__L1_R1.fastq.gz	NA	NA	ERR14766793.fastq.gz	NA	NA
+I11751	I11751_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I11751__L1_R1.fastq.gz	NA	NA	ERR14766794.fastq.gz	NA	NA
+I11754	I11754_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I11754__L1_R1.fastq.gz	NA	NA	ERR14766795.fastq.gz	NA	NA
+I11841	I11841_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I11841__L1_R1.fastq.gz	NA	NA	ERR14766796.fastq.gz	NA	NA
+I11842	I11842_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I11842__L1_R1.fastq.gz	NA	NA	ERR14766797.fastq.gz	NA	NA
+I12224	I12224_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I12224__L1_R1.fastq.gz	NA	NA	ERR14766798.fastq.gz	NA	NA
+I12225	I12225_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I12225__L1_R1.fastq.gz	NA	NA	ERR14766799.fastq.gz	NA	NA
+I12323	I12323_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I12323__L1_R1.fastq.gz	NA	NA	ERR14766800.fastq.gz	NA	NA
+I12488	I12488_	1	4	SE	Homo sapiens (modern human)			<PATH_TO_DATA>/I12488__L1_R1.fastq.gz	NA	NA	ERR14766801.fastq.gz	NA	NA
+I12494	I12494_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I12494__L1_R1.fastq.gz	NA	NA	ERR14766802.fastq.gz	NA	NA
+I12496	I12496_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I12496__L1_R1.fastq.gz	NA	NA	ERR14766803.fastq.gz	NA	NA
+I12498	I12498_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I12498__L1_R1.fastq.gz	NA	NA	ERR14766804.fastq.gz	NA	NA
+I12500	I12500_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I12500__L1_R1.fastq.gz	NA	NA	ERR14766805.fastq.gz	NA	NA
+I12626	I12626_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I12626__L1_R1.fastq.gz	NA	NA	ERR14766806.fastq.gz	NA	NA
+I12627	I12627_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I12627__L1_R1.fastq.gz	NA	NA	ERR14766807.fastq.gz	NA	NA
+I12628	I12628_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I12628__L1_R1.fastq.gz	NA	NA	ERR14766808.fastq.gz	NA	NA
+I12695	I12695_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I12695__L1_R1.fastq.gz	NA	NA	ERR14766809.fastq.gz	NA	NA
+I12696	I12696_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I12696__L1_R1.fastq.gz	NA	NA	ERR14766810.fastq.gz	NA	NA
+I12838	I12838_	1	4	SE	Homo sapiens (modern human)			<PATH_TO_DATA>/I12838__L1_R1.fastq.gz	NA	NA	ERR14766811.fastq.gz	NA	NA
+I12873	I12873_	1	4	SE	Homo sapiens (modern human)			<PATH_TO_DATA>/I12873__L1_R1.fastq.gz	NA	NA	ERR14766812.fastq.gz	NA	NA
+I12874	I12874_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I12874__L1_R1.fastq.gz	NA	NA	ERR14766813.fastq.gz	NA	NA
+I12876	I12876_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I12876__L1_R1.fastq.gz	NA	NA	ERR14766814.fastq.gz	NA	NA
+I12961	I12961_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I12961__L1_R1.fastq.gz	NA	NA	ERR14766815.fastq.gz	NA	NA
+I12961.SG	I12961.SG_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I12961.SG__L1_R1.fastq.gz	NA	NA	ERR14766816.fastq.gz	NA	NA
+I12962	I12962_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I12962__L1_R1.fastq.gz	NA	NA	ERR14766817.fastq.gz	NA	NA
+I12964	I12964_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I12964__L1_R1.fastq.gz	NA	NA	ERR14766818.fastq.gz	NA	NA
+I13096	I13096_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I13096__L1_R1.fastq.gz	NA	NA	ERR14766819.fastq.gz	NA	NA
+I13097	I13097_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I13097__L1_R1.fastq.gz	NA	NA	ERR14766820.fastq.gz	NA	NA
+I13097.SG	I13097.SG_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I13097.SG__L1_R1.fastq.gz	NA	NA	ERR14766821.fastq.gz	NA	NA
+I13098	I13098_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I13098__L1_R1.fastq.gz	NA	NA	ERR14766822.fastq.gz	NA	NA
+I13099	I13099_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I13099__L1_R1.fastq.gz	NA	NA	ERR14766823.fastq.gz	NA	NA
+I13100	I13100_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I13100__L1_R1.fastq.gz	NA	NA	ERR14766824.fastq.gz	NA	NA
+I13260	I13260_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I13260__L1_R1.fastq.gz	NA	NA	ERR14766825.fastq.gz	NA	NA
+I13674	I13674_	1	4	SE	Homo sapiens (modern human)			<PATH_TO_DATA>/I13674__L1_R1.fastq.gz	NA	NA	ERR14766826.fastq.gz	NA	NA
+I13676	I13676_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I13676__L1_R1.fastq.gz	NA	NA	ERR14766827.fastq.gz	NA	NA
+I13678	I13678_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I13678__L1_R1.fastq.gz	NA	NA	ERR14766828.fastq.gz	NA	NA
+I13679	I13679_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I13679__L1_R1.fastq.gz	NA	NA	ERR14766829.fastq.gz	NA	NA
+I13811	I13811_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I13811__L1_R1.fastq.gz	NA	NA	ERR14766830.fastq.gz	NA	NA
+I1522	I1522_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I1522__L1_R1.fastq.gz	NA	NA	ERR14766831.fastq.gz	NA	NA
+I15934_ss	I15934_ss__ss	1	4	SE	Homo sapiens (modern human)	single	half	<PATH_TO_DATA>/I15934_ss__ss_L1_R1.fastq.gz	NA	NA	ERR14766832.fastq.gz	NA	NA
+I17582_ss	I17582_ss__ss	1	4	SE	Homo sapiens (modern human)	single	half	<PATH_TO_DATA>/I17582_ss__ss_L1_R1.fastq.gz	NA	NA	ERR14766833.fastq.gz	NA	NA
+I17682_ss	I17682_ss__ss	1	4	SE	Homo sapiens (modern human)	single	half	<PATH_TO_DATA>/I17682_ss__ss_L1_R1.fastq.gz	NA	NA	ERR14766834.fastq.gz	NA	NA
+I1959	I1959_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I1959__L1_R1.fastq.gz	NA	NA	ERR14766835.fastq.gz	NA	NA
+I1959.SG	I1959.SG_ERS24514244	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I1959.SG_ERS24514244_L1_R1.fastq.gz	NA	NA	ERR14987609.fastq.gz	NA	NA
+I1961	I1961_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I1961__L1_R1.fastq.gz	NA	NA	ERR14766836.fastq.gz	NA	NA
+I1961.SG	I1961.SG_ERS24514245	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I1961.SG_ERS24514245_L1_R1.fastq.gz	NA	NA	ERR14987610.fastq.gz	NA	NA
+I1962	I1962_	1	4	SE	Homo sapiens (modern human)			<PATH_TO_DATA>/I1962__L1_R1.fastq.gz	NA	NA	ERR14766837.fastq.gz	NA	NA
+I1962.SG	I1962.SG_ERS24514246	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I1962.SG_ERS24514246_L1_R1.fastq.gz	NA	NA	ERR14987611.fastq.gz	NA	NA
+I1963	I1963_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I1963__L1_R1.fastq.gz	NA	NA	ERR14766838.fastq.gz	NA	NA
+I1964	I1964_	1	4	SE	Homo sapiens (modern human)			<PATH_TO_DATA>/I1964__L1_R1.fastq.gz	NA	NA	ERR14766839.fastq.gz	NA	NA
+I1965	I1965_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I1965__L1_R1.fastq.gz	NA	NA	ERR14766840.fastq.gz	NA	NA
+I1965.SG	I1965.SG_ERS24514247	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I1965.SG_ERS24514247_L1_R1.fastq.gz	NA	NA	ERR14987612.fastq.gz	NA	NA
+I1966	I1966_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I1966__L1_R1.fastq.gz	NA	NA	ERR14766841.fastq.gz	NA	NA
+I20305_ss	I20305_ss__ss	1	4	SE	Homo sapiens (modern human)	single	half	<PATH_TO_DATA>/I20305_ss__ss_L1_R1.fastq.gz	NA	NA	ERR14766842.fastq.gz	NA	NA
+I20308_ss	I20308_ss__ss	1	4	SE	Homo sapiens (modern human)	single	half	<PATH_TO_DATA>/I20308_ss__ss_L1_R1.fastq.gz	NA	NA	ERR14766843.fastq.gz	NA	NA
+I20309_ss	I20309_ss__ss	1	4	SE	Homo sapiens (modern human)	single	half	<PATH_TO_DATA>/I20309_ss__ss_L1_R1.fastq.gz	NA	NA	ERR14766844.fastq.gz	NA	NA
+I20310_ss	I20310_ss__ss	1	4	SE	Homo sapiens (modern human)	single	half	<PATH_TO_DATA>/I20310_ss__ss_L1_R1.fastq.gz	NA	NA	ERR14766845.fastq.gz	NA	NA
+I20312_ss	I20312_ss__ss	1	4	SE	Homo sapiens (modern human)	single	half	<PATH_TO_DATA>/I20312_ss__ss_L1_R1.fastq.gz	NA	NA	ERR14766846.fastq.gz	NA	NA
+I20314_ss	I20314_ss__ss	1	4	SE	Homo sapiens (modern human)	single	half	<PATH_TO_DATA>/I20314_ss__ss_L1_R1.fastq.gz	NA	NA	ERR14766847.fastq.gz	NA	NA
+I20528_ss	I20528_ss__ss	1	4	SE	Homo sapiens (modern human)	single	half	<PATH_TO_DATA>/I20528_ss__ss_L1_R1.fastq.gz	NA	NA	ERR14766848.fastq.gz	NA	NA
+I20533_d_ss	I20533_d_ss__ss	1	4	SE	Homo sapiens (modern human)	single	half	<PATH_TO_DATA>/I20533_d_ss__ss_L1_R1.fastq.gz	NA	NA	ERR14766849.fastq.gz	NA	NA
+I20547	I20547_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I20547__L1_R1.fastq.gz	NA	NA	ERR14766850.fastq.gz	NA	NA
+I20549	I20549_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I20549__L1_R1.fastq.gz	NA	NA	ERR14766851.fastq.gz	NA	NA
+I2072	I2072_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I2072__L1_R1.fastq.gz	NA	NA	ERR14766852.fastq.gz	NA	NA
+I2073	I2073_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I2073__L1_R1.fastq.gz	NA	NA	ERR14766853.fastq.gz	NA	NA
+I2074	I2074_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I2074__L1_R1.fastq.gz	NA	NA	ERR14766854.fastq.gz	NA	NA
+I2075	I2075_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I2075__L1_R1.fastq.gz	NA	NA	ERR14766855.fastq.gz	NA	NA
+I2076	I2076_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I2076__L1_R1.fastq.gz	NA	NA	ERR14766856.fastq.gz	NA	NA
+I20893	I20893_	1	4	SE	Homo sapiens (modern human)			<PATH_TO_DATA>/I20893__L1_R1.fastq.gz	NA	NA	ERR14766857.fastq.gz	NA	NA
+I20948	I20948_	1	4	SE	Homo sapiens (modern human)			<PATH_TO_DATA>/I20948__L1_R1.fastq.gz	NA	NA	ERR14766858.fastq.gz	NA	NA
+I2133	I2133_	1	4	SE	Homo sapiens (modern human)			<PATH_TO_DATA>/I2133__L1_R1.fastq.gz	NA	NA	ERR14766859.fastq.gz	NA	NA
+I2134	I2134_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I2134__L1_R1.fastq.gz	NA	NA	ERR14766860.fastq.gz	NA	NA
+I2134.SG	I2134.SG_ERS24514248	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I2134.SG_ERS24514248_L1_R1.fastq.gz	NA	NA	ERR14987613.fastq.gz	NA	NA
+I2135	I2135_	1	4	SE	Homo sapiens (modern human)			<PATH_TO_DATA>/I2135__L1_R1.fastq.gz	NA	NA	ERR14766861.fastq.gz	NA	NA
+I2137	I2137_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I2137__L1_R1.fastq.gz	NA	NA	ERR14766862.fastq.gz	NA	NA
+I2137.SG	I2137.SG_ERS24514249	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I2137.SG_ERS24514249_L1_R1.fastq.gz	NA	NA	ERR14987614.fastq.gz	NA	NA
+I2138	I2138_ERS24422994	1	4	SE	Homo sapiens (modern human)			<PATH_TO_DATA>/I2138_ERS24422994_L1_R1.fastq.gz	NA	NA	ERR14936919.fastq.gz	NA	NA
+I2139	I2139_ERS24422995	1	4	SE	Homo sapiens (modern human)			<PATH_TO_DATA>/I2139_ERS24422995_L1_R1.fastq.gz	NA	NA	ERR14936920.fastq.gz	NA	NA
+I2139.SG	I2139.SG_ERS24514250	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I2139.SG_ERS24514250_L1_R1.fastq.gz	NA	NA	ERR14987615.fastq.gz	NA	NA
+I2142	I2142_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I2142__L1_R1.fastq.gz	NA	NA	ERR14766865.fastq.gz	NA	NA
+I2142.SG	I2142.SG_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I2142.SG__L1_R1.fastq.gz	NA	NA	ERR14766866.fastq.gz	NA	NA
+I2143	I2143_	1	4	SE	Homo sapiens (modern human)			<PATH_TO_DATA>/I2143__L1_R1.fastq.gz	NA	NA	ERR14766867.fastq.gz	NA	NA
+I2144	I2144_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I2144__L1_R1.fastq.gz	NA	NA	ERR14766868.fastq.gz	NA	NA
+I23448	I23448_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I23448__L1_R1.fastq.gz	NA	NA	ERR14766869.fastq.gz	NA	NA
+I25555	I25555_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I25555__L1_R1.fastq.gz	NA	NA	ERR14766870.fastq.gz	NA	NA
+I25558	I25558_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I25558__L1_R1.fastq.gz	NA	NA	ERR14766871.fastq.gz	NA	NA
+I32369	I32369_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I32369__L1_R1.fastq.gz	NA	NA	ERR14766872.fastq.gz	NA	NA
+I32545	I32545_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I32545__L1_R1.fastq.gz	NA	NA	ERR14766873.fastq.gz	NA	NA
+I32551_d	I32551_d_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I32551_d__L1_R1.fastq.gz	NA	NA	ERR14766874.fastq.gz	NA	NA
+I32552	I32552_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I32552__L1_R1.fastq.gz	NA	NA	ERR14766875.fastq.gz	NA	NA
+I32816	I32816_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I32816__L1_R1.fastq.gz	NA	NA	ERR14766876.fastq.gz	NA	NA
+I32898	I32898_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I32898__L1_R1.fastq.gz	NA	NA	ERR14766877.fastq.gz	NA	NA
+I32899	I32899_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I32899__L1_R1.fastq.gz	NA	NA	ERR14766878.fastq.gz	NA	NA
+I33398	I33398_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I33398__L1_R1.fastq.gz	NA	NA	ERR14766879.fastq.gz	NA	NA
+I5280	I5280_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I5280__L1_R1.fastq.gz	NA	NA	ERR14766880.fastq.gz	NA	NA
+I6050	I6050_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I6050__L1_R1.fastq.gz	NA	NA	ERR14766881.fastq.gz	NA	NA
+I6305	I6305_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I6305__L1_R1.fastq.gz	NA	NA	ERR14766882.fastq.gz	NA	NA
+I6413	I6413_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I6413__L1_R1.fastq.gz	NA	NA	ERR14766883.fastq.gz	NA	NA
+I6413.SG	I6413.SG_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I6413.SG__L1_R1.fastq.gz	NA	NA	ERR14766884.fastq.gz	NA	NA
+I6787	I6787_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I6787__L1_R1.fastq.gz	NA	NA	ERR14766885.fastq.gz	NA	NA
+I6827	I6827_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I6827__L1_R1.fastq.gz	NA	NA	ERR14766886.fastq.gz	NA	NA
+I6828	I6828_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I6828__L1_R1.fastq.gz	NA	NA	ERR14766887.fastq.gz	NA	NA
+I6829	I6829_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I6829__L1_R1.fastq.gz	NA	NA	ERR14766888.fastq.gz	NA	NA
+I6830	I6830_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I6830__L1_R1.fastq.gz	NA	NA	ERR14766889.fastq.gz	NA	NA
+I6831	I6831_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I6831__L1_R1.fastq.gz	NA	NA	ERR14766890.fastq.gz	NA	NA
+I6833	I6833_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I6833__L1_R1.fastq.gz	NA	NA	ERR14766891.fastq.gz	NA	NA
+I6834	I6834_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I6834__L1_R1.fastq.gz	NA	NA	ERR14766892.fastq.gz	NA	NA
+I6835	I6835_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I6835__L1_R1.fastq.gz	NA	NA	ERR14766893.fastq.gz	NA	NA
+I6836	I6836_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I6836__L1_R1.fastq.gz	NA	NA	ERR14766894.fastq.gz	NA	NA
+I6837	I6837_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I6837__L1_R1.fastq.gz	NA	NA	ERR14766895.fastq.gz	NA	NA
+I6839	I6839_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I6839__L1_R1.fastq.gz	NA	NA	ERR14766896.fastq.gz	NA	NA
+I6846	I6846_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I6846__L1_R1.fastq.gz	NA	NA	ERR14766897.fastq.gz	NA	NA
+I6847	I6847_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I6847__L1_R1.fastq.gz	NA	NA	ERR14766898.fastq.gz	NA	NA
+I6848	I6848_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I6848__L1_R1.fastq.gz	NA	NA	ERR14766899.fastq.gz	NA	NA
+I6904	I6904_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I6904__L1_R1.fastq.gz	NA	NA	ERR14766900.fastq.gz	NA	NA
+I6908	I6908_	1	4	SE	Homo sapiens (modern human)			<PATH_TO_DATA>/I6908__L1_R1.fastq.gz	NA	NA	ERR14766901.fastq.gz	NA	NA
+I6916	I6916_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I6916__L1_R1.fastq.gz	NA	NA	ERR14766902.fastq.gz	NA	NA
+I6916.SG	I6916.SG_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I6916.SG__L1_R1.fastq.gz	NA	NA	ERR14766903.fastq.gz	NA	NA
+I6950	I6950_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I6950__L1_R1.fastq.gz	NA	NA	ERR14766904.fastq.gz	NA	NA
+I6951	I6951_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I6951__L1_R1.fastq.gz	NA	NA	ERR14766905.fastq.gz	NA	NA
+I6959	I6959_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I6959__L1_R1.fastq.gz	NA	NA	ERR14766906.fastq.gz	NA	NA
+I6962	I6962_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I6962__L1_R1.fastq.gz	NA	NA	ERR14766907.fastq.gz	NA	NA
+I6963	I6963_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I6963__L1_R1.fastq.gz	NA	NA	ERR14766908.fastq.gz	NA	NA
+I6963.SG	I6963.SG_ERS24514251	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I6963.SG_ERS24514251_L1_R1.fastq.gz	NA	NA	ERR14987616.fastq.gz	NA	NA
+I6964	I6964_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I6964__L1_R1.fastq.gz	NA	NA	ERR14766909.fastq.gz	NA	NA
+I6999	I6999_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I6999__L1_R1.fastq.gz	NA	NA	ERR14766910.fastq.gz	NA	NA
+I6999.SG	I6999.SG_ERS24514252	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I6999.SG_ERS24514252_L1_R1.fastq.gz	NA	NA	ERR14987617.fastq.gz	NA	NA
+I7616	I7616_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I7616__L1_R1.fastq.gz	NA	NA	ERR14766911.fastq.gz	NA	NA
+I8280	I8280_ERS24422996	1	4	SE	Homo sapiens (modern human)			<PATH_TO_DATA>/I8280_ERS24422996_L1_R1.fastq.gz	NA	NA	ERR14936921.fastq.gz	NA	NA
+I8292	I8292_ERS24422997	1	4	SE	Homo sapiens (modern human)			<PATH_TO_DATA>/I8292_ERS24422997_L1_R1.fastq.gz	NA	NA	ERR14936922.fastq.gz	NA	NA
+I8296	I8296_ERS24422998	1	4	SE	Homo sapiens (modern human)			<PATH_TO_DATA>/I8296_ERS24422998_L1_R1.fastq.gz	NA	NA	ERR14936923.fastq.gz	NA	NA
+I8298	I8298_ERS24422999	1	4	SE	Homo sapiens (modern human)			<PATH_TO_DATA>/I8298_ERS24422999_L1_R1.fastq.gz	NA	NA	ERR14936924.fastq.gz	NA	NA
+I8404	I8404_ERS24423000	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I8404_ERS24423000_L1_R1.fastq.gz	NA	NA	ERR14936925.fastq.gz	NA	NA
+I8405	I8405_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I8405__L1_R1.fastq.gz	NA	NA	ERR14766917.fastq.gz	NA	NA
+I8407	I8407_ERS24423001	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I8407_ERS24423001_L1_R1.fastq.gz	NA	NA	ERR14936926.fastq.gz	NA	NA
+I8408	I8408_ERS24423002	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I8408_ERS24423002_L1_R1.fastq.gz	NA	NA	ERR14936927.fastq.gz	NA	NA
+I8409	I8409_ERS24423003	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I8409_ERS24423003_L1_R1.fastq.gz	NA	NA	ERR14936928.fastq.gz	NA	NA
+I8410	I8410_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I8410__L1_R1.fastq.gz	NA	NA	ERR14766921.fastq.gz	NA	NA
+I8411	I8411_ERS24423004	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I8411_ERS24423004_L1_R1.fastq.gz	NA	NA	ERR14936929.fastq.gz	NA	NA
+I8412	I8412_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I8412__L1_R1.fastq.gz	NA	NA	ERR14766923.fastq.gz	NA	NA
+I8413	I8413_ERS24423005	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I8413_ERS24423005_L1_R1.fastq.gz	NA	NA	ERR14936930.fastq.gz	NA	NA
+I8414	I8414_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I8414__L1_R1.fastq.gz	NA	NA	ERR14766925.fastq.gz	NA	NA
+I8415	I8415_ERS24423006	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I8415_ERS24423006_L1_R1.fastq.gz	NA	NA	ERR14936931.fastq.gz	NA	NA
+I8416	I8416_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I8416__L1_R1.fastq.gz	NA	NA	ERR14766927.fastq.gz	NA	NA
+I8417	I8417_ERS24423007	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I8417_ERS24423007_L1_R1.fastq.gz	NA	NA	ERR14936932.fastq.gz	NA	NA
+I8418	I8418_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I8418__L1_R1.fastq.gz	NA	NA	ERR14766929.fastq.gz	NA	NA
+I8419	I8419_ERS24423008	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I8419_ERS24423008_L1_R1.fastq.gz	NA	NA	ERR14936933.fastq.gz	NA	NA
+I8420	I8420_	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I8420__L1_R1.fastq.gz	NA	NA	ERR14766931.fastq.gz	NA	NA
+I8437	I8437_ERS24423009	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I8437_ERS24423009_L1_R1.fastq.gz	NA	NA	ERR14936934.fastq.gz	NA	NA
+I8438	I8438_ERS24423010	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I8438_ERS24423010_L1_R1.fastq.gz	NA	NA	ERR14936935.fastq.gz	NA	NA
+I8439	I8439_ERS24423011	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I8439_ERS24423011_L1_R1.fastq.gz	NA	NA	ERR14936936.fastq.gz	NA	NA
+I8446	I8446_ERS24423012	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I8446_ERS24423012_L1_R1.fastq.gz	NA	NA	ERR14936937.fastq.gz	NA	NA
+I8448	I8448_ERS24423013	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I8448_ERS24423013_L1_R1.fastq.gz	NA	NA	ERR14936938.fastq.gz	NA	NA
+I8449	I8449_ERS24423014	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I8449_ERS24423014_L1_R1.fastq.gz	NA	NA	ERR14936939.fastq.gz	NA	NA
+I8450	I8450_ERS24423015	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I8450_ERS24423015_L1_R1.fastq.gz	NA	NA	ERR14936940.fastq.gz	NA	NA
+I8452	I8452_ERS24423016	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I8452_ERS24423016_L1_R1.fastq.gz	NA	NA	ERR14936941.fastq.gz	NA	NA
+I8453	I8453_ERS24423017	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I8453_ERS24423017_L1_R1.fastq.gz	NA	NA	ERR14936942.fastq.gz	NA	NA
+I8454	I8454_ERS24423018	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I8454_ERS24423018_L1_R1.fastq.gz	NA	NA	ERR14936943.fastq.gz	NA	NA
+I8455	I8455_ERS24423019	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I8455_ERS24423019_L1_R1.fastq.gz	NA	NA	ERR14936944.fastq.gz	NA	NA
+I8456	I8456_ERS24423020	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I8456_ERS24423020_L1_R1.fastq.gz	NA	NA	ERR14936945.fastq.gz	NA	NA
+I8457	I8457_ERS24423021	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I8457_ERS24423021_L1_R1.fastq.gz	NA	NA	ERR14936946.fastq.gz	NA	NA
+I8501	I8501_	1	4	SE	Homo sapiens (modern human)			<PATH_TO_DATA>/I8501__L1_R1.fastq.gz	NA	NA	ERR14766945.fastq.gz	NA	NA
+I8535	I8535_ERS24423022	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/I8535_ERS24423022_L1_R1.fastq.gz	NA	NA	ERR14936947.fastq.gz	NA	NA
