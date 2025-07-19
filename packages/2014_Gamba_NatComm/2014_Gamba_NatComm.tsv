@@ -1,0 +1,27 @@
+Sample_Name	Library_ID	Lane	Colour_Chemistry	SeqType	Organism	Strandedness	UDG_Treatment	R1	R2	BAM	R1_target_file	R2_target_file	BAM_target
+BR1	BR1_16.3	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/BR1_16.3_L1_R1.fastq.gz	NA	NA	SRR1187908.fastq.gz	NA	NA
+BR1	BR1_16.3	2	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/BR1_16.3_L2_R1.fastq.gz	NA	NA	SRR1187907.fastq.gz	NA	NA
+BR2	BR2_8.4	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/BR2_8.4_L1_R1.fastq.gz	NA	NA	SRR1186791.fastq.gz	NA	NA
+BR2	BR2_8.4	2	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/BR2_8.4_L2_R1.fastq.gz	NA	NA	SRR1187681.fastq.gz	NA	NA
+CO1	CO1_16.2	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/CO1_16.2_L1_R1.fastq.gz	NA	NA	SRR1187906.fastq.gz	NA	NA
+CO1	CO1_16.2	2	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/CO1_16.2_L2_R1.fastq.gz	NA	NA	SRR1187905.fastq.gz	NA	NA
+IR1	IR1_10.1	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/IR1_10.1_L1_R1.fastq.gz	NA	NA	SRR1186714.fastq.gz	NA	NA
+IR1	IR1_10.1	2	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/IR1_10.1_L2_R1.fastq.gz	NA	NA	SRR1186786.fastq.gz	NA	NA
+KO1	KO1_18.1	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/KO1_18.1_L1_R1.fastq.gz	NA	NA	SRR1187910.fastq.gz	NA	NA
+KO1	KO1_18.1	2	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/KO1_18.1_L2_R1.fastq.gz	NA	NA	SRR1187911.fastq.gz	NA	NA
+KO2	KO2_14.1	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/KO2_14.1_L1_R1.fastq.gz	NA	NA	SRR1187679.fastq.gz	NA	NA
+KO2	KO2_14.1	2	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/KO2_14.1_L2_R1.fastq.gz	NA	NA	SRR1187678.fastq.gz	NA	NA
+NE1	NE1_10.3	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/NE1_10.3_L1_R1.fastq.gz	NA	NA	SRR1186790.fastq.gz	NA	NA
+NE1	NE1_10.3	2	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/NE1_10.3_L2_R1.fastq.gz	NA	NA	SRR1187680.fastq.gz	NA	NA
+NE2	NE2_8.1	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/NE2_8.1_L1_R1.fastq.gz	NA	NA	SRR1187682.fastq.gz	NA	NA
+NE2	NE2_8.1	2	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/NE2_8.1_L2_R1.fastq.gz	NA	NA	SRR1187683.fastq.gz	NA	NA
+NE3	NE3_6.4	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/NE3_6.4_L1_R1.fastq.gz	NA	NA	SRR1187684.fastq.gz	NA	NA
+NE3	NE3_6.4	2	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/NE3_6.4_L2_R1.fastq.gz	NA	NA	SRR1187685.fastq.gz	NA	NA
+NE4	NE4_10.5	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/NE4_10.5_L1_R1.fastq.gz	NA	NA	SRR1187896.fastq.gz	NA	NA
+NE4	NE4_10.5	2	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/NE4_10.5_L2_R1.fastq.gz	NA	NA	SRR1187895.fastq.gz	NA	NA
+NE5	NE5_14.6	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/NE5_14.6_L1_R1.fastq.gz	NA	NA	SRR1187898.fastq.gz	NA	NA
+NE5	NE5_14.6	2	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/NE5_14.6_L2_R1.fastq.gz	NA	NA	SRR1187897.fastq.gz	NA	NA
+NE6	NE6_14.6	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/NE6_14.6_L1_R1.fastq.gz	NA	NA	SRR1187900.fastq.gz	NA	NA
+NE6	NE6_14.6	2	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/NE6_14.6_L2_R1.fastq.gz	NA	NA	SRR1187912.fastq.gz	NA	NA
+NE7	NE7_16.1	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/NE7_16.1_L1_R1.fastq.gz	NA	NA	SRR1187902.fastq.gz	NA	NA
+NE7	NE7_16.1	2	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/NE7_16.1_L2_R1.fastq.gz	NA	NA	SRR1187903.fastq.gz	NA	NA
