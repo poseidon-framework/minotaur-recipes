@@ -1,0 +1,6 @@
+Sample_Name	Library_ID	Lane	Colour_Chemistry	SeqType	Organism	Strandedness	UDG_Treatment	R1	R2	BAM	R1_target_file	R2_target_file	BAM_target
+AH1	AH1_unspecified	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/AH1_unspecified_L1_R1.fastq.gz	NA	NA	ERR1427797.fastq.gz	NA	NA
+AH2	AH2_unspecified	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/AH2_unspecified_L1_R1.fastq.gz	NA	NA	ERR1427798.fastq.gz	NA	NA
+AH4	AH4_unspecified	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/AH4_unspecified_L1_R1.fastq.gz	NA	NA	ERR1427799.fastq.gz	NA	NA
+F38	F38_unspecified	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/F38_unspecified_L1_R1.fastq.gz	NA	NA	ERR1427822.fastq.gz	NA	NA
+WC1	WC1_unspecified	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/WC1_unspecified_L1_R1.fastq.gz	NA	NA	ERR1427821.fastq.gz	NA	NA
