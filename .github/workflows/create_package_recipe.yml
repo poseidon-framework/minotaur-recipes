@@ -2,6 +2,8 @@ name: Create package recipe from SSF
 on:
   issue_comment:
     types: [created]
+    # Add a filter to ensure this workflow only triggers for comments containing "@delphis-bot rename"
+    if: contains(github.event.comment.body, '@delphis-bot create recipe')
 
 jobs:
   deploy:
