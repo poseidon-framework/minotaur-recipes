@@ -65,7 +65,7 @@ jobs:
       - name: Post debug comment
         uses: peter-evans/create-or-update-comment@v2
         with:
-          if: always() # Always post this comment for debugging purposes
+          if: ${{ always() }}
           issue-number: ${{ github.event.issue.number }}
           token: ${{ secrets.delphis_bot_org_token }}
           body: |
