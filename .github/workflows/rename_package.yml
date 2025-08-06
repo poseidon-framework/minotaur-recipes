@@ -10,7 +10,8 @@ jobs:
     if: >
       contains(github.event.comment.html_url, '/pull/') &&
       startsWith(github.event.comment.body, '@delphis-bot rename') &&
-      github.repository == 'poseidon-framework/minotaur-recipes'
+      github.event.repository.full_name == 'poseidon-framework/minotaur-recipes' &&
+      github.event.comment.user.login == 'TCLamnidis'
 
     runs-on: ubuntu-latest
     steps:
@@ -37,9 +38,9 @@ jobs:
       - name: Get package name from comment
         id: get_package_name
         run: |
-          if [[ "${{ github.event.comment.body }}" =~ @delphis-bot\ rename\ package\ ([a-zA-Z0-9_-]+) ([a-zA-Z0-9_-]+)]]; then
+          if [[ "${{ github.event.comment.body }}" =~ @delphis-bot\ rename\ ([a-zA-Z0-9_-]+)\ ([a-zA-Z0-9_-]+) ]]; then
             echo "target_package_name=${BASH_REMATCH[1]}" >> $GITHUB_OUTPUT
-            echo "destination_package_name=${BASH_REMATCH[w]}" >> $GITHUB_OUTPUT
+            echo "destination_package_name=${BASH_REMATCH[2]}" >> $GITHUB_OUTPUT
           else
             echo "No package names found in comment."
             exit 1
