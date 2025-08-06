@@ -1,0 +1,5 @@
+Sample_Name	Library_ID	Lane	Colour_Chemistry	SeqType	Organism	Strandedness	UDG_Treatment	R1	R2	BAM	R1_target_file	R2_target_file	BAM_target
+IND001	IND001_L01002244	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/IND001_L01002244_L1_R1.fastq.gz	NA	NA	SRR31320116.fastq.gz	NA	NA
+IND002	IND002_L00002243	1	4	PE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/IND002_L00002243_L1_R1.fastq.gz	<PATH_TO_DATA>/IND002_L00002243_L1_R2.fastq.gz	NA	SRR31320123_1.fastq.gz	SRR31320123_2.fastq.gz	NA
+IND003	IND003_L00001743	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/IND003_L00001743_L1_R1.fastq.gz	NA	NA	SRR31320125.fastq.gz	NA	NA
+IND004	IND004_L01001659	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/IND004_L01001659_L1_R1.fastq.gz	NA	NA	SRR31320135.fastq.gz	NA	NA
