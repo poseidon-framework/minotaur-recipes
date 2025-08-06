@@ -49,31 +49,35 @@ jobs:
       - name: Check if target package exists
         id: target_check
         run: |
+          target_exists='true'
           if [ ! -d "./packages/${{ steps.get_package_name.outputs.target_package_name }}" ]; then
             echo "Target package does not exist."
-            exit 1
+            target_exists='false'
           fi
+          echo "target_exists=${target_exists}" >> $GITHUB_OUTPUT
+
 
       - name: Check if destination package exists
         id: destination_check
         run: |
+          destination_exists='false'
           if [ -d "./packages/${{ steps.get_package_name.outputs.destination_package_name }}" ]; then
             echo "Destination package already exists."
-            exit 1
+            destination_exists='true'
           fi
+          echo "destination_exists=${destination_exists}" >> $GITHUB_OUTPUT
 
       - name: Post debug comment
         uses: peter-evans/create-or-update-comment@v2
         with:
-          if: ${{ always() }}
           issue-number: ${{ github.event.issue.number }}
           token: ${{ secrets.delphis_bot_org_token }}
           body: |
             Debugging information:
-            - Target package name:      `${{ steps.get_package_name.outputs.target_package_name }}`
-            - Destination package name: `${{ steps.get_package_name.outputs.destination_package_name }}`
-            - Target package exists:    `${{ steps.target_check.outcome }}`
-            - Destination package exists: `${{ steps.destination_check.outcome }}`
+            - Target package name:        `${{ steps.get_package_name.outputs.target_package_name }}`
+            - Destination package name:   `${{ steps.get_package_name.outputs.destination_package_name }}`
+            - Target package exists:      `${{ steps.target_check.outputs.target_exists }}`
+            - Destination package exists: `${{ steps.destination_check.outputs.destination_exists }}`
 
       # - name: Rename package directory
       #   if: >
