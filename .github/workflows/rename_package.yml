@@ -43,16 +43,6 @@ jobs:
             exit 1
           fi
 
-      - name: Post debug comment
-        uses: peter-evans/create-or-update-comment@v2
-        with:
-          issue-number: ${{ github.event.issue.number }}
-          token: ${{ secrets.delphis_bot_org_token }}
-          body: |
-            Debugging information:
-            - Target package name:      `${{ steps.get_package_name.outputs.target_package_name }}`
-            - Destination package name: `${{ steps.get_package_name.outputs.destination_package_name }}`
-
       - name: Check if target package exists
         id: target_check
         run: |
@@ -68,6 +58,18 @@ jobs:
             echo "Destination package already exists."
             exit 1
           fi
+
+      - name: Post debug comment
+        uses: peter-evans/create-or-update-comment@v2
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          token: ${{ secrets.delphis_bot_org_token }}
+          body: |
+            Debugging information:
+            - Target package name:      `${{ steps.get_package_name.outputs.target_package_name }}`
+            - Destination package name: `${{ steps.get_package_name.outputs.destination_package_name }}`
+            - Target package exists:    `${{ steps.target_check.outcome }}`
+            - Destination package exists: `${{ steps.destination_check.outcome }}`
 
       # - name: Rename package directory
       #   if: steps.get_package_name.outputs.target_package_name != steps.get_package_name.outputs.destination_package_name && steps.target_check.outcome == 'success' && steps.destination_check.outcome == 'success'
