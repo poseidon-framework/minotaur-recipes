@@ -12,6 +12,16 @@ Hello there!
 Thanks for suggesting a new publication to add to the Poseidon Package Directory!
 Please ensure you are completing all the TODOs outlined in these comments for each section.
 -->
+## Naming conventions
+
+Please ensure that the package name you are requesting follows the naming conventions of the Poseidon archives.
+Namely, the package should be named in the format:
+
+```
+<first author surname>_<year>_<short title>
+```
+
+We kindly ask that you do not use the journal name as the short title, but instead give some informative title that describes the content of the package.
 
 ## Check for existing package
 
