@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-HELPER_FUNCTION_VERSION='0.5.1'
+HELPER_FUNCTION_VERSION='0.5.2'
 
 ## Print coloured messages to stderr
 #   errecho -r will print in red
@@ -213,7 +213,6 @@ function r1_r2_from_ena_fastq() {
   value="${1}"
   value2="${2}"
 
-  echo ${value} ${value2}
   ## BAMs containing collapsed PE reads will have 3 entries in the ENA (merged, R1 unmerged, R2 unmerged), but we only need the first (merged reads).
   n_entries=$(number_of_entries ';' ${value})
 
@@ -300,8 +299,8 @@ function infer_colour_chemistry() {
   model=${2}
   ## Hard-coded list of sequencers per colour chemistry
   one_chem_seqs=("Illumina iSeq 100") ## Not sure eager can process this, but good to have a record of it.
-  two_chem_seqs=("NextSeq 1000" "NextSeq 500" "NextSeq 550" "Illumina NovaSeq 6000" "Illumina MiniSeq")
-  four_chem_seqs=("Illumina HiSeq 1000" "Illumina HiSeq 1500" "Illumina HiSeq 2000" "Illumina HiSeq 2500" "Illumina HiSeq 3000" "Illumina HiSeq 4000" "Illumina HiSeq X" "HiSeq X Five" "HiSeq X Ten" "Illumina Genome Analyzer" "Illumina Genome Analyzer II" "Illumina Genome Analyzer IIx" "Illumina HiScanSQ" "Illumina MiSeq")
+  two_chem_seqs=("NextSeq 2000" "NextSeq 1000" "NextSeq 500" "NextSeq 550" "Illumina NovaSeq 6000" "Illumina NovaSeq X" "Illumina NovaSeq X Plus" "Illumina MiniSeq")
+  four_chem_seqs=("Illumina HiSeq 1000" "Illumina HiSeq 1500" "Illumina HiSeq 2000" "Illumina HiSeq 2500" "Illumina HiSeq 3000" "Illumina HiSeq 4000" "Illumina HiSeq X" "Illumina HiSeq X Five" "Illumina HiSeq X Ten" "HiSeq X Five" "HiSeq X Ten" "Illumina Genome Analyzer" "Illumina Genome Analyzer II" "Illumina Genome Analyzer IIx" "Illumina HiScanSQ" "Illumina MiSeq")
   colour_chemistry=''
 
   ## Throw an error if sequencer is not ILLUMINA

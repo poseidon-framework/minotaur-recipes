@@ -9,9 +9,9 @@ jobs:
   ssf_validation:
     name: Validate SSF
     ## Run on PRs that contain the right label
-    if:
-      contains(github.event.pull_request.labels.*.name, 'new package') ||
-      contains(github.event.pull_request.labels.*.name, 'package update')
+    #if:
+    #  contains(github.event.pull_request.labels.*.name, 'new package') ||
+    #  contains(github.event.pull_request.labels.*.name, 'package update')
     runs-on: ubuntu-latest
     steps:
       - name: Checkout

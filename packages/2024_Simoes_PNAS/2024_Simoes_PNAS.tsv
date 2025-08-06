@@ -1,0 +1,11 @@
+Sample_Name	Library_ID	Lane	Colour_Chemistry	SeqType	Organism	Strandedness	UDG_Treatment	R1	R2	BAM	R1_target_file	R2_target_file	BAM_target
+hoe001	hoe001_UDG-treated	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/hoe001_UDG-treated_L1_R1.fastq.gz	NA	NA	ERR12423386.fastq.gz	NA	NA
+hoe002	hoe002_UDG-treated	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/hoe002_UDG-treated_L1_R1.fastq.gz	NA	NA	ERR12423387.fastq.gz	NA	NA
+hoe003	hoe003_UDG-treated	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/hoe003_UDG-treated_L1_R1.fastq.gz	NA	NA	ERR12423388.fastq.gz	NA	NA
+hoe004	hoe004_UDG-treated	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/hoe004_UDG-treated_L1_R1.fastq.gz	NA	NA	ERR12423389.fastq.gz	NA	NA
+hoe005	hoe005_UDG-treated	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/hoe005_UDG-treated_L1_R1.fastq.gz	NA	NA	ERR12423390.fastq.gz	NA	NA
+hoe006	hoe006_UDG-treated	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/hoe006_UDG-treated_L1_R1.fastq.gz	NA	NA	ERR12423391.fastq.gz	NA	NA
+stp001	stp001_UDG-treated	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/stp001_UDG-treated_L1_R1.fastq.gz	NA	NA	ERR12423395.fastq.gz	NA	NA
+tev001	tev001_UDG-treated	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/tev001_UDG-treated_L1_R1.fastq.gz	NA	NA	ERR12423392.fastq.gz	NA	NA
+tev002	tev002_UDG-treated	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/tev002_UDG-treated_L1_R1.fastq.gz	NA	NA	ERR12423393.fastq.gz	NA	NA
+tev003	tev003_UDG-treated	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/tev003_UDG-treated_L1_R1.fastq.gz	NA	NA	ERR12423394.fastq.gz	NA	NA
