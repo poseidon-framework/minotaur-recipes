@@ -9,9 +9,8 @@ jobs:
     # ! The subworkflow will only run if the comment is made by TCLamnidis
     if: >
       contains(github.event.comment.html_url, '/pull/') &&
-      startsWith(github.event.comment.body, '@delphis-bot rename package') &&
-      github.repository == 'poseidon-framework/minotaur-recipes' &&
-      github.event.comment.user.login == 'TCLamnidis'
+      startsWith(github.event.comment.body, '@delphis-bot rename') &&
+      github.repository == 'poseidon-framework/minotaur-recipes'
 
     runs-on: ubuntu-latest
     steps:
