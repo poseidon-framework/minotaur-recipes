@@ -1,28 +1,26 @@
-name: Rename recipe
+name: Rename package recipe
 on:
   issue_comment:
     types: [created]
-    # Add a filter to ensure this workflow only triggers for comments containing "@delphis-bot rename"
-    if: contains(github.event.comment.body, '@delphis-bot rename')
 
 jobs:
-  deploy:
-    # Only run if comment is on a PR with the main repo, and if it contains the magic keywords
-    # ! The subworkflow will only run if the comment is made by TCLamnidis
+  rename_package:
+    runs-on: ubuntu-latest
+    # Only run if comment is on a PR and if it contains the magic keywords
+    # Ensure the comment starts with "@delphis-bot rename" and is made by TCLamnidis
     if: >
       contains(github.event.comment.html_url, '/pull/') &&
       startsWith(github.event.comment.body, '@delphis-bot rename') &&
       github.event.repository.full_name == 'poseidon-framework/minotaur-recipes' &&
       github.event.comment.user.login == 'TCLamnidis'
 
-    runs-on: ubuntu-latest
     steps:
       # indication that the process has started
       - name: React on comment
         uses: peter-evans/create-or-update-comment@v2
         with:
           comment-id: ${{ github.event.comment.id }}
-          reactions: eyes
+          reactions: magic_wand
           token: ${{ secrets.delphis_bot_org_token }}
 
       # Use the @delphis-bot token to check out so we can push later
