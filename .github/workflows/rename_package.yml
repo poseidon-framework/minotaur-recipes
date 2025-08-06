@@ -67,17 +67,18 @@ jobs:
           fi
           echo "destination_free=${destination_free}" >> $GITHUB_OUTPUT
 
-      - name: Post debug comment
-        uses: peter-evans/create-or-update-comment@v2
-        with:
-          issue-number: ${{ github.event.issue.number }}
-          token: ${{ secrets.delphis_bot_org_token }}
-          body: |
-            Debugging information:
-            - Target package name:        `${{ steps.get_package_name.outputs.target_package_name }}`
-            - Destination package name:   `${{ steps.get_package_name.outputs.destination_package_name }}`
-            - Target package exists:      `${{ steps.target_check.outputs.target_exists }}`
-            - Destination package exists: `${{ steps.destination_check.outputs.destination_free }}`
+      ## DEBUG
+      # - name: Post debug comment
+      #   uses: peter-evans/create-or-update-comment@v2
+      #   with:
+      #     issue-number: ${{ github.event.issue.number }}
+      #     token: ${{ secrets.delphis_bot_org_token }}
+      #     body: |
+      #       Debugging information:
+      #       - Target package name:        `${{ steps.get_package_name.outputs.target_package_name }}`
+      #       - Destination package name:   `${{ steps.get_package_name.outputs.destination_package_name }}`
+      #       - Target package exists:      `${{ steps.target_check.outputs.target_exists }}`
+      #       - Destination package exists: `${{ steps.destination_check.outputs.destination_free }}`
 
       - name: Post error comment
         if: steps.target_check.outputs.target_exists == 'false' || steps.destination_check.outputs.destination_free == 'false'
@@ -86,30 +87,31 @@ jobs:
           issue-number: ${{ github.event.issue.number }}
           token: ${{ secrets.delphis_bot_org_token }}
           body: |
-            Error: Cannot rename package. This can be caused by one of the following reasons:
+            Error: Cannot rename package. 
+            This can be caused by one of the following reasons:
             - Target package `${{ steps.get_package_name.outputs.target_package_name }}` does not exist.
             - Destination package `${{ steps.get_package_name.outputs.destination_package_name }}` already exists.
 
-      # - name: Rename package directory
-      #   if: >
-      #     steps.get_package_name.outputs.target_package_name != steps.get_package_name.outputs.destination_package_name &&
-      #     steps.target_check.outcome == 'success' &&
-      #     steps.destination_check.outcome == 'success'
-      #   id: rename_package
-      #   run: |
-      #     for file in ./packages/${{ steps.get_package_name.outputs.target_package_name }}/${{ steps.get_package_name.outputs.target_package_name }}*; do
-      #       mv "${file}" "${file/${{ steps.get_package_name.outputs.target_package_name }}/${{ steps.get_package_name.outputs.destination_package_name }}}"
-      #     done
-      #     mv "./packages/${{ steps.get_package_name.outputs.target_package_name }}" "./packages/${{ steps.get_package_name.outputs.destination_package_name }}"
+      - name: Rename package directory
+        if: >
+          steps.get_package_name.outputs.target_package_name != steps.get_package_name.outputs.destination_package_name &&
+          steps.target_check.outputs.target_exists == 'true' &&
+          steps.destination_check.outputs.destination_free == 'true'
+        id: rename_package
+        run: |
+          for file in ./packages/${{ steps.get_package_name.outputs.target_package_name }}/${{ steps.get_package_name.outputs.target_package_name }}*; do
+            mv "${file}" "${file/${{ steps.get_package_name.outputs.target_package_name }}/${{ steps.get_package_name.outputs.destination_package_name }}}"
+          done
+          mv "./packages/${{ steps.get_package_name.outputs.target_package_name }}" "./packages/${{ steps.get_package_name.outputs.destination_package_name }}"
 
-      # - name: Commit & push changes
-      #   id: commit_changes
-      #   if: steps.rename_package.outcome == 'success'
-      #   run: |
-      #     git config user.email "delphis-bot@poseidon-adna.org"
-      #     git config user.name "delphis-bot"
-      #     git config push.default upstream
-      #     git add .
-      #     git status
-      #     git commit -m "[automated] Create package recipe from SSF files"
-      #     git push
+      - name: Commit & push changes
+        id: commit_changes
+        if: steps.rename_package.outcome == 'success'
+        run: |
+          git config user.email "delphis-bot@poseidon-adna.org"
+          git config user.name "delphis-bot"
+          git config push.default upstream
+          git add .
+          git status
+          git commit -m "[automated] Rename recipe from ${{ steps.get_package_name.outputs.target_package_name }} to ${{ steps.get_package_name.outputs.destination_package_name }}"
+          git push
