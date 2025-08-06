@@ -99,7 +99,7 @@ jobs:
           steps.destination_check.outputs.destination_free == 'true'
         id: rename_package
         run: |
-        mv "./packages/${{ steps.get_package_name.outputs.target_package_name }}" "./packages/${{ steps.get_package_name.outputs.destination_package_name }}"
+          mv "./packages/${{ steps.get_package_name.outputs.target_package_name }}" "./packages/${{ steps.get_package_name.outputs.destination_package_name }}"
           for file in ./packages/${{ steps.get_package_name.outputs.destination_package_name }}/${{ steps.get_package_name.outputs.target_package_name }}*; do
             mv "${file}" "${file/${{ steps.get_package_name.outputs.target_package_name }}/${{ steps.get_package_name.outputs.destination_package_name }}}"
           done
