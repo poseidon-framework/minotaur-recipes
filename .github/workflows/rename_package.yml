@@ -20,7 +20,7 @@ jobs:
         uses: peter-evans/create-or-update-comment@v2
         with:
           comment-id: ${{ github.event.comment.id }}
-          reactions: magic_wand
+          reactions: rocket
           token: ${{ secrets.delphis_bot_org_token }}
 
       # Use the @delphis-bot token to check out so we can push later
@@ -65,6 +65,7 @@ jobs:
       - name: Post debug comment
         uses: peter-evans/create-or-update-comment@v2
         with:
+          if: always() # Always post this comment for debugging purposes
           issue-number: ${{ github.event.issue.number }}
           token: ${{ secrets.delphis_bot_org_token }}
           body: |
@@ -75,7 +76,10 @@ jobs:
             - Destination package exists: `${{ steps.destination_check.outcome }}`
 
       # - name: Rename package directory
-      #   if: steps.get_package_name.outputs.target_package_name != steps.get_package_name.outputs.destination_package_name && steps.target_check.outcome == 'success' && steps.destination_check.outcome == 'success'
+      #   if: >
+      #     steps.get_package_name.outputs.target_package_name != steps.get_package_name.outputs.destination_package_name &&
+      #     steps.target_check.outcome == 'success' &&
+      #     steps.destination_check.outcome == 'success'
       #   id: rename_package
       #   run: |
       #     for file in ./packages/${{ steps.get_package_name.outputs.target_package_name }}/${{ steps.get_package_name.outputs.target_package_name }}*; do
