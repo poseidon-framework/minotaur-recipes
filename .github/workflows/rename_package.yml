@@ -6,10 +6,13 @@ on:
 jobs:
   deploy:
     # Only run if comment is on a PR with the main repo, and if it contains the magic keywords
+    # ! The subworkflow will only run if the comment is made by TCLamnidis
     if: >
       contains(github.event.comment.html_url, '/pull/') &&
       startsWith(github.event.comment.body, '@delphis-bot rename package') &&
-      github.repository == 'poseidon-framework/minotaur-recipes'
+      github.repository == 'poseidon-framework/minotaur-recipes' &&
+      github.event.comment.user.login == 'TCLamnidis'
+
     runs-on: ubuntu-latest
     steps:
       # indication that the process has started
