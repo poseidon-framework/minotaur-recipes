@@ -1,0 +1,9 @@
+Sample_Name	Library_ID	Lane	Colour_Chemistry	SeqType	Organism	Strandedness	UDG_Treatment	R1	R2	BAM	R1_target_file	R2_target_file	BAM_target
+KK1	KK1_KK1	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/KK1_KK1_L1_R1.fastq.gz	NA	NA	SRR12854175.fastq.gz	NA	NA
+ZVEJ31	ZVEJ31_ZVEJ31	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/ZVEJ31_ZVEJ31_L1_R1.fastq.gz	NA	NA	SRR16845439.fastq.gz	NA	NA
+KK1	KK1_KK1	2	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/KK1_KK1_L2_R1.fastq.gz	NA	NA	SRR16845442.fastq.gz	NA	NA
+NE5	NE5_NE5	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/NE5_NE5_L1_R1.fastq.gz	NA	NA	SRR16845441.fastq.gz	NA	NA
+ZVEJ31	ZVEJ31_ZVEJ31	2	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/ZVEJ31_ZVEJ31_L2_R1.fastq.gz	NA	NA	SRR12854172.fastq.gz	NA	NA
+ZVEJ25	ZVEJ25_ZVEJ25	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/ZVEJ25_ZVEJ25_L1_R1.fastq.gz	NA	NA	SRR12854173.fastq.gz	NA	NA
+NE5	NE5_NE5	2	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/NE5_NE5_L2_R1.fastq.gz	NA	NA	SRR12854174.fastq.gz	NA	NA
+ZVEJ25	ZVEJ25_ZVEJ25	2	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/ZVEJ25_ZVEJ25_L2_R1.fastq.gz	NA	NA	SRR16845440.fastq.gz	NA	NA
