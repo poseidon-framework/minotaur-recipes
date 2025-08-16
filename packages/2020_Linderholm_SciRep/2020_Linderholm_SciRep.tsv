@@ -1,0 +1,20 @@
+Sample_Name	Library_ID	Lane	Colour_Chemistry	SeqType	Organism	Strandedness	UDG_Treatment	R1	R2	BAM	R1_target_file	R2_target_file	BAM_target
+pcw040	pcw040_unspecified	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/pcw040_unspecified_L1_R1.fastq.gz	NA	NA	ERR3489902.fastq.gz	NA	NA
+pcw041	pcw041_unspecified	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/pcw041_unspecified_L1_R1.fastq.gz	NA	NA	ERR3489903.fastq.gz	NA	NA
+pcw061	pcw061_unspecified	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/pcw061_unspecified_L1_R1.fastq.gz	NA	NA	ERR3489904.fastq.gz	NA	NA
+pcw062	pcw062_unspecified	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/pcw062_unspecified_L1_R1.fastq.gz	NA	NA	ERR3489905.fastq.gz	NA	NA
+pcw070	pcw070_unspecified	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/pcw070_unspecified_L1_R1.fastq.gz	NA	NA	ERR3489906.fastq.gz	NA	NA
+pcw110	pcw110_unspecified	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/pcw110_unspecified_L1_R1.fastq.gz	NA	NA	ERR3489907.fastq.gz	NA	NA
+pcw160	pcw160_unspecified	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/pcw160_unspecified_L1_R1.fastq.gz	NA	NA	ERR3489908.fastq.gz	NA	NA
+pcw191	pcw191_unspecified	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/pcw191_unspecified_L1_R1.fastq.gz	NA	NA	ERR3489909.fastq.gz	NA	NA
+pcw211	pcw211_unspecified	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/pcw211_unspecified_L1_R1.fastq.gz	NA	NA	ERR3489910.fastq.gz	NA	NA
+pcw212	pcw212_unspecified	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/pcw212_unspecified_L1_R1.fastq.gz	NA	NA	ERR3489911.fastq.gz	NA	NA
+pcw250	pcw250_unspecified	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/pcw250_unspecified_L1_R1.fastq.gz	NA	NA	ERR3489912.fastq.gz	NA	NA
+pcw260	pcw260_unspecified	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/pcw260_unspecified_L1_R1.fastq.gz	NA	NA	ERR3489913.fastq.gz	NA	NA
+pcw270	pcw270_unspecified	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/pcw270_unspecified_L1_R1.fastq.gz	NA	NA	ERR3489914.fastq.gz	NA	NA
+pcw280	pcw280_unspecified	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/pcw280_unspecified_L1_R1.fastq.gz	NA	NA	ERR3489915.fastq.gz	NA	NA
+pcw350	pcw350_unspecified	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/pcw350_unspecified_L1_R1.fastq.gz	NA	NA	ERR3489916.fastq.gz	NA	NA
+pcw361	pcw361_unspecified	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/pcw361_unspecified_L1_R1.fastq.gz	NA	NA	ERR3489917.fastq.gz	NA	NA
+pcw362	pcw362_unspecified	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/pcw362_unspecified_L1_R1.fastq.gz	NA	NA	ERR3489918.fastq.gz	NA	NA
+pcw420	pcw420_unspecified	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/pcw420_unspecified_L1_R1.fastq.gz	NA	NA	ERR3489919.fastq.gz	NA	NA
+pcw430	pcw430_unspecified	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/pcw430_unspecified_L1_R1.fastq.gz	NA	NA	ERR3489920.fastq.gz	NA	NA
