@@ -1,0 +1,117 @@
+name: Rename package recipe
+on:
+  issue_comment:
+    types: [created]
+
+jobs:
+  rename_package:
+    runs-on: ubuntu-latest
+    # Only run if comment is on a PR and if it contains the magic keywords
+    # Ensure the comment starts with "@delphis-bot rename" and is made by TCLamnidis
+    if: >
+      contains(github.event.comment.html_url, '/pull/') &&
+      startsWith(github.event.comment.body, '@delphis-bot rename') &&
+      github.event.repository.full_name == 'poseidon-framework/minotaur-recipes' &&
+      github.event.comment.user.login == 'TCLamnidis'
+
+    steps:
+      # indication that the process has started
+      - name: React on comment
+        uses: peter-evans/create-or-update-comment@v2
+        with:
+          comment-id: ${{ github.event.comment.id }}
+          reactions: rocket
+          token: ${{ secrets.delphis_bot_org_token }}
+
+      # Use the @delphis-bot token to check out so we can push later
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.delphis_bot_org_token }}
+
+      # Action runs on the issue comment, so we don't get the PR by default
+      # Use the gh cli to check out the PR
+      - name: Checkout Pull Request
+        run: gh pr checkout ${{ github.event.issue.number }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.delphis_bot_org_token }}
+
+      - name: Get package name from comment
+        id: get_package_name
+        run: |
+          if [[ "${{ github.event.comment.body }}" =~ @delphis-bot\ rename\ ([a-zA-Z0-9_-]+)\ ([a-zA-Z0-9_-]+) ]]; then
+            echo "target_package_name=${BASH_REMATCH[1]}" >> $GITHUB_OUTPUT
+            echo "destination_package_name=${BASH_REMATCH[2]}" >> $GITHUB_OUTPUT
+          else
+            echo "No package names found in comment."
+            exit 1
+          fi
+
+      - name: Check if target package exists
+        id: target_check
+        run: |
+          target_exists='true'
+          if [ ! -d "./packages/${{ steps.get_package_name.outputs.target_package_name }}" ]; then
+            echo "Target package does not exist."
+            target_exists='false'
+          fi
+          echo "target_exists=${target_exists}" >> $GITHUB_OUTPUT
+
+
+      - name: Check if destination package exists
+        id: destination_check
+        run: |
+          destination_free='true'
+          if [ -d "./packages/${{ steps.get_package_name.outputs.destination_package_name }}" ]; then
+            echo "Destination package already exists."
+            destination_free='false'
+          fi
+          echo "destination_free=${destination_free}" >> $GITHUB_OUTPUT
+
+      ## DEBUG
+      # - name: Post debug comment
+      #   uses: peter-evans/create-or-update-comment@v2
+      #   with:
+      #     issue-number: ${{ github.event.issue.number }}
+      #     token: ${{ secrets.delphis_bot_org_token }}
+      #     body: |
+      #       Debugging information:
+      #       - Target package name:        `${{ steps.get_package_name.outputs.target_package_name }}`
+      #       - Destination package name:   `${{ steps.get_package_name.outputs.destination_package_name }}`
+      #       - Target package exists:      `${{ steps.target_check.outputs.target_exists }}`
+      #       - Destination package exists: `${{ steps.destination_check.outputs.destination_free }}`
+
+      - name: Post error comment
+        if: steps.target_check.outputs.target_exists == 'false' || steps.destination_check.outputs.destination_free == 'false'
+        uses: peter-evans/create-or-update-comment@v2
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          token: ${{ secrets.delphis_bot_org_token }}
+          body: |
+            Error: Cannot rename package. 
+            This can be caused by one of the following reasons:
+            - Target package `${{ steps.get_package_name.outputs.target_package_name }}` does not exist.
+            - Destination package `${{ steps.get_package_name.outputs.destination_package_name }}` already exists.
+
+      - name: Rename package directory
+        if: >
+          steps.get_package_name.outputs.target_package_name != steps.get_package_name.outputs.destination_package_name &&
+          steps.target_check.outputs.target_exists == 'true' &&
+          steps.destination_check.outputs.destination_free == 'true'
+        id: rename_package
+        run: |
+          mv "./packages/${{ steps.get_package_name.outputs.target_package_name }}" "./packages/${{ steps.get_package_name.outputs.destination_package_name }}"
+          for file in ./packages/${{ steps.get_package_name.outputs.destination_package_name }}/${{ steps.get_package_name.outputs.target_package_name }}*; do
+            mv "${file}" "${file/${{ steps.get_package_name.outputs.target_package_name }}/${{ steps.get_package_name.outputs.destination_package_name }}}"
+          done
+
+      - name: Commit & push changes
+        id: commit_changes
+        if: steps.rename_package.outcome == 'success'
+        run: |
+          git config user.email "delphis-bot@poseidon-adna.org"
+          git config user.name "delphis-bot"
+          git config push.default upstream
+          git add .
+          git status
+          git commit -m "[automated] Rename recipe from ${{ steps.get_package_name.outputs.target_package_name }} to ${{ steps.get_package_name.outputs.destination_package_name }}"
+          git push
