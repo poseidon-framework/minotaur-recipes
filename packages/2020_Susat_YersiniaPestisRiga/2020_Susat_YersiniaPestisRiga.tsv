@@ -1,0 +1,17 @@
+Sample_Name	Library_ID	Lane	Colour_Chemistry	SeqType	Organism	Strandedness	UDG_Treatment	R1	R2	BAM	R1_target_file	R2_target_file	BAM_target
+G100	G100_H29727	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/G100_H29727_L1_R1.fastq.gz	NA	NA	ERR3841649.fastq.gz	NA	NA
+G103	G103_H29722	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/G103_H29722_L1_R1.fastq.gz	NA	NA	ERR3841645.fastq.gz	NA	NA
+G143b	G143b_H29725	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/G143b_H29725_L1_R1.fastq.gz	NA	NA	ERR3841643.fastq.gz	NA	NA
+G161c	G161c_H29730	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/G161c_H29730_L1_R1.fastq.gz	NA	NA	ERR3841642.fastq.gz	NA	NA
+G171c	G171c_H29723	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/G171c_H29723_L1_R1.fastq.gz	NA	NA	ERR3841637.fastq.gz	NA	NA
+G177	G177_H29733	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/G177_H29733_L1_R1.fastq.gz	NA	NA	ERR3841653.fastq.gz	NA	NA
+G184b	G184b_H29732	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/G184b_H29732_L1_R1.fastq.gz	NA	NA	ERR3841641.fastq.gz	NA	NA
+G41	G41_H29729	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/G41_H29729_L1_R1.fastq.gz	NA	NA	ERR3841651.fastq.gz	NA	NA
+G488	G488_H01541	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/G488_H01541_L1_R1.fastq.gz	NA	NA	ERR3841655.fastq.gz	NA	NA
+G488	G488_H01541-L1	1	4	PE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/G488_H01541-L1_L1_R1.fastq.gz	<PATH_TO_DATA>/G488_H01541-L1_L1_R2.fastq.gz	NA	ERR6474341_1.fastq.gz	ERR6474341_2.fastq.gz	NA
+G645	G645_H29721	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/G645_H29721_L1_R1.fastq.gz	NA	NA	ERR3841644.fastq.gz	NA	NA
+G687	G687_H29731	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/G687_H29731_L1_R1.fastq.gz	NA	NA	ERR3841652.fastq.gz	NA	NA
+G691	G691_H29728	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/G691_H29728_L1_R1.fastq.gz	NA	NA	ERR3841650.fastq.gz	NA	NA
+G701	G701_H29724	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/G701_H29724_L1_R1.fastq.gz	NA	NA	ERR3841647.fastq.gz	NA	NA
+G701	G701_H29724	2	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/G701_H29724_L2_R1.fastq.gz	NA	NA	ERR3841646.fastq.gz	NA	NA
+G92	G92_H29726	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/G92_H29726_L1_R1.fastq.gz	NA	NA	ERR3841648.fastq.gz	NA	NA
