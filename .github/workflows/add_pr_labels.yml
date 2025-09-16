@@ -35,7 +35,26 @@ jobs:
           # github_token: ${{ secrets.delphis_bot_org_token }}
           labels: "has janno"
 
-  apply-other-labels:
+  validate-janno:
+    runs-on: ubuntu-latest
+    needs: check-for-janno-files
+    if: needs.check-for-janno-files.outputs.has_janno == 'true'
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Validate janno with trident
+        run: |
+          wget https://github.com/poseidon-framework/poseidon-hs/releases/latest/download/trident-conda-linux -O trident
+          chmod +x trident
+          for janno_file in $(git diff --name-only --diff-filter=ACMRT ${{ github.event.pull_request.base.sha }} ${{ github.sha }}  | grep '.janno$'); do
+            echo "Validating: '${janno_file}'"
+            trident validate --janno ${janno_file}
+          done
+
+  apply-package-labels:
     runs-on: ubuntu-latest
     steps:
       - name: Apply new package label
