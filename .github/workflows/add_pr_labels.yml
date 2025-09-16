@@ -1,0 +1,37 @@
+name: Add PR Label for .janno Files
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  check-janno-files:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.delphis_bot_org_token }}
+
+      - name: Get changed files
+        id: changed-files
+        run: |
+          git fetch origin ${{ github.event.pull_request.base.ref }}
+          git diff --name-only origin/${{ github.event.pull_request.base.ref }} > changed_files.txt
+          if grep -q '\.janno$' changed_files.txt; then
+            echo "has_janno=true" >> $GITHUB_ENV
+          else
+            echo "has_janno=false" >> $GITHUB_ENV
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.delphis_bot_org_token }}
+
+      - name: Add label if .janno files exist
+        if: env.has_janno == 'true'
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          github_token: ${{ secrets.delphis_bot_org_token }}
+          labels: "has janno"
