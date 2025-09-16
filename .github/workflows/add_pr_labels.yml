@@ -36,6 +36,7 @@ jobs:
           labels: "has janno"
 
   apply-other-labels:
+    runs-on: ubuntu-latest
     steps:
       - name: Apply new package label
         uses: peter-evans/create-or-update-label@v1
