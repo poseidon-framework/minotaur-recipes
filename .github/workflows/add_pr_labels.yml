@@ -34,3 +34,22 @@ jobs:
         with:
           # github_token: ${{ secrets.delphis_bot_org_token }}
           labels: "has janno"
+
+  apply-other-labels:
+    steps:
+      - name: Apply new package label
+        uses: peter-evans/create-or-update-label@v1
+        if:
+          contains(github.event.pull_request.title, 'Add' ) ||
+          contains(github.event.pull_request.title, 'add' )
+        with:
+          token: ${{ secrets.delphis_bot_org_token }}
+          name: "new package"
+      - name: Apply package update label
+        uses: peter-evans/create-or-update-label@v1
+        if:
+          contains(github.event.pull_request.title, 'Update' ) ||
+          contains(github.event.pull_request.title, 'update' )
+        with:
+          token: ${{ secrets.delphis_bot_org_token }}
+          name: "package update"
