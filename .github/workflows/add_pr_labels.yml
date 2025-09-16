@@ -1,4 +1,4 @@
-name: Add PR Label for .janno Files
+name: Add PR Labels
 
 on:
   pull_request:
@@ -45,7 +45,7 @@ jobs:
           contains(github.event.pull_request.title, 'add' )
         with:
           token: ${{ secrets.delphis_bot_org_token }}
-          name: "new package"
+          labels: "new package"
       - name: Apply package update label
         uses: actions-ecosystem/action-add-labels@v1
         if:
@@ -53,4 +53,4 @@ jobs:
           contains(github.event.pull_request.title, 'update' )
         with:
           token: ${{ secrets.delphis_bot_org_token }}
-          name: "package update"
+          labels: "package update"
