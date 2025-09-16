@@ -39,7 +39,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Apply new package label
-        uses: peter-evans/create-or-update-label@v1
+        uses: actions-ecosystem/action-add-labels@v1
         if:
           contains(github.event.pull_request.title, 'Add' ) ||
           contains(github.event.pull_request.title, 'add' )
@@ -47,7 +47,7 @@ jobs:
           token: ${{ secrets.delphis_bot_org_token }}
           name: "new package"
       - name: Apply package update label
-        uses: peter-evans/create-or-update-label@v1
+        uses: actions-ecosystem/action-add-labels@v1
         if:
           contains(github.event.pull_request.title, 'Update' ) ||
           contains(github.event.pull_request.title, 'update' )
