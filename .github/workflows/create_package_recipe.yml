@@ -14,7 +14,7 @@ jobs:
     steps:
       # indication that the process has started
       - name: React on comment
-        uses: peter-evans/create-or-update-comment@v2
+        uses: peter-evans/create-or-update-comment@v4
         with:
           comment-id: ${{ github.event.comment.id }}
           reactions: eyes
@@ -56,7 +56,7 @@ jobs:
 
       - name: Post comment listing offending packages
         if: steps.get_package_names.outputs.offending_ssfs != ''
-        uses: peter-evans/create-or-update-comment@v2
+        uses: peter-evans/create-or-update-comment@v4
         with:
           issue-number: ${{ github.event.issue.number }}
           token: ${{ secrets.delphis_bot_org_token }}
@@ -104,7 +104,7 @@ jobs:
       # # indication that the process is done
       # - name: React on comment
       #   if: steps.commit_changes.outcome == 'success' || steps.commit_changes.outcome == 'failure'
-      #   uses: peter-evans/create-or-update-comment@v2
+      #   uses: peter-evans/create-or-update-comment@v4
       #   with:
       #     comment-id: ${{ github.event.comment.id }}
       #     reactions: eyes
