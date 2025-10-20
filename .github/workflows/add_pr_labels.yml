@@ -59,6 +59,8 @@ jobs:
 
   apply-package-labels:
     runs-on: ubuntu-latest
+    ## This step should only run when the PRs are started from the main repo, since it requires an authentication token.
+    if: github.event.pull_request.head.repo.full_name == 'poseidon-framework/minotaur-recipes'
     steps:
       - name: Apply new package label
         uses: actions-ecosystem/action-add-labels@v1
