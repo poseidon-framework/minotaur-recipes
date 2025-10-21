@@ -1,0 +1,111 @@
+Poseidon_ID	Genetic_Sex	Group_Name	Alternative_IDs	Relation_To	Relation_Degree	Relation_Type	Relation_Note	Collection_ID	Country	Country_ISO	Location	Site	Latitude	Longitude	Date_Type	Date_C14_Labnr	Date_C14_Uncal_BP	Date_C14_Uncal_BP_Err	Date_BC_AD_Start	Date_BC_AD_Median	Date_BC_AD_Stop	Date_Note	MT_Haplogroup	Y_Haplogroup	Source_Tissue	Primary_Contact	Note	Keywords
+AD52	F		KH180054						Germany	DE		Altendorf					5177		-3550	-3200	-2850	mean calBP	H3c	NA	petrous bone
+AD195	M		KH180055						Germany	DE		Altendorf					5171		-3550	-3200	-2850	mean calBP	H4a1a1a	I	petrous bone
+AD11	M		KH180057						Germany	DE		Altendorf					5086		-3550	-3200	-2850	mean calBP	NA	I2a1a1a	petrous bone
+AD172	M		KH180059						Germany	DE		Altendorf					5084		-3550	-3200	-2850	mean calBP	U5b1d2	I	petrous bone
+AD117	M		KH180131						Germany	DE		Altendorf					5080		-3550	-3200	-2850	mean calBP	H1	I2c1	petrous bone
+AD140	M		KH180135;KH180136						Germany	DE		Altendorf					5182		-3550	-3200	-2850	mean calBP	V10	I2c1a1	petrous bone & tooth
+AD119	M		KH180137;KH182329						Germany	DE		Altendorf					5137		-3550	-3200	-2850	mean calBP	W1	I2c1	petrous bone
+AD112	M		KH180138						Germany	DE		Altendorf					5140		-3550	-3200	-2850	mean calBP	NA	NA	petrous bone left
+AD188	M		KH180149						Germany	DE		Altendorf					5135		-3550	-3200	-2850	mean calBP	H1	I	petrous bone left
+AD165	M		KH180150;KH180151						Germany	DE		Altendorf					5086		-3550	-3200	-2850	mean calBP	T2c1d	I2c1a1	petrous bone & tooth
+AD178	F		KH180152						Germany	DE		Altendorf					5136		-3550	-3200	-2850	mean calBP	K1a	NA	petrous bone
+AD181	F		KH180153;KH180154						Germany	DE		Altendorf					5124		-3550	-3200	-2850	mean calBP	U5b2a1a	..	petrous bone & tooth
+AD15	F		KH180158						Germany	DE		Altendorf					5135		-3550	-3200	-2850	mean calBP	NA	NA	petrous bone
+AD198	M		KH180159						Germany	DE		Altendorf					5169		-3550	-3200	-2850	mean calBP	H3	I2c1a1	petrous bone
+AD186	M		KH180160;KH180161						Germany	DE		Altendorf					5078		-3550	-3200	-2850	mean calBP	NA	I2c	petrous bone & tooth
+AD162	F		KH180162						Germany	DE		Altendorf					5142		-3550	-3200	-2850	mean calBP	T2c1d	NA	petrous bone
+AD197	M		KH180884;KH182330						Germany	DE		Altendorf					5173		-3550	-3200	-2850	mean calBP	H3aj	I	petrous bone & tooth
+FO86	U		KH170249;KH180588						Germany	DE	Baden-Württemberg	Fellbach-Oeffingen	48.843	9.261	contextual				-7000	-6750	-6500		NA	NA	petrous bone
+FO89	F		KH170260;KH180585						Germany	DE	Baden-Württemberg	Fellbach-Oeffingen	48.843	9.261	contextual				-7000	-6750	-6500		T2c1	NA	petrous bone
+FO146	M		KH180583						Germany	DE	Baden-Württemberg	Fellbach-Oeffingen	48.843	9.261	contextual				-7000	-6750	-6500		K1a2b 	G2a2a 	petrous bone
+FO7	U		KH180584						Germany	DE	Baden-Württemberg	Fellbach-Oeffingen	48.843	9.261	contextual				-7000	-6750	-6500		T2c1 	NA	petrous bone
+FO28	M		KH180586						Germany	DE	Baden-Württemberg	Fellbach-Oeffingen	48.843	9.261	contextual				-7000	-6750	-6500		K1a3a 	NA	petrous bone			
+FO31	M		KH180587						Germany	DE	Baden-Württemberg	Fellbach-Oeffingen	48.843	9.261	contextual				-7000	-6750	-6500		NA	NA	petrous bone
+FO22	F		KH180589						Germany	DE	Baden-Württemberg	Fellbach-Oeffingen	48.843	9.261	contextual				-7000	-6750	-6500		U5a1c 	NA	petrous bone
+FO130	M		KH180590						Germany	DE	Baden-Württemberg	Fellbach-Oeffingen	48.843	9.261	contextual				-7000	-6750	-6500		T2b 	G2 	petrous bone
+FO52	M		KH180591						Germany	DE	Baden-Württemberg	Fellbach-Oeffingen	48.843	9.261	contextual				-7000	-6750	-6500		NA	NA	petrous bone
+FO54	F		KH180592						Germany	DE	Baden-Württemberg	Fellbach-Oeffingen	48.843	9.261	contextual				-7000	-6750	-6500		J2b1 	NA	petrous bone
+FO81	M		KH180595						Germany	DE	Baden-Württemberg	Fellbach-Oeffingen	48.843	9.261	contextual				-7000	-6750	-6500		NA	NA	petrous bone
+FO144	M		KH180596						Germany	DE	Baden-Württemberg	Fellbach-Oeffingen	48.843	9.261	contextual				-7000	-6750	-6500		NA	NA	petrous bone
+FO4	F		KH180597						Germany	DE	Baden-Württemberg	Fellbach-Oeffingen	48.843	9.261	contextual				-7000	-6750	-6500		K1a 	NA	petrous bone
+FO113	F		KH180598						Germany	DE	Baden-Württemberg	Fellbach-Oeffingen	48.843	9.261	contextual				-7000	-6750	-6500		K2a 	NA	petrous bone
+FO149	F		KH180599						Germany	DE	Baden-Württemberg	Fellbach-Oeffingen	48.843	9.261	contextual				-7000	-6750	-6500		NA	NA	petrous bone
+FO131	M		KH180600						Germany	DE	Baden-Württemberg	Fellbach-Oeffingen	48.843	9.261	contextual				-7000	-6750	-6500		T2b 	G2a2a 	petrous bone
+FO127	M		KH180601						Germany	DE	Baden-Württemberg	Fellbach-Oeffingen	48.843	9.261	contextual				-7000	-6750	-6500		T2b 	G2a2a 	petrous bone
+FO47	M		KH180602						Germany	DE	Baden-Württemberg	Fellbach-Oeffingen	48.843	9.261	contextual				-7000	-6750	-6500		K1a1 	G2a2a 	petrous bone
+NP665	F		KH180164						Germany	DE	Bavaria	Niederpöring	48.7140	12.8455	contextual				-7000	-6750	-6500		NA	NA	petrous bone
+NP541	..		KH180166						Germany	DE	Bavaria	Niederpöring	48.7140	12.8455	contextual				-7000	-6750	-6500		J1c	NA	petrous bone
+NP560	M		KH180167						Germany	DE	Bavaria	Niederpöring	48.7140	12.8455	contextual				-7000	-6750	-6500		N1a1a1a	NA	petrous bone
+NP543	F		KH180168						Germany	DE	Bavaria	Niederpöring	48.7140	12.8455	contextual				-7000	-6750	-6500		X2b	NA	petrous bone
+NP410	M		KH180169						Germany	DE	Bavaria	Niederpöring	48.7140	12.8455	contextual				-7000	-6750	-6500		X2d	G2a2a	petrous bone
+NP559	U		KH180170						Germany	DE	Bavaria	Niederpöring	48.7140	12.8455	contextual				-7000	-6750	-6500		T2e	NA	petrous bone
+NT2	M		KH150187						Germany	DE	Rhineland-Palatinate	Niedertiefenbach	50.2544	7.8985	contextual				-3550	-3200	-2850		K1a3a		tooth
+NT8	M		KH150194						Germany	DE	Rhineland-Palatinate	Niedertiefenbach	50.2544	7.8985	contextual				-3550	-3200	-2850		NA	NA	tooth
+NT15	M		KH150202						Germany	DE	Rhineland-Palatinate	Niedertiefenbach	50.2544	7.8985	contextual				-3550	-3200	-2850		NA NA		tooth
+NT18	U		KH150205						Germany	DE	Rhineland-Palatinate	Niedertiefenbach	50.2544	7.8985	contextual				-3550	-3200	-2850		H7	NA	tooth
+NT27	M		KH150291						Germany	DE	Rhineland-Palatinate	Niedertiefenbach	50.2544	7.8985	contextual				-3550	-3200	-2850		NA	NA	tooth
+NT28	M		KH150292						Germany	DE	Rhineland-Palatinate	Niedertiefenbach	50.2544	7.8985	contextual				-3550	-3200	-2850		NA	NA	tooth
+NT29	U		KH150293						Germany	DE	Rhineland-Palatinate	Niedertiefenbach	50.2544	7.8985	contextual				-3550	-3200	-2850		NA	NA	tooth
+NT31	U		KH150295						Germany	DE	Rhineland-Palatinate	Niedertiefenbach	50.2544	7.8985	contextual				-3550	-3200	-2850		NA	NA	tooth
+NT35	M		KH150420						Germany	DE	Rhineland-Palatinate	Niedertiefenbach	50.2544	7.8985	contextual				-3550	-3200	-2850		NA	NA	tooth
+NT38	U		KH150423						Germany	DE	Rhineland-Palatinate	Niedertiefenbach	50.2544	7.8985	contextual				-3550	-3200	-2850		NA	NA	tooth
+NT43	F		KH150430						Germany	DE	Rhineland-Palatinate	Niedertiefenbach	50.2544	7.8985	contextual				-3550	-3200	-2850		NA	NA	tooth
+NT45	F		KH150432						Germany	DE	Rhineland-Palatinate	Niedertiefenbach	50.2544	7.8985	contextual				-3550	-3200	-2850		NA	NA	tooth
+NT46	M		KH150433						Germany	DE	Rhineland-Palatinate	Niedertiefenbach	50.2544	7.8985	contextual				-3550	-3200	-2850		NA	NA	tooth
+NT48	F		KH150435						Germany	DE	Rhineland-Palatinate	Niedertiefenbach	50.2544	7.8985	contextual				-3550	-3200	-2850		NA	NA	tooth
+NT49	F		KH150436						Germany	DE	Rhineland-Palatinate	Niedertiefenbach	50.2544	7.8985	contextual				-3550	-3200	-2850		U5b1f	NA	tooth
+NT51	M		KH150611						Germany	DE	Rhineland-Palatinate	Niedertiefenbach	50.2544	7.8985	contextual				-3550	-3200	-2850		NA	NA	petrous bone
+RB85	F		KH180390						Germany	DE	North Rhein-Westphalia	Rimbeck	51.5278	9.0468	contextual				-3550	-3200	-2850		K1a4a1 	NA  NA	petrous bone
+RB238	U		KH180391						Germany	DE	North Rhein-Westphalia	Rimbeck	51.5278	9.0468	contextual				-3550	-3200	-2850		K1a4a1 	NA NA	petrous bone
+RB402	M		KH180392						Germany	DE	North Rhein-Westphalia	Rimbeck	51.5278	9.0468	contextual				-7000	-6750	-6500		NA	NA	petrous bone
+TR38	F		KH160037;KH181868						Germany	DE	Baden-Württemberg	Trebur/Grossgartach	49.1442	9.1167			6700		-7000	-6750	-6500	mean calBP	K1a4b	NA	petrous bone & tooth
+TR18	M		KH160041;KH181867						Germany	DE	Baden-Württemberg	Trebur/Grossgartach	49.1442	9.1167	contextual				-7000	-6750	-6500		J1c2	NA	petrous bone & tooth
+TR17	F		KH160042						Germany	DE	Baden-Württemberg	Trebur/Grossgartach	49.1442	9.1167			6720		-7000	-6750	-6500	mean calBP	H1e	NA	petrous bone
+TR29a	M		KH160044;KH181915						Germany	DE	Baden-Württemberg	Trebur/Grossgartach	49.1442	9.1167	contextual				-7000	-6750	-6500		K1a4a1	NA	petrous bone & tooth
+TR22	M		KH160048;KH160216						Germany	DE	Baden-Württemberg	Trebur/Grossgartach	49.1442	9.1167	contextual				-7000	-6750	-6500		H3	NA	petrous bone & tooth
+TR19	F		KH160051;KH181888;KH181917						Germany	DE	Baden-Württemberg	Trebur/Grossgartach	49.1442	9.1167	contextual				-7000	-6750	-6500		K1a4a1	NA	petrous bone & tooth
+TR117	F		KH160052;KH181446						Germany	DE	Baden-Württemberg	Trebur/Grossgartach	49.1442	9.1167	contextual				-7000	-6750	-6500		K1a4a1	NA	petrous bone
+TR61	M		KH160053;KH181887;KH181889						Germany	DE	Baden-Württemberg	Trebur/Grossgartach	49.1442	9.1167			6900		-7000	-6750	-6500	mean calBP	K1a3a	T1a1	petrous bone & tooth
+TR59	M		KH160059						Germany	DE	Baden-Württemberg	Trebur/Grossgartach	49.1442	9.1167	contextual				-7000	-6750	-6500		H2a2a	NA	petrous bone
+TR57	F		KH160063						Germany	DE	Baden-Württemberg	Trebur/Grossgartach	49.1442	9.1167	contextual				-7000	-6750	-6500		K1b1	NA	petrous bone
+TR25	F		KH160204;KH181876						Germany	DE	Baden-Württemberg	Trebur/Grossgartach	49.1442	9.1167			6550		-7000	-6750	-6500	mean calBP	T2c1	NA	petrous bone & tooth
+TR34	M		KH181463						Germany	DE	Baden-Württemberg	Trebur/Grossgartach	49.1442	9.1167	contextual				-7000	-6750	-6500		T2b23	NA	petrous bone
+TR130	M		KH181496						Germany	DE	Baden-Württemberg	Trebur/Grossgartach	49.1442	9.1167			6450		-7000	-6750	-6500	mean calBP	NA	T1a	petrous bone
+TR112	M		KH150045;KH160049;KH181904						Germany	DE	Baden-Württemberg	Trebur/Hinkelstein			contextual				-7000	-6750	-6500		NA	NA	petrous bone & tooth
+TR67	M		KH160038;KH160206						Germany	DE	Baden-Württemberg	Trebur/Hinkelstein					6700		-7000	-6750	-6500	mean calBP	T2e	C1a2	petrous bone & tooth
+TR44	F		KH160039;KH160202						Germany	DE	Baden-Württemberg	Trebur/Hinkelstein			contextual				-7000	-6750	-6500		W1	NA	petrous bone & tooth
+TR37	F		KH160040;KH181902						Germany	DE	Baden-Württemberg	Trebur/Hinkelstein			contextual				-7000	-6750	-6500		HV	NA	petrous bone & tooth
+TR124	M		KH160043						Germany	DE	Baden-Württemberg	Trebur/Hinkelstein			contextual				-7000	-6750	-6500		T2b7a	G2a2a1a2	petrous bone
+TR96	M		KH160046;KH181488						Germany	DE	Baden-Württemberg	Trebur/Hinkelstein			contextual				-7000	-6750	-6500		J1c5	H2	petrous bone & tooth
+TR42ab	M		KH160047;KH181467						Germany	DE	Baden-Württemberg	Trebur/Hinkelstein			contextual				-7000	-6750	-6500		NA	NA	petrous bone & tooth
+TR113	M		KH160050;KH181863						Germany	DE	Baden-Württemberg	Trebur/Hinkelstein					6800		-7000	-6750	-6500	mean calBP	H	I	petrous bone & tooth
+TR79	M		KH160054						Germany	DE	Baden-Württemberg	Trebur/Hinkelstein			contextual				-7000	-6750	-6500		T1a	C1a2	petrous bone
+TR055/TR116	F		KH160055						Germany	DE	Baden-Württemberg	Trebur/Hinkelstein			contextual				-7000	-6750	-6500		U5b1	NA NA	petrous bone
+TR69	F		KH160056;KH181479						Germany	DE	Baden-Württemberg	Trebur/Hinkelstein			contextual				-7000	-6750	-6500		N1a1a1a2	NA	petrous bone & tooth
+TR129	F		KH160057;KH181472;KH181473						Germany	DE	Baden-Württemberg	Trebur/Hinkelstein			contextual				-7000	-6750	-6500		N1a1a1a3	NA	petrous bone & tooth
+TR76	F		KH160058;KH181470						Germany	DE	Baden-Württemberg	Trebur/Hinkelstein			contextual				-7000	-6750	-6500		W1	NA	petrous bone & tooth
+TR97	F		KH160060;KH181445						Germany	DE	Baden-Württemberg	Trebur/Hinkelstein			contextual				-7000	-6750	-6500		N1a1a1a	NA	petrous bone & tooth
+TR94	M		KH160061;KH181448						Germany	DE	Baden-Württemberg	Trebur/Hinkelstein			contextual				-7000	-6750	-6500		K1b1	I	petrous bone & tooth
+TR50	M		KH160062;KH181458						Germany	DE	Baden-Württemberg	Trebur/Hinkelstein			contextual				-7000	-6750	-6500		U5a1c1	H	petrous bone & tooth
+TR132	M		KH181460;KH190614						Germany	DE	Baden-Württemberg	Trebur/Hinkelstein					6790		-7000	-6750	-6500	mean calBP	U5a1c1	NA	petrous bone & tooth
+TR85	F		KH181482						Germany	DE	Baden-Württemberg	Trebur/Hinkelstein			contextual				-7000	-6750	-6500		NA	NA	tooth
+TR83	F		KH181913						Germany	DE	Baden-Württemberg	Trebur/Hinkelstein			contextual				-7000	-6750	-6500		W1	NA	petrous bone
+WB2060	M		KH180066						Germany	DE	North Rhein-Westphalia	Warburg	51.4872	9.1381	contextual				-3550	-3200	-2850		H1q	I2a1a2a	petrous bone
+WB478	U		KH180068						Germany	DE	North Rhein-Westphalia	Warburg	51.4872	9.1381	contextual				-3550	-3200	-2850		J2b1a	NA	petrous bone
+WB229	M		KH180070						Germany	DE	North Rhein-Westphalia	Warburg	51.4872	9.1381	contextual				-3550	-3200	-2850		NA	NA	petrous bone
+WB16c	M		KH180071						Germany	DE	North Rhein-Westphalia	Warburg	51.4872	9.1381	contextual				-3550	-3200	-2850		H1	I2	petrous bone
+WB13c	U		KH180075						Germany	DE	North Rhein-Westphalia	Warburg	51.4872	9.1381	contextual				-3550	-3200	-2850		NA	NA	petrous bone
+WB13a1	M		KH180077						Germany	DE	North Rhein-Westphalia	Warburg	51.4872	9.1381	contextual				-3550	-3200	-2850		U5b1i	I	petrous bone
+WB13a2	M		KH180078						Germany	DE	North Rhein-Westphalia	Warburg	51.4872	9.1381	contextual				-3550	-3200	-2850		U5b1	NA	petrous bone
+WB4d	U		KH180079						Germany	DE	North Rhein-Westphalia	Warburg	51.4872	9.1381	contextual				-3550	-3200	-2850		NA	NA	petrous bone
+WB13b1	M		KH180086						Germany	DE	North Rhein-Westphalia	Warburg	51.4872	9.1381	contextual				-3550	-3200	-2850		T2c1d	I2a1a	petrous bone
+WB13b2	M		KH180087						Germany	DE	North Rhein-Westphalia	Warburg	51.4872	9.1381	contextual				-3550	-3200	-2850		X2b	I	petrous bone
+WB17c1	M		KH180090						Germany	DE	North Rhein-Westphalia	Warburg	51.4872	9.1381	contextual				-3550	-3200	-2850		X2b	I	petrous bone
+WB17c2	M		KH180091						Germany	DE	North Rhein-Westphalia	Warburg	51.4872	9.1381	contextual				-3550	-3200	-2850		H3	I2a1a1a	petrous bone
+WB1808	F		KH180095						Germany	DE	North Rhein-Westphalia	Warburg	51.4872	9.1381	contextual				-3550	-3200	-2850		U5b3b	NA	petrous bone
+WB17b	F		KH180120						Germany	DE	North Rhein-Westphalia	Warburg	51.4872	9.1381	contextual				-3550	-3200	-2850		H5	NA	petrous bone
+WB15b	M		KH180121						Germany	DE	North Rhein-Westphalia	Warburg	51.4872	9.1381	contextual				-3550	-3200	-2850		U5b3	I2a1a2a	petrous bone
+WB12c2	M		KH180122						Germany	DE	North Rhein-Westphalia	Warburg	51.4872	9.1381	contextual				-3550	-3200	-2850		U5b2a2	NA	petrous bone
+WB18c	F		KH180123						Germany	DE	North Rhein-Westphalia	Warburg	51.4872	9.1381	contextual				-3550	-3200	-2850		K2a11	NA	petrous bone
+WB12c1	F		KH180126						Germany	DE	North Rhein-Westphalia	Warburg	51.4872	9.1381	contextual				-3550	-3200	-2850		K2a11	NA	petrous bone
