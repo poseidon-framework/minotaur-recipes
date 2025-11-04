@@ -49,7 +49,7 @@ TR29a	TR29a_TR29a	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/
 TR22	TR22_TR22	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/TR22_TR22_L1_R1.fastq.gz	NA	NA	ERR10168309.fastq.gz	NA	NA
 TR117	TR117_TR117	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/TR117_TR117_L1_R1.fastq.gz	NA	NA	ERR10168312.fastq.gz	NA	NA
 TR79	TR79_TR79	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/TR79_TR79_L1_R1.fastq.gz	NA	NA	ERR10168314.fastq.gz	NA	NA
-TR055	TR055_TR055	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/TR055_TR055_L1_R1.fastq.gz	NA	NA	ERR10168315.fastq.gz	NA	NA
+TR116	TR116_TR055	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/TR116_TR055_L1_R1.fastq.gz	NA	NA	ERR10168315.fastq.gz	NA	NA
 TR129	TR129_TR129	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/TR129_TR129_L1_R1.fastq.gz	NA	NA	ERR10168317.fastq.gz	NA	NA
 TR25	TR25_TR25	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/TR25_TR25_L1_R1.fastq.gz	NA	NA	ERR10168323.fastq.gz	NA	NA
 WB1808	WB1808_WB1808	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/WB1808_WB1808_L1_R1.fastq.gz	NA	NA	ERR10168340.fastq.gz	NA	NA
