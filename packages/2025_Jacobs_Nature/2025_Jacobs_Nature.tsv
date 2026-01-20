@@ -1,0 +1,11 @@
+Sample_Name	Library_ID	Lane	Colour_Chemistry	SeqType	Organism	Strandedness	UDG_Treatment	R1	R2	BAM	R1_target_file	R2_target_file	BAM_target
+NUE001	NUE001_SKO719A1707	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/NUE001_SKO719A1707_L1_R1.fastq.gz	NA	NA	ERR14836685.fastq.gz	NA	NA
+NUE001	NUE001_SKO719A1712	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/NUE001_SKO719A1712_L1_R1.fastq.gz	NA	NA	ERR14836689.fastq.gz	NA	NA
+NUE001	NUE001_SKO719A1710	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/NUE001_SKO719A1710_L1_R1.fastq.gz	NA	NA	ERR14836687.fastq.gz	NA	NA
+NUE001	NUE001_SKO719A1711	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/NUE001_SKO719A1711_L1_R1.fastq.gz	NA	NA	ERR14836688.fastq.gz	NA	NA
+NUE001	NUE001_SKO3305A16	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/NUE001_SKO3305A16_L1_R1.fastq.gz	NA	NA	ERR14836690.fastq.gz	NA	NA
+NUE001	NUE001_SKO3305A17	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/NUE001_SKO3305A17_L1_R1.fastq.gz	NA	NA	ERR14836691.fastq.gz	NA	NA
+NUE001	NUE001_SOA6876A1	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/NUE001_SOA6876A1_L1_R1.fastq.gz	NA	NA	ERR14836692.fastq.gz	NA	NA
+NUE001	NUE001_HAJ4682A91	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/NUE001_HAJ4682A91_L1_R1.fastq.gz	NA	NA	ERR14836683.fastq.gz	NA	NA
+NUE001	NUE001_HAJ4682A92	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/NUE001_HAJ4682A92_L1_R1.fastq.gz	NA	NA	ERR14836684.fastq.gz	NA	NA
+NUE001	NUE001_SKO719A1708	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/NUE001_SKO719A1708_L1_R1.fastq.gz	NA	NA	ERR14836686.fastq.gz	NA	NA
