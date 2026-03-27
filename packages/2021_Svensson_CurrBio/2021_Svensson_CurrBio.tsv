@@ -1,0 +1,2 @@
+Sample_Name	Library_ID	Lane	Colour_Chemistry	SeqType	Organism	Strandedness	UDG_Treatment	R1	R2	BAM	R1_target_file	R2_target_file	BAM_target
+PM1	PM1_unspecified	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/PM1_unspecified_L1_R1.fastq.gz	NA	NA	ERR5948289.fastq.gz	NA	NA
