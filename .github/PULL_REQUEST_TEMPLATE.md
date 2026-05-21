@@ -38,9 +38,9 @@ While optional, recipes that include a janno file will be prioritised for proces
 
 - [ ] (optional) This PR contains a janno file (`.janno`) for the requested
       package.
-      - [ ] The name of the `.janno` file(s) matches the package name (i.e.
+  - [ ] The name of the `.janno` file(s) matches the package name (i.e.
             `packages/2023_my_package/2023_my_package.janno`).
-      - [ ] The `.janno` file contains one record per poseidon_id specified in the SSF file.
+  - [ ] The `.janno` file contains one record per poseidon_id specified in the SSF file.
 
 ### Recipe creation and validation
 
