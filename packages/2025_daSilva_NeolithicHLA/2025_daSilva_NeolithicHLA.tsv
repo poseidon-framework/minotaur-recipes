@@ -26,7 +26,7 @@ TR85	TR85_TR85	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/TR8
 TR83	TR83_TR83	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/TR83_TR83_L1_R1.fastq.gz	NA	NA	ERR10168328.fastq.gz	NA	NA
 WB2060	WB2060_WB2060	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/WB2060_WB2060_L1_R1.fastq.gz	NA	NA	ERR10168329.fastq.gz	NA	NA
 WB16c	WB16c_WB16c	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/WB16c_WB16c_L1_R1.fastq.gz	NA	NA	ERR10168332.fastq.gz	NA	NA
-nWB13c	nWB13c_WB13c	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/nWB13c_WB13c_L1_R1.fastq.gz	NA	NA	ERR10168333.fastq.gz	NA	NA
+WB13c	nWB13c_WB13c	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/nWB13c_WB13c_L1_R1.fastq.gz	NA	NA	ERR10168333.fastq.gz	NA	NA
 WB13b1	WB13b1_WB13b1	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/WB13b1_WB13b1_L1_R1.fastq.gz	NA	NA	ERR10168336.fastq.gz	NA	NA
 WB17c2	WB17c2_WB17c2	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/WB17c2_WB17c2_L1_R1.fastq.gz	NA	NA	ERR10168339.fastq.gz	NA	NA
 WB12c1	WB12c1_WB12c1	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/WB12c1_WB12c1_L1_R1.fastq.gz	NA	NA	ERR10168345.fastq.gz	NA	NA
