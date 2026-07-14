@@ -1,0 +1,15 @@
+Sample_Name	Library_ID	Lane	Colour_Chemistry	SeqType	Organism	Strandedness	UDG_Treatment	R1	R2	BAM	R1_target_file	R2_target_file	BAM_target
+WM_ss	WM_ss_WMTN1_ss	1	4	PE	Homo sapiens (modern human)	single	none	<PATH_TO_DATA>/WM_ss_WMTN1_ss_L1_R1.fastq.gz	<PATH_TO_DATA>/WM_ss_WMTN1_ss_L1_R2.fastq.gz	NA	ERR12268596_1.fastq.gz	ERR12268596_2.fastq.gz	NA
+WM_ss	WM_ss_WMTN1_ss	2	4	PE	Homo sapiens (modern human)	single	none	<PATH_TO_DATA>/WM_ss_WMTN1_ss_L2_R1.fastq.gz	<PATH_TO_DATA>/WM_ss_WMTN1_ss_L2_R2.fastq.gz	NA	ERR12268599_1.fastq.gz	ERR12268599_2.fastq.gz	NA
+WM_ss	WM_ss_WMTN1_ss	3	4	PE	Homo sapiens (modern human)	single	none	<PATH_TO_DATA>/WM_ss_WMTN1_ss_L3_R1.fastq.gz	<PATH_TO_DATA>/WM_ss_WMTN1_ss_L3_R2.fastq.gz	NA	ERR12268600_1.fastq.gz	ERR12268600_2.fastq.gz	NA
+WM_ss	WM_ss_WMTN1_ss	4	4	PE	Homo sapiens (modern human)	single	none	<PATH_TO_DATA>/WM_ss_WMTN1_ss_L4_R1.fastq.gz	<PATH_TO_DATA>/WM_ss_WMTN1_ss_L4_R2.fastq.gz	NA	ERR12268597_1.fastq.gz	ERR12268597_2.fastq.gz	NA
+WM_ss	WM_ss_WMTN1_ss	5	4	PE	Homo sapiens (modern human)	single	none	<PATH_TO_DATA>/WM_ss_WMTN1_ss_L5_R1.fastq.gz	<PATH_TO_DATA>/WM_ss_WMTN1_ss_L5_R2.fastq.gz	NA	ERR12268598_1.fastq.gz	ERR12268598_2.fastq.gz	NA
+WM_ss	WM_ss_WMTN2_ss	1	4	PE	Homo sapiens (modern human)	single	none	<PATH_TO_DATA>/WM_ss_WMTN2_ss_L1_R1.fastq.gz	<PATH_TO_DATA>/WM_ss_WMTN2_ss_L1_R2.fastq.gz	NA	ERR12268601_1.fastq.gz	ERR12268601_2.fastq.gz	NA
+WM_ss	WM_ss_WMTN3_ss	1	4	PE	Homo sapiens (modern human)	single	none	<PATH_TO_DATA>/WM_ss_WMTN3_ss_L1_R1.fastq.gz	<PATH_TO_DATA>/WM_ss_WMTN3_ss_L1_R2.fastq.gz	NA	ERR12268602_1.fastq.gz	ERR12268602_2.fastq.gz	NA
+WM_ss	WM_ss_WMTU1_ss	1	4	PE	Homo sapiens (modern human)	single	half	<PATH_TO_DATA>/WM_ss_WMTU1_ss_L1_R1.fastq.gz	<PATH_TO_DATA>/WM_ss_WMTU1_ss_L1_R2.fastq.gz	NA	ERR12268604_1.fastq.gz	ERR12268604_2.fastq.gz	NA
+WM_ss	WM_ss_WMTU1_ss	2	4	PE	Homo sapiens (modern human)	single	half	<PATH_TO_DATA>/WM_ss_WMTU1_ss_L2_R1.fastq.gz	<PATH_TO_DATA>/WM_ss_WMTU1_ss_L2_R2.fastq.gz	NA	ERR12268606_1.fastq.gz	ERR12268606_2.fastq.gz	NA
+WM_ss	WM_ss_WMTU1_ss	3	4	PE	Homo sapiens (modern human)	single	half	<PATH_TO_DATA>/WM_ss_WMTU1_ss_L3_R1.fastq.gz	<PATH_TO_DATA>/WM_ss_WMTU1_ss_L3_R2.fastq.gz	NA	ERR12268607_1.fastq.gz	ERR12268607_2.fastq.gz	NA
+WM_ss	WM_ss_WMTU1_ss	4	4	PE	Homo sapiens (modern human)	single	half	<PATH_TO_DATA>/WM_ss_WMTU1_ss_L4_R1.fastq.gz	<PATH_TO_DATA>/WM_ss_WMTU1_ss_L4_R2.fastq.gz	NA	ERR12268603_1.fastq.gz	ERR12268603_2.fastq.gz	NA
+WM_ss	WM_ss_WMTU1_ss	5	4	PE	Homo sapiens (modern human)	single	half	<PATH_TO_DATA>/WM_ss_WMTU1_ss_L5_R1.fastq.gz	<PATH_TO_DATA>/WM_ss_WMTU1_ss_L5_R2.fastq.gz	NA	ERR12268605_1.fastq.gz	ERR12268605_2.fastq.gz	NA
+WM_ss	WM_ss_WMTU2_ss	1	4	PE	Homo sapiens (modern human)	single	half	<PATH_TO_DATA>/WM_ss_WMTU2_ss_L1_R1.fastq.gz	<PATH_TO_DATA>/WM_ss_WMTU2_ss_L1_R2.fastq.gz	NA	ERR12268608_1.fastq.gz	ERR12268608_2.fastq.gz	NA
+WM_ss	WM_ss_WMTU3_ss	1	4	PE	Homo sapiens (modern human)	single	half	<PATH_TO_DATA>/WM_ss_WMTU3_ss_L1_R1.fastq.gz	<PATH_TO_DATA>/WM_ss_WMTU3_ss_L1_R2.fastq.gz	NA	ERR12268609_1.fastq.gz	ERR12268609_2.fastq.gz	NA

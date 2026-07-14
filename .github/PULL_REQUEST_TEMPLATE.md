@@ -11,8 +11,7 @@ Linked to #XXX <!-- TODO: Please link the issue requesting the package here. -->
 
 ## PR Checklist
 
-- [ ] Add the appropriate label to your PR (`new package` or `package update`).
-- [ ] The PR title is in the format `Add/update package: {package_name}`.
+- [ ] The PR title is in the format `Add/Update package: {package_name}`.
 - [ ] The PR description includes a link to the issue requesting the package its
       update. (Add to `Linked to #XXX` above.)
 
@@ -31,6 +30,17 @@ Linked to #XXX <!-- TODO: Please link the issue requesting the package here. -->
       and correct.
 - [ ] I made sure to leave `notes` where necessary to explain any special
       cases/judgement calls made for data entries.
+
+### Include a Janno file
+
+It is recommended that you include a janno file for the requested package to the PR.
+While optional, recipes that include a janno file will be prioritised for processing.
+
+- [ ] (optional) This PR contains a janno file (`.janno`) for the requested
+      package.
+  - [ ] The name of the `.janno` file(s) matches the package name (i.e.
+            `packages/2023_my_package/2023_my_package.janno`).
+  - [ ] The `.janno` file contains one record per poseidon_id specified in the SSF file.
 
 ### Recipe creation and validation
 

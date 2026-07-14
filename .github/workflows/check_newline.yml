@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v5
 
       - name: Check Newline at EOF
         ## From: https://stackoverflow.com/questions/77046462/github-new-line-missing-end-of-file-negative-consequences
