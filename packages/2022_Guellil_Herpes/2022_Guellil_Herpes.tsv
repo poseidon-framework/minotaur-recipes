@@ -1,0 +1,24 @@
+Sample_Name	Library_ID	Lane	Colour_Chemistry	SeqType	Organism	Strandedness	UDG_Treatment	R1	R2	BAM	R1_target_file	R2_target_file	BAM_target
+BRO001	BRO001_SG1/MV7	1	4	PE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/BRO001_SG1/MV7_L1_R1.fastq.gz	<PATH_TO_DATA>/BRO001_SG1/MV7_L1_R2.fastq.gz	NA	ERR9939488_1.fastq.gz	ERR9939488_2.fastq.gz	NA
+BRO001	BRO001_SG1	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/BRO001_SG1_L1_R1.fastq.gz	NA	NA	ERR9966703.fastq.gz	NA	NA
+EDI111	EDI111_SG1	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/EDI111_SG1_L1_R1.fastq.gz	NA	NA	ERR9966697.fastq.gz	NA	NA
+EDI111	EDI111_SG1	2	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/EDI111_SG1_L2_R1.fastq.gz	NA	NA	ERR9966699.fastq.gz	NA	NA
+EDI111	EDI111_SG1	3	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/EDI111_SG1_L3_R1.fastq.gz	NA	NA	ERR9966700.fastq.gz	NA	NA
+EDI111	EDI111_SG1	4	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/EDI111_SG1_L4_R1.fastq.gz	NA	NA	ERR9966701.fastq.gz	NA	NA
+EDI111	EDI111_SG1	5	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/EDI111_SG1_L5_R1.fastq.gz	NA	NA	ERR9966698.fastq.gz	NA	NA
+EDI111	EDI111_SG1	6	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/EDI111_SG1_L6_R1.fastq.gz	NA	NA	ERR9966702.fastq.gz	NA	NA
+JDS005	JDS005_SG1	1	4	PE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/JDS005_SG1_L1_R1.fastq.gz	<PATH_TO_DATA>/JDS005_SG1_L1_R2.fastq.gz	NA	ERR9939483_1.fastq.gz	ERR9939483_2.fastq.gz	NA
+JDS005	JDS005_SG1	2	4	PE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/JDS005_SG1_L2_R1.fastq.gz	<PATH_TO_DATA>/JDS005_SG1_L2_R2.fastq.gz	NA	ERR9939487_1.fastq.gz	ERR9939487_2.fastq.gz	NA
+JDS005	JDS005_SG1	3	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/JDS005_SG1_L3_R1.fastq.gz	NA	NA	ERR9966695.fastq.gz	NA	NA
+JDS005	JDS005_SG1	4	4	PE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/JDS005_SG1_L4_R1.fastq.gz	<PATH_TO_DATA>/JDS005_SG1_L4_R2.fastq.gz	NA	ERR9939478_1.fastq.gz	ERR9939478_2.fastq.gz	NA
+JDS005	JDS005_SG1	5	4	PE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/JDS005_SG1_L5_R1.fastq.gz	<PATH_TO_DATA>/JDS005_SG1_L5_R2.fastq.gz	NA	ERR9939481_1.fastq.gz	ERR9939481_2.fastq.gz	NA
+JDS005	JDS005_SG1	6	4	PE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/JDS005_SG1_L6_R1.fastq.gz	<PATH_TO_DATA>/JDS005_SG1_L6_R2.fastq.gz	NA	ERR9939485_1.fastq.gz	ERR9939485_2.fastq.gz	NA
+JDS005	JDS005_SG1	7	4	PE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/JDS005_SG1_L7_R1.fastq.gz	<PATH_TO_DATA>/JDS005_SG1_L7_R2.fastq.gz	NA	ERR9939486_1.fastq.gz	ERR9939486_2.fastq.gz	NA
+JDS005	JDS005_SG1	8	4	PE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/JDS005_SG1_L8_R1.fastq.gz	<PATH_TO_DATA>/JDS005_SG1_L8_R2.fastq.gz	NA	ERR9939477_1.fastq.gz	ERR9939477_2.fastq.gz	NA
+JDS005	JDS005_SG1	9	4	PE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/JDS005_SG1_L9_R1.fastq.gz	<PATH_TO_DATA>/JDS005_SG1_L9_R2.fastq.gz	NA	ERR9939479_1.fastq.gz	ERR9939479_2.fastq.gz	NA
+JDS005	JDS005_SG1	10	4	PE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/JDS005_SG1_L10_R1.fastq.gz	<PATH_TO_DATA>/JDS005_SG1_L10_R2.fastq.gz	NA	ERR9939480_1.fastq.gz	ERR9939480_2.fastq.gz	NA
+JDS005	JDS005_SG1	11	4	PE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/JDS005_SG1_L11_R1.fastq.gz	<PATH_TO_DATA>/JDS005_SG1_L11_R2.fastq.gz	NA	ERR9939482_1.fastq.gz	ERR9939482_2.fastq.gz	NA
+JDS005	JDS005_SG1	12	4	PE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/JDS005_SG1_L12_R1.fastq.gz	<PATH_TO_DATA>/JDS005_SG1_L12_R2.fastq.gz	NA	ERR9939484_1.fastq.gz	ERR9939484_2.fastq.gz	NA
+JDS005	JDS005_SG1	13	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/JDS005_SG1_L13_R1.fastq.gz	NA	NA	ERR9966696.fastq.gz	NA	NA
+RIJ001	RIJ001_SG1/MV28	1	4	PE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/RIJ001_SG1/MV28_L1_R1.fastq.gz	<PATH_TO_DATA>/RIJ001_SG1/MV28_L1_R2.fastq.gz	NA	ERR9939489_1.fastq.gz	ERR9939489_2.fastq.gz	NA
+RIJ001	RIJ001_SG1	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/RIJ001_SG1_L1_R1.fastq.gz	NA	NA	ERR9966704.fastq.gz	NA	NA
