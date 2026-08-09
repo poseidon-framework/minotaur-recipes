@@ -1,0 +1,15 @@
+Sample_Name	Library_ID	Lane	Colour_Chemistry	SeqType	Organism	Strandedness	UDG_Treatment	R1	R2	BAM	R1_target_file	R2_target_file	BAM_target
+GD13A	GD13A_Farmer_AATGATG	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/GD13A_Farmer_AATGATG_L1_R1.fastq.gz	NA	NA	ERR1341569.fastq.gz	NA	NA
+GD13A	GD13A_Farmer-Add_GCTCGAA_R1	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/GD13A_Farmer-Add_GCTCGAA_R1_L1_R1.fastq.gz	NA	NA	ERR1512889.fastq.gz	NA	NA
+GD13A	GD13A_Farmer_AATGATG_R1	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/GD13A_Farmer_AATGATG_R1_L1_R1.fastq.gz	NA	NA	ERR1512891.fastq.gz	NA	NA
+GD13A	GD13A_Farmer_ACTGGAC_R1	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/GD13A_Farmer_ACTGGAC_R1_L1_R1.fastq.gz	NA	NA	ERR1512892.fastq.gz	NA	NA
+GD13A	GD13A_Farmer_GCTCGAA_R1	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/GD13A_Farmer_GCTCGAA_R1_L1_R1.fastq.gz	NA	NA	ERR1512895.fastq.gz	NA	NA
+GD13A	GD13A_Farmer_GTACCGG_R1	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/GD13A_Farmer_GTACCGG_R1_L1_R1.fastq.gz	NA	NA	ERR1512896.fastq.gz	NA	NA
+GD13A	GD13A_Iranian_farmer1_sort_merge_rmdup_q30_l30_IR_2bpsoftclip	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/GD13A_Iranian_farmer1_sort_merge_rmdup_q30_l30_IR_2bpsoftclip_L1_R1.fastq.gz	NA	NA	ERR1512898.fastq.gz	NA	NA
+GD13A	GD13A_Farmer-Add_ACTGGAC_R1	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/GD13A_Farmer-Add_ACTGGAC_R1_L1_R1.fastq.gz	NA	NA	ERR1512886.fastq.gz	NA	NA
+GD13A	GD13A_Farmer-Add_AATGATG_R1	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/GD13A_Farmer-Add_AATGATG_R1_L1_R1.fastq.gz	NA	NA	ERR1512885.fastq.gz	NA	NA
+GD13A	GD13A_Farmer-Add_CATGCTC_R1	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/GD13A_Farmer-Add_CATGCTC_R1_L1_R1.fastq.gz	NA	NA	ERR1512887.fastq.gz	NA	NA
+GD13A	GD13A_Farmer-Add_CGCGCAG_R1	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/GD13A_Farmer-Add_CGCGCAG_R1_L1_R1.fastq.gz	NA	NA	ERR1512888.fastq.gz	NA	NA
+GD13A	GD13A_Farmer-Add_GTACCGG_R1	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/GD13A_Farmer-Add_GTACCGG_R1_L1_R1.fastq.gz	NA	NA	ERR1512890.fastq.gz	NA	NA
+GD13A	GD13A_Farmer_CATGCTC_R1	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/GD13A_Farmer_CATGCTC_R1_L1_R1.fastq.gz	NA	NA	ERR1512893.fastq.gz	NA	NA
+GD13A	GD13A_Farmer_CGCGCAG_R1	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/GD13A_Farmer_CGCGCAG_R1_L1_R1.fastq.gz	NA	NA	ERR1512894.fastq.gz	NA	NA
