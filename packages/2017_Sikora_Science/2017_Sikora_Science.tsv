@@ -1,0 +1,11 @@
+Sample_Name	Library_ID	Lane	Colour_Chemistry	SeqType	Organism	Strandedness	UDG_Treatment	R1	R2	BAM	R1_target_file	R2_target_file	BAM_target
+Sunghir1	Sunghir1_Sunghir1_1	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/Sunghir1_Sunghir1_1_L1_R1.fastq.gz	NA	NA	ERR2117984.fastq.gz	NA	NA
+Sunghir1	Sunghir1_Sunghir1_2	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/Sunghir1_Sunghir1_2_L1_R1.fastq.gz	NA	NA	ERR2117989.fastq.gz	NA	NA
+Sunghir2	Sunghir2_Sunghir2_1	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/Sunghir2_Sunghir2_1_L1_R1.fastq.gz	NA	NA	ERR2117990.fastq.gz	NA	NA
+Sunghir2	Sunghir2_Sunghir2_2	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/Sunghir2_Sunghir2_2_L1_R1.fastq.gz	NA	NA	ERR2117985.fastq.gz	NA	NA
+Sunghir3	Sunghir3_Sunghir3_1	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/Sunghir3_Sunghir3_1_L1_R1.fastq.gz	NA	NA	ERR2117986.fastq.gz	NA	NA
+Sunghir3	Sunghir3_Sunghir3_2	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/Sunghir3_Sunghir3_2_L1_R1.fastq.gz	NA	NA	ERR2117991.fastq.gz	NA	NA
+Sunghir4	Sunghir4_Sunghir4_1	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/Sunghir4_Sunghir4_1_L1_R1.fastq.gz	NA	NA	ERR2117987.fastq.gz	NA	NA
+Sunghir4	Sunghir4_Sunghir4_2	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/Sunghir4_Sunghir4_2_L1_R1.fastq.gz	NA	NA	ERR2117992.fastq.gz	NA	NA
+Sunghir6	Sunghir6_Sunghir6_1	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/Sunghir6_Sunghir6_1_L1_R1.fastq.gz	NA	NA	ERR2117993.fastq.gz	NA	NA
+Sunghir6	Sunghir6_Sunghir6_2	1	4	SE	Homo sapiens (modern human)	double	none	<PATH_TO_DATA>/Sunghir6_Sunghir6_2_L1_R1.fastq.gz	NA	NA	ERR2117988.fastq.gz	NA	NA
