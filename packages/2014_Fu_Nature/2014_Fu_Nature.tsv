@@ -1,0 +1,2 @@
+Sample_Name	Library_ID	Lane	Colour_Chemistry	SeqType	Organism	Strandedness	UDG_Treatment	R1	R2	BAM	R1_target_file	R2_target_file	BAM_target
+UstIshim	UstIshim_UstIshim1	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/UstIshim_UstIshim1_L1_R1.fastq.gz	NA	NA	ERR566093.fastq.gz	NA	NA
