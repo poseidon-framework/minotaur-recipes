@@ -1,0 +1,2 @@
+Sample_Name	Library_ID	Lane	Colour_Chemistry	SeqType	Organism	Strandedness	UDG_Treatment	R1	R2	BAM	R1_target_file	R2_target_file	BAM_target
+LeMura1	LeMura1_Mura	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/LeMura1_Mura_L1_R1.fastq.gz	NA	NA	ERR12071704.fastq.gz	NA	NA
