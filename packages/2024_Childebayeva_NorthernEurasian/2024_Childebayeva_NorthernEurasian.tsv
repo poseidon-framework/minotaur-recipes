@@ -1,0 +1,17 @@
+Sample_Name	Library_ID	Lane	Colour_Chemistry	SeqType	Organism	Strandedness	UDG_Treatment	R1	R2	BAM	R1_target_file	R2_target_file	BAM_target
+BOO001	BOO001_BOO001.A0101_rmdup	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/BOO001_BOO001.A0101_rmdup_L1_R1.fastq.gz	NA	NA	ERR13137433.fastq.gz	NA	NA
+BOO003	BOO003_BOO003.A0101_rmdup	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/BOO003_BOO003.A0101_rmdup_L1_R1.fastq.gz	NA	NA	ERR13137434.fastq.gz	NA	NA
+BOO004	BOO004_BOO004.A0101_udghalf.trimmed	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/BOO004_BOO004.A0101_udghalf.trimmed_L1_R1.fastq.gz	NA	NA	ERR13137435.fastq.gz	NA	NA
+BOO005	BOO005_BOO005.A0101_rmdup	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/BOO005_BOO005.A0101_rmdup_L1_R1.fastq.gz	NA	NA	ERR13137436.fastq.gz	NA	NA
+BOO006	BOO006_BOO006.A0101_rmdup	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/BOO006_BOO006.A0101_rmdup_L1_R1.fastq.gz	NA	NA	ERR13137437.fastq.gz	NA	NA
+BOO008	BOO008_BOO008.A0101.TF1.1	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/BOO008_BOO008.A0101.TF1.1_L1_R1.fastq.gz	NA	NA	ERR13137429.fastq.gz	NA	NA
+BOO009	BOO009_BOO009.A0101.TF1.1	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/BOO009_BOO009.A0101.TF1.1_L1_R1.fastq.gz	NA	NA	ERR13137430.fastq.gz	NA	NA
+ROT002_ss	ROT002_ss_ROT002_merged_ss	1	4	SE	Homo sapiens (modern human)	single	none	<PATH_TO_DATA>/ROT002_ss_ROT002_merged_ss_L1_R1.fastq.gz	NA	NA	ERR13137403.fastq.gz	NA	NA
+ROT003_ss	ROT003_ss_ROT003_merged_ss	1	4	SE	Homo sapiens (modern human)	single	none	<PATH_TO_DATA>/ROT003_ss_ROT003_merged_ss_L1_R1.fastq.gz	NA	NA	ERR13137404.fastq.gz	NA	NA
+ROT004_ss	ROT004_ss_ROT004_merged_ss	1	4	SE	Homo sapiens (modern human)	single	none	<PATH_TO_DATA>/ROT004_ss_ROT004_merged_ss_L1_R1.fastq.gz	NA	NA	ERR13137405.fastq.gz	NA	NA
+ROT006_ss	ROT006_ss_ROT006_merged_ss	1	4	SE	Homo sapiens (modern human)	single	none	<PATH_TO_DATA>/ROT006_ss_ROT006_merged_ss_L1_R1.fastq.gz	NA	NA	ERR13137406.fastq.gz	NA	NA
+ROT011_ss	ROT011_ss_ROT011.merged_ss	1	4	SE	Homo sapiens (modern human)	single	none	<PATH_TO_DATA>/ROT011_ss_ROT011.merged_ss_L1_R1.fastq.gz	NA	NA	ERR13137407.fastq.gz	NA	NA
+ROT013_ss	ROT013_ss_ROT013_merged_ss	1	4	SE	Homo sapiens (modern human)	single	none	<PATH_TO_DATA>/ROT013_ss_ROT013_merged_ss_L1_R1.fastq.gz	NA	NA	ERR13137408.fastq.gz	NA	NA
+ROT015_ss	ROT015_ss_ROT015_merged_ss	1	4	SE	Homo sapiens (modern human)	single	none	<PATH_TO_DATA>/ROT015_ss_ROT015_merged_ss_L1_R1.fastq.gz	NA	NA	ERR13137409.fastq.gz	NA	NA
+ROT016_ss	ROT016_ss_ROT016_merged_ss	1	4	SE	Homo sapiens (modern human)	single	none	<PATH_TO_DATA>/ROT016_ss_ROT016_merged_ss_L1_R1.fastq.gz	NA	NA	ERR13137410.fastq.gz	NA	NA
+ROT017_ss	ROT017_ss_ROT017_ss	1	4	SE	Homo sapiens (modern human)	single	none	<PATH_TO_DATA>/ROT017_ss_ROT017_ss_L1_R1.fastq.gz	NA	NA	ERR13137411.fastq.gz	NA	NA
