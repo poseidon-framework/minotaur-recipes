@@ -56,6 +56,7 @@ ena_cols = [
     "sample_accession", 
     "study_accession", 
     "run_accession", 
+    "sample_title", 
     "sample_alias", 
     "secondary_sample_accession", 
     "first_public", 

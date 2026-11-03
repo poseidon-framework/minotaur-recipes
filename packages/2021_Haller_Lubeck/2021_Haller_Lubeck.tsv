@@ -1,0 +1,9 @@
+Sample_Name	Library_ID	Lane	Colour_Chemistry	SeqType	Organism	Strandedness	UDG_Treatment	R1	R2	BAM	R1_target_file	R2_target_file	BAM_target
+HGH-1600	HGH-1600_unspecified	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/HGH-1600_unspecified_L1_R1.fastq.gz	NA	NA	ERR4845295.fastq.gz	NA	NA
+HGH-1638	HGH-1638_unspecified	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/HGH-1638_unspecified_L1_R1.fastq.gz	NA	NA	ERR4845297.fastq.gz	NA	NA
+HGH-1599	HGH-1599_unspecified	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/HGH-1599_unspecified_L1_R1.fastq.gz	NA	NA	ERR4845110.fastq.gz	NA	NA
+HGH-1510	HGH-1510_unspecified	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/HGH-1510_unspecified_L1_R1.fastq.gz	NA	NA	ERR4845180.fastq.gz	NA	NA
+HGH-1429	HGH-1429_unspecified	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/HGH-1429_unspecified_L1_R1.fastq.gz	NA	NA	ERR4845178.fastq.gz	NA	NA
+HGH-1558	HGH-1558_unspecified	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/HGH-1558_unspecified_L1_R1.fastq.gz	NA	NA	ERR4845181.fastq.gz	NA	NA
+HGH-1579	HGH-1579_unspecified	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/HGH-1579_unspecified_L1_R1.fastq.gz	NA	NA	ERR4845182.fastq.gz	NA	NA
+HGH-1607	HGH-1607_unspecified	1	4	SE	Homo sapiens (modern human)	double	half	<PATH_TO_DATA>/HGH-1607_unspecified_L1_R1.fastq.gz	NA	NA	ERR4845296.fastq.gz	NA	NA
