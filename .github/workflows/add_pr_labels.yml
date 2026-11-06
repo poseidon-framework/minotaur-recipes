@@ -26,7 +26,7 @@ jobs:
           let count=0
           if grep -q '\.ssf$' changed_files.txt; then
             for fn in $(grep '\.ssf$' changed_files.txt); do 
-              let count+=$(grep -c 'PRJNA' $fn)
+              let count=$((count + $(grep -c 'PRJNA' "$fn" || true)))
             done
           fi
 
