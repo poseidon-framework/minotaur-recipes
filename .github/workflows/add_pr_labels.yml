@@ -26,7 +26,10 @@ jobs:
           count=0
           if grep -q '\.ssf$' changed_files.txt; then
             while IFS= read -r fn; do
-              ((count+=$(grep -c 'PRJNA' "$fn" || true) ))
+              ## Allow failing exit codes for the grep command (i.e. when no matches to PRJNA found).
+              set +e
+              ((count+=$(grep -c 'PRJNA' "$fn") ))
+              set -e
             done < <(grep '\.ssf$' changed_files.txt)
           fi
 
