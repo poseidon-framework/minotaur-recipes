@@ -26,7 +26,7 @@ jobs:
           count=0
           if grep -q '\.ssf$' changed_files.txt; then
             while IFS= read -r fn; do
-              ((count += $(grep -c 'PRJNA' "$fn" || true) ))
+              ((count += $(grep -c 'PRJNA' "$fn" || echo 0) ))
             done < <(grep '\.ssf$' changed_files.txt)
           fi
 
