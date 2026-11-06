@@ -9,6 +9,43 @@ permissions:
   pull-requests: write
 
 jobs:
+  check-for-sra-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Get changed files
+        id: changed-files
+        run: |
+          git fetch origin ${{ github.event.pull_request.base.ref }}
+          git diff --name-only origin/${{ github.event.pull_request.base.ref }} > changed_files.txt
+          let count=0
+          if grep -q '\.ssf$' changed_files.txt; then
+            for fn in $(grep '\.ssf$' changed_files.txt); do 
+              let count+=$(grep -c 'PRJNA' $fn)
+            done
+          fi
+
+          if [[ ${count} -gt 0 ]]; then
+            echo "has_sra_data=true" >> $GITHUB_ENV
+          else
+            echo "has_sra_data=false" >> $GITHUB_ENV
+          fi
+        # env:
+        #   GITHUB_TOKEN: ${{ secrets.delphis_bot_org_token }}
+
+      - name: Add label if SRA data are in the package
+        if: env.has_sra_data == 'true' && github.event.pull_request.head.repo.full_name == 'poseidon-framework/minotaur-recipes'
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          # github_token: ${{ secrets.delphis_bot_org_token }}
+          labels: "SRA"
+
+
   check-for-janno-files:
     runs-on: ubuntu-latest
 
