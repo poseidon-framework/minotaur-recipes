@@ -1,0 +1,5 @@
+Sample_Name	Library_ID	Lane	Colour_Chemistry	SeqType	Organism	Strandedness	UDG_Treatment	R1	R2	BAM	R1_target_file	R2_target_file	BAM_target
+SLG-33B_ss	SLG-33B_ss_SLG-33B_ss	1	4	SE	Homo sapiens (modern human)	single	half	<PATH_TO_DATA>/SLG-33B_ss_SLG-33B_ss_L1_R1.fastq.gz	NA	NA	SRR40709302.fastq.gz	NA	NA
+SLG-12B_ss	SLG-12B_ss_SLG-12B_ss	1	4	SE	Homo sapiens (modern human)	single	half	<PATH_TO_DATA>/SLG-12B_ss_SLG-12B_ss_L1_R1.fastq.gz	NA	NA	SRR40709304.fastq.gz	NA	NA
+SLG-9B_ss	SLG-9B_ss_SLG-27B_ss	1	4	SE	Homo sapiens (modern human)	single	half	<PATH_TO_DATA>/SLG-9B_ss_SLG-27B_ss_L1_R1.fastq.gz	NA	NA	SRR40709303.fastq.gz	NA	NA
+SLG-27B_ss	SLG-27B_ss_SLG-9B_ss	1	4	SE	Homo sapiens (modern human)	single	half	<PATH_TO_DATA>/SLG-27B_ss_SLG-9B_ss_L1_R1.fastq.gz	NA	NA	SRR40709305.fastq.gz	NA	NA
