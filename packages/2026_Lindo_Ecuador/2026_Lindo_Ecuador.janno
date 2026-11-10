@@ -1,0 +1,5 @@
+Poseidon_ID	Genetic_Sex	Group_Name	Alternative_IDs	Relation_To	Relation_Degree	Relation_Note	Collection_ID	Country	Country_ISO	Location	Site	Latitude	Longitude	Date_Type	Date_C14_Labnr	Date_C14_Uncal_BP	Date_C14_Uncal_BP_Err	Date_BC_AD_Start	Date_BC_AD_Median	Date_BC_AD_Stop	Date_Note	MT_Haplogroup	Y_Haplogroup	Source_Tissue	Capture_Type	UDG	Library_Built	Genotype_Ploidy	Data_Preparation_Pipeline_URL	Endogenous	Nr_SNPs	Coverage_on_Target_SNPs	Damage	Contamination	Contamination_Err	Contamination_Meas	Primary_Contact	Publication
+SLG-33B	U	Salango_Ecuador						Ecuador		Salango	Salango	-1.59	-80.84									B2				half	ss											2026_Lindo_Ecuador
+SLG-12B	U	Salango_Ecuador						Ecuador		Salango	Salango	-1.59	-80.84	contextual				4250		4250		A2				half	ss											2026_Lindo_Ecuador
+SLG-9B	U	Salango_Ecuador						Ecuador		Salango	Salango	-1.59	-80.84	contextual				4250		4250		D1				half	ss											2026_Lindo_Ecuador
+SLG-27B	U	Salango_Ecuador						Ecuador		Salango	Salango	-1.59	-80.84	14C		740	25					A2				half	ss											2026_Lindo_Ecuador
