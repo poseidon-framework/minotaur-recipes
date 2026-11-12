@@ -1,0 +1,442 @@
+Poseidon_ID	Genetic_Sex	Group_Name	Alternative_IDs	Relation_To	Relation_Degree	Relation_Type	Relation_Note	Collection_ID	Country	Country_ISO	Location	Site	Latitude	Longitude	Date_Type	Date_C14_Labnr	Date_C14_Uncal_BP	Date_C14_Uncal_BP_Err	Date_BC_AD_Start	Date_BC_AD_Median	Date_BC_AD_Stop	Date_Note	MT_Haplogroup	Y_Haplogroup	Source_Tissue	Primary_Contact	Note	Keywords
+PCA0003	F	Poland_Kowalewko_IA	n/a	n/a	n/a	n/a	n/a	85; ob. 267	Poland	PL	n/a	Kowalewko	52.59	16.78	C14	n/a	n/a	n/a	56	137	217	n/a	H5a1	n/a	n/a	n/a	n/a	n/a
+PCA0011	F	Poland_Gaski_IA	n/a	n/a	n/a	n/a	n/a	49; 18 ob. 23234 na NE od ob. 566	Poland	PL	n/a	Gąski	52.83	18.43	contextual	n/a	n/a	n/a	100	200	300	n/a	H5'36	n/a	n/a	n/a	n/a	n/a
+PCA0027	M	Poland_Kowalewko_IA	n/a	n/a	n/a	n/a	n/a	ob. 243	Poland	PL	n/a	Kowalewko	52.59	16.78	contextual	n/a	n/a	n/a	100	200	300	n/a	H1a	G2a2b2a1a1b1a1a2	n/a	n/a	n/a	n/a
+PCA0035	M	Poland_Kowalewko_IA	PCA0035_same_individual_PCA0065	PCA0065	identical	n/a	n/a	ob. 567	Poland	PL	n/a	Kowalewko	52.59	16.78	C14	n/a	n/a	n/a	42	66	90	n/a	J2b1a5	I1	n/a	n/a	n/a	n/a
+PCA0036	M	Poland_Kowalewko_IA	PCA0036_relative_of_PCA0045_and_PCA0062	PCA0045;PCA0062	first;first	n/a	no information on relation degree but READ was used so first or second	ob. 266	Poland	PL	n/a	Kowalewko	52.59	16.78	C14	n/a	n/a	n/a	50	115	180	n/a	U5b1d1	G2a2b2a1a1b1a1a2	n/a	n/a	n/a	n/a
+PCA0046	M	Poland_Kowalewko_IA	n/a	n/a	n/a	n/a	n/a	046b/ob. 453	Poland	PL	n/a	Kowalewko	52.59	16.78	C14	n/a	n/a	n/a	-40	24	87	n/a	U8a1a1b	I1	n/a	n/a	n/a	n/a
+PCA0052	U	Poland_Kowalewko_IA	n/a	n/a	n/a	n/a	n/a	ob. 457	Poland	PL	n/a	Kowalewko	52.59	16.78	C14	n/a	n/a	n/a	16	79	141	n/a	U5a1a1	n/a	n/a	n/a	n/a	n/a
+PCA0054	U	Poland_Kowalewko_IA	n/a	n/a	n/a	n/a	n/a	ob. 506	Poland	PL	n/a	Kowalewko	52.59	16.78	contextual	n/a	n/a	n/a	100	200	300	n/a	U3a1a	n/a	n/a	n/a	n/a	n/a
+PCA0062	M	Poland_Kowalewko_IA	PCA0062_relative_of_PCA0036	PCA0062	first	n/a	no information on relation degree but READ was used so first or second	ob. 291	Poland	PL	n/a	Kowalewko	52.59	16.78	C14	n/a	n/a	n/a	76	153	230	n/a	U4a2	G2a2b2a1a1b1a1a2a	n/a	n/a	n/a	n/a
+PCA0066	M	Poland_Kowalewko_IA	n/a	n/a	n/a	n/a	n/a	ob. 139	Poland	PL	n/a	Kowalewko	52.59	16.78	C14	n/a	n/a	n/a	16	79	141	n/a	H2	I1a3a1a1	n/a	n/a	n/a	n/a
+PCA0070	U	Poland_Sowinki_MA	n/a	n/a	n/a	n/a	n/a	ob. 83	Poland	PL	n/a	Sowinki	52.21	16.89	contextual	n/a	n/a	n/a	1000	1050	1100	n/a	T2b	n/a	n/a	n/a	n/a	n/a
+PCA0089	F	Poland_Maslomecz_IA	n/a	n/a	n/a	n/a	n/a	M318	Poland	PL	n/a	Masłomęcz	50.72	23.89	C14	n/a	n/a	n/a	132	197	262	n/a	J1c3	n/a	n/a	n/a	n/a	n/a
+PCA0094	U	Poland_Maslomecz_IA	n/a	n/a	n/a	n/a	n/a	269	Poland	PL	n/a	Masłomęcz	50.72	23.89	contextual	n/a	n/a	n/a	200	300	400	n/a	HV0f	n/a	n/a	n/a	n/a	n/a
+PCA0105	F	Poland_Maslomecz_IA	n/a	n/a	n/a	n/a	n/a	346	Poland	PL	n/a	Masłomęcz	50.72	23.89	contextual	n/a	n/a	n/a	200	300	400	n/a	U5a2a1	n/a	n/a	n/a	n/a	n/a
+PCA0114	U	Poland_Maslomecz_IA	n/a	n/a	n/a	n/a	n/a	M19 19/433	Poland	PL	n/a	Masłomęcz	50.72	23.89	contextual	n/a	n/a	n/a	200	300	400	n/a	H7a1a	n/a	n/a	n/a	n/a	n/a
+PCA0124	F	Poland_Niemcza_MA	n/a	n/a	n/a	n/a	n/a	171	Poland	PL	n/a	Niemcza	50.72	16.84	contextual	n/a	n/a	n/a	900	950	1000	n/a	T2b23	n/a	n/a	n/a	n/a	n/a
+PCA0130	U	Poland_Niemcza_MA	n/a	n/a	n/a	n/a	n/a	157	Poland	PL	n/a	Niemcza	50.72	16.84	contextual	n/a	n/a	n/a	900	950	1000	n/a	V1a1	n/a	n/a	n/a	n/a	n/a
+PCA0138	U	Poland_Niemcza_MA	n/a	n/a	n/a	n/a	n/a	105	Poland	PL	n/a	Niemcza	50.72	16.84	contextual	n/a	n/a	n/a	900	950	1000	n/a	H5a2	n/a	n/a	n/a	n/a	n/a
+PCA0142	U	Poland_Niemcza_MA	n/a	n/a	n/a	n/a	n/a	84	Poland	PL	n/a	Niemcza	50.72	16.84	contextual	n/a	n/a	n/a	900	950	1000	n/a	T2b	n/a	n/a	n/a	n/a	n/a
+PCA0155	M	Poland_Markowice_MA	PCA0155_relative_of_PCA0156	PCA0156	first	n/a	no information on relation degree but READ was used so first or second	stan. 12, ob. 125A	Poland	PL	n/a	Markowice	52.71	18.22	C14	n/a	n/a	n/a	884	949	1013	n/a	J1c	n/a	n/a	n/a	n/a	n/a
+PCA0167	M	Poland_Legowo_MA	n/a	n/a	n/a	n/a	n/a	ob E50	Poland	PL	n/a	Łęgowo	52.79	17.17	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H1c	n/a	n/a	n/a	n/a	n/a
+PCA0182	U	Poland_Lad_MA	n/a	n/a	n/a	n/a	n/a	348/172	Poland	PL	n/a	Ląd	52.21	17.89	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	T2b11	n/a	n/a	n/a	n/a	n/a
+PCA0199	U	Poland_Lad_MA	n/a	n/a	n/a	n/a	n/a	306/182	Poland	PL	n/a	Ląd	52.21	17.89	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U5a1	n/a	n/a	n/a	n/a	n/a
+PCA0203	M	Poland_Lad_MA	n/a	n/a	n/a	n/a	n/a	249/211, 210	Poland	PL	n/a	Ląd	52.21	17.89	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H5q	R1a1a1b1a1a	n/a	n/a	n/a	n/a
+PCA0213	M	Poland_Lad_MA	n/a	n/a	n/a	n/a	n/a	339/202	Poland	PL	n/a	Ląd	52.21	17.89	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H5a2	R1a1a1b1a1a1c1	n/a	n/a	n/a	n/a
+PCA0236	M	Poland_PoznanSrodka_MA	n/a	n/a	n/a	n/a	n/a	166	Poland	PL	n/a	Poznań - Sródka	52.41	16.95	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	T2b2b	E	n/a	n/a	n/a	n/a
+PCA0301	U	Poland_Konskie_MA	n/a	n/a	n/a	n/a	n/a	29, 6 prawa szczęka	Poland	PL	n/a	Końskie	51.19	20.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H1c	n/a	n/a	n/a	n/a	n/a
+PCA0304	M	Poland_Konskie_MA	n/a	n/a	n/a	n/a	n/a	5, 8 żuchwa prawa	Poland	PL	n/a	Końskie	51.19	20.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H1a3	n/a	n/a	n/a	n/a	n/a
+PCA0309	M	Poland_Konskie_MA	n/a	n/a	n/a	n/a	n/a	1, M1 lewa szczęka	Poland	PL	n/a	Końskie	51.19	20.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H27	R1a1a1b1a1a1a	n/a	n/a	n/a	n/a
+PCA0317	M	Poland_Plonsk_MA	n/a	n/a	n/a	n/a	n/a	1781D/60 M1 prawa szczęka	Poland	PL	n/a	Płońsk	52.62	20.37	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H5a2	R1a1a1b1	n/a	n/a	n/a	n/a
+PCA0320	U	Poland_Plonsk_MA	n/a	n/a	n/a	n/a	n/a	1781a -17, 7 żuchwa lewa	Poland	PL	n/a	Płońsk	52.62	20.37	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H1j2	n/a	n/a	n/a	n/a	n/a
+PCA0322	M	Poland_Plonsk_MA	n/a	n/a	n/a	n/a	n/a	1781A/11, 6 lewa żuchwa	Poland	PL	n/a	Płońsk	52.62	20.37	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U5b1e1	n/a	n/a	n/a	n/a	n/a
+PCA0332	M	Poland_OstrowLednicki_MA	n/a	n/a	n/a	n/a	n/a	1424	Poland	PL	n/a	Ostrów Lednicki	52.53	17.38	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U3a	n/a	n/a	n/a	n/a	n/a
+PCA0007	F	Poland_Kowalewko_IA	PCA0007_relative_of_PCA0001	PCA0001	first	n/a	no information on relation degree but READ was used so first or second	89; ob. 188	Poland	PL	n/a	Kowalewko	52.59	16.78	C14	n/a	n/a	n/a	66	144	222	n/a	W1	n/a	n/a	n/a	n/a	n/a
+PCA0335	M	Poland_OstrowLednicki_MA	n/a	n/a	n/a	n/a	n/a	1389	Poland	PL	n/a	Ostrów Lednicki	52.53	17.38	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H1c10	R1a1a1b1a1a1a	n/a	n/a	n/a	n/a
+PCA0352	M	Poland_Dziekanowice_MA	n/a	n/a	n/a	n/a	n/a	12/95	Poland	PL	n/a	Dziekanowice 22	52.519	17.388	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U8a1a1	R1a1	n/a	n/a	n/a	n/a
+PCA0028	F	Poland_Kowalewko_IA	n/a	n/a	n/a	n/a	n/a	ob. 269	Poland	PL	n/a	Kowalewko	52.59	16.78	C14	n/a	n/a	n/a	-2	62	125	n/a	U3a1a	n/a	n/a	n/a	n/a	n/a
+PCA0367	M	Poland_Dziekanowice_MA	n/a	n/a	n/a	n/a	n/a	48/01	Poland	PL	n/a	Dziekanowice 22	52.519	17.388	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U4b1b1	n/a	n/a	n/a	n/a	n/a
+PCA0031	F	Poland_Kowalewko_IA	PCA0031_relative_of_PCA0051_and_PCA0059	PCA0051;PCA0059	first;first	n/a	no information on relation degree but READ was used so first or second	ob. 336	Poland	PL	n/a	Kowalewko	52.59	16.78	C14	n/a	n/a	n/a	16	79	141	n/a	K2a	n/a	n/a	n/a	n/a	n/a
+PCA0056	U	Poland_Kowalewko_IA	n/a	n/a	n/a	n/a	n/a	ob. 473	Poland	PL	n/a	Kowalewko	52.59	16.78	C14	n/a	n/a	n/a	80	156	231	n/a	T2b6a	n/a	n/a	n/a	n/a	n/a
+PCA0377	F	Poland_Santok_MA	n/a	n/a	n/a	n/a	n/a	8	Poland	PL	n/a	Santok	52.74	15.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H2a1e1a	n/a	n/a	n/a	n/a	n/a
+PCA0059	F	Poland_Kowalewko_IA	PCA0059_relative_of_PCA0031	PCA0031	first	n/a	no information on relation degree but READ was used so first or second	ob. 322	Poland	PL	n/a	Kowalewko	52.59	16.78	C14	n/a	n/a	n/a	47	61	74	n/a	K2a	n/a	n/a	n/a	n/a	n/a
+PCA0380	M	Poland_Santok_MA	PCA0380_relative_of_PCA0403	PCA0403	first	n/a	no information on relation degree but READ was used so first or second	105	Poland	PL	n/a	Santok	52.74	15.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U5a1d1	R1a1a1b1a1a1a	n/a	n/a	n/a	n/a
+PCA0386	M	Poland_Santok_MA	n/a	n/a	n/a	n/a	n/a	170	Poland	PL	n/a	Santok	52.74	15.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H6a1a	R1a1a1b1a1a	n/a	n/a	n/a	n/a
+PCA0083	U	Poland_Sowinki_MA	n/a	n/a	n/a	n/a	n/a	ob. 72 szk. 2	Poland	PL	n/a	Sowinki	52.21	16.89	contextual	n/a	n/a	n/a	1000	1050	1100	n/a	K1c1	n/a	n/a	n/a	n/a	n/a
+PCA0098	U	Poland_Maslomecz_IA	n/a	n/a	n/a	n/a	n/a	M15/87/158	Poland	PL	n/a	Masłomęcz	50.72	23.89	contextual	n/a	n/a	n/a	200	300	400	n/a	H1e2	n/a	n/a	n/a	n/a	n/a
+PCA0401	M	Poland_Santok_MA	n/a	n/a	n/a	n/a	n/a	177	Poland	PL	n/a	Santok	52.74	15.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H27	J2a1a	n/a	n/a	n/a	n/a
+PCA0474	M	Poland_PruszczGdanski_IA	n/a	n/a	n/a	n/a	n/a	ob. 31	Poland	PL	n/a	Pruszcz Gdański	54.26	18.65	contextual	n/a	n/a	n/a	100	200	300	n/a	J1c7a	I1	n/a	n/a	n/a	n/a
+PCA0102	M	Poland_Maslomecz_IA	n/a	n/a	n/a	n/a	n/a	3/445	Poland	PL	n/a	Masłomęcz	50.72	23.89	contextual	n/a	n/a	n/a	200	300	400	n/a	K1c1	I1a1b1	n/a	n/a	n/a	n/a
+PCA0115	U	Poland_Niemcza_MA	n/a	n/a	n/a	n/a	n/a	168	Poland	PL	n/a	Niemcza	50.72	16.84	contextual	n/a	n/a	n/a	900	950	1000	n/a	H65	n/a	n/a	n/a	n/a	n/a
+PCA0479	M	Poland_PruszczGdanski_IA	n/a	n/a	n/a	n/a	n/a	ob. 24	Poland	PL	n/a	Pruszcz Gdański	54.26	18.65	contextual	n/a	n/a	n/a	100	200	300	n/a	K1c1	R1b1a1b1a1a1a	n/a	n/a	n/a	n/a
+PCA0117	M	Poland_Niemcza_MA	n/a	n/a	n/a	n/a	n/a	108	Poland	PL	n/a	Niemcza	50.72	16.84	contextual	n/a	n/a	n/a	900	950	1000	n/a	H	n/a	n/a	n/a	n/a	n/a
+PCA0487	F	Poland_PruszczGdanski_IA	n/a	n/a	n/a	n/a	n/a	ob. 38	Poland	PL	n/a	Pruszcz Gdański	54.26	18.65	contextual	n/a	n/a	n/a	100	200	300	n/a	H6a1a	n/a	n/a	n/a	n/a	n/a
+PCA0119	U	Poland_Niemcza_MA	n/a	n/a	n/a	n/a	n/a	130	Poland	PL	n/a	Niemcza	50.72	16.84	contextual	n/a	n/a	n/a	900	950	1000	n/a	T1a1j	n/a	n/a	n/a	n/a	n/a
+PCA0496	M	Poland_PruszczGdanski_IA	n/a	n/a	n/a	n/a	n/a	ob. 7	Poland	PL	n/a	Pruszcz Gdański	54.26	18.65	contextual	n/a	n/a	n/a	100	200	300	n/a	HV0f	n/a	n/a	n/a	n/a	n/a
+PCA0503	M	Poland_Milicz_MA	n/a	n/a	n/a	n/a	n/a	65 (240M)	Poland	PL	n/a	Milicz	51.52	17.27	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H48	R1b1a1b1a1	n/a	n/a	n/a	n/a
+PCA0137	F	Poland_Niemcza_MA	n/a	n/a	n/a	n/a	n/a	143	Poland	PL	n/a	Niemcza	50.72	16.84	contextual	n/a	n/a	n/a	900	950	1000	n/a	H2a1n	n/a	n/a	n/a	n/a	n/a
+PCA0006	U	Poland_Kowalewko_IA	n/a	n/a	n/a	n/a	n/a	88; ob. 189	Poland	PL	n/a	Kowalewko	52.59	16.78	contextual	n/a	n/a	n/a	100	200	300	n/a	U5a1d	n/a	n/a	n/a	n/a	n/a
+PCA0148	F	Poland_Niemcza_MA	n/a	n/a	n/a	n/a	n/a	174	Poland	PL	n/a	Niemcza	50.72	16.84	contextual	n/a	n/a	n/a	900	950	1000	n/a	V18a	n/a	n/a	n/a	n/a	n/a
+PCA0151	U	Poland_Niemcza_MA	n/a	n/a	n/a	n/a	n/a	117	Poland	PL	n/a	Niemcza	50.72	16.84	contextual	n/a	n/a	n/a	900	950	1000	n/a	H1g1	n/a	n/a	n/a	n/a	n/a
+PCA0014	F	Poland_Kowalewko_IA	n/a	n/a	n/a	n/a	n/a	164; ob. 621	Poland	PL	n/a	Kowalewko	52.59	16.78	contextual	n/a	n/a	n/a	100	200	300	n/a	0	n/a	n/a	n/a	n/a	n/a
+PCA0153	U	Poland_Markowice_MA	n/a	n/a	n/a	n/a	n/a	stan. 12, ob. 189	Poland	PL	n/a	Markowice	52.71	18.22	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U4c1	n/a	n/a	n/a	n/a	n/a
+PCA0043	F	Poland_Kowalewko_IA	n/a	n/a	n/a	n/a	n/a	ob. 321	Poland	PL	n/a	Kowalewko	52.59	16.78	contextual	n/a	n/a	n/a	100	200	300	n/a	0	n/a	n/a	n/a	n/a	n/a
+PCA0084	U	Poland_Sowinki_MA	n/a	n/a	n/a	n/a	n/a	ob. 165	Poland	PL	n/a	Sowinki	52.21	16.89	contextual	n/a	n/a	n/a	1000	1050	1100	n/a	H2	n/a	n/a	n/a	n/a	n/a
+PCA0159	U	Poland_Markowice_MA	n/a	n/a	n/a	n/a	n/a	stan. 12, ob. 38A	Poland	PL	n/a	Markowice	52.71	18.22	C14	n/a	n/a	n/a	884	949	1013	n/a	H1g1	n/a	n/a	n/a	n/a	n/a
+PCA0161	M	Poland_Gniezno_MA	n/a	n/a	n/a	n/a	n/a	stan. 5, wyk. A, gr 2	Poland	PL	n/a	Gniezno	52.53	17.6	C14	n/a	n/a	n/a	971	1010	1048	n/a	K1a4j	n/a	n/a	n/a	n/a	n/a
+PCA0107	M	Poland_Maslomecz_IA	n/a	n/a	n/a	n/a	n/a	M26/460	Poland	PL	n/a	Masłomęcz	50.72	23.89	contextual	n/a	n/a	n/a	200	300	400	n/a	U5a1b1e	n/a	n/a	n/a	n/a	n/a
+PCA0125	U	Poland_Niemcza_MA	n/a	n/a	n/a	n/a	n/a	138	Poland	PL	n/a	Niemcza	50.72	16.84	contextual	n/a	n/a	n/a	900	950	1000	n/a	H1b2	n/a	n/a	n/a	n/a	n/a
+PCA0165	M	Poland_Legowo_MA	n/a	n/a	n/a	n/a	n/a	ob. E55	Poland	PL	n/a	Łęgowo	52.79	17.17	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H1b2	R1a1a1b1a1a1c1	n/a	n/a	n/a	n/a
+PCA0181	U	Poland_Lad_MA	n/a	n/a	n/a	n/a	n/a	373/172	Poland	PL	n/a	Ląd	52.21	17.89	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	K1c1e	R1a1a1b1a1a1c1	n/a	n/a	n/a	n/a
+PCA0129	F	Poland_Niemcza_MA	n/a	n/a	n/a	n/a	n/a	91	Poland	PL	n/a	Niemcza	50.72	16.84	C14	n/a	n/a	n/a	894	955	1016	n/a	T2b	n/a	n/a	n/a	n/a	n/a
+PCA0194	F	Poland_Lad_MA	n/a	n/a	n/a	n/a	n/a	355/182	Poland	PL	n/a	Ląd	52.21	17.89	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H11a2a2	n/a	n/a	n/a	n/a	n/a
+PCA0198	M	Poland_Lad_MA	n/a	n/a	n/a	n/a	n/a	322/182	Poland	PL	n/a	Ląd	52.21	17.89	C14	n/a	n/a	n/a	1117	1171	1225	n/a	H5e1a1	R1a1a1b1a2b3a	n/a	n/a	n/a	n/a
+PCA0131	U	Poland_Niemcza_MA	n/a	n/a	n/a	n/a	n/a	154	Poland	PL	n/a	Niemcza	50.72	16.84	contextual	n/a	n/a	n/a	900	950	1000	n/a	T2b4	n/a	n/a	n/a	n/a	n/a
+PCA0207	M	Poland_Lad_MA	n/a	n/a	n/a	n/a	n/a	247/210B	Poland	PL	n/a	Ląd	52.21	17.89	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	rCRS	n/a	n/a	n/a	n/a	n/a
+PCA0201	U	Poland_Lad_MA	n/a	n/a	n/a	n/a	n/a	282/190	Poland	PL	n/a	Ląd	52.21	17.89	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	R0a2	n/a	n/a	n/a	n/a	n/a
+PCA0208	U	Poland_Lad_MA	n/a	n/a	n/a	n/a	n/a	299/203	Poland	PL	n/a	Ląd	52.21	17.89	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	rCRS	n/a	n/a	n/a	n/a	n/a
+PCA0202	M	Poland_Lad_MA	n/a	n/a	n/a	n/a	n/a	305/182	Poland	PL	n/a	Ląd	52.21	17.89	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U5a1g1	R1a1a1b1a2b	n/a	n/a	n/a	n/a
+PCA0205	M	Poland_Lad_MA	n/a	n/a	n/a	n/a	n/a	266/191	Poland	PL	n/a	Ląd	52.21	17.89	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H1a2	R1a1a1b1a1a	n/a	n/a	n/a	n/a
+PCA0220	U	Poland_Oblaczkowo_MA	n/a	n/a	n/a	n/a	n/a	stan. 9 obiekt 15, nr inw. 17/14	Poland	PL	n/a	Obłaczkowo	52.3	17.55	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	0	n/a	n/a	n/a	n/a	n/a
+PCA0221	M	Poland_Oblaczkowo_MA	n/a	n/a	n/a	n/a	n/a	stan. 9, obiekt 9, nr inw. 12/14	Poland	PL	n/a	Obłaczkowo	52.3	17.55	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	0	n/a	n/a	n/a	n/a	n/a
+PCA0210	M	Poland_Lad_MA	n/a	n/a	n/a	n/a	n/a	352	Poland	PL	n/a	Ląd	52.21	17.89	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U5a2a1b	n/a	n/a	n/a	n/a	n/a
+PCA0222	M	Poland_Oblaczkowo_MA	n/a	n/a	n/a	n/a	n/a	stan. 9, obiekt 98, nr inw. 5/14	Poland	PL	n/a	Obłaczkowo	52.3	17.55	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	W6a	R1a1a1b1a1a	n/a	n/a	n/a	n/a
+PCA0310	U	Poland_Plonsk_MA	n/a	n/a	n/a	n/a	n/a	25, M1 prawa szczęka	Poland	PL	n/a	Płońsk	52.62	20.37	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	0	n/a	n/a	n/a	n/a	n/a
+PCA0232	U	Poland_PoznanSrodka_MA	n/a	n/a	n/a	n/a	n/a	273	Poland	PL	n/a	Poznań - Sródka	52.41	16.95	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H5a2	n/a	n/a	n/a	n/a	n/a
+PCA0358	M	Poland_Dziekanowice_MA	n/a	n/a	n/a	n/a	n/a	52/97	Poland	PL	n/a	Dziekanowice 22	52.519	17.388	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U5a1b1e	BT	n/a	n/a	n/a	n/a
+PCA0376	M	Poland_Santok_MA	n/a	n/a	n/a	n/a	n/a	82	Poland	PL	n/a	Santok	52.74	15.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	W3b1	R1a1a1b1a2b	n/a	n/a	n/a	n/a
+PCA0241	M	Poland_PoznanSrodka_MA	n/a	n/a	n/a	n/a	n/a	291	Poland	PL	n/a	Poznań - Sródka	52.41	16.95	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H1a3	I	n/a	n/a	n/a	n/a
+PCA0246	M	Poland_Rumin_MA	n/a	n/a	n/a	n/a	n/a	stan.10, gr.2	Poland	PL	n/a	Rumin	52.21	18.19	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	V1a1	R1a1a	n/a	n/a	n/a	n/a
+PCA0382	M	Poland_Santok_MA	n/a	n/a	n/a	n/a	n/a	85	Poland	PL	n/a	Santok	52.74	15.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H5e1a1	R1a1a1b1a2b3a	n/a	n/a	n/a	n/a
+PCA0247	M	Poland_Rumin_MA	n/a	n/a	n/a	n/a	n/a	stan.10, gr.5	Poland	PL	n/a	Rumin	52.21	18.19	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	R1a	n/a	n/a	n/a	n/a	n/a
+PCA0383	M	Poland_Santok_MA	n/a	n/a	n/a	n/a	n/a	3	Poland	PL	n/a	Santok	52.74	15.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H14a1	R1a1a1b1a1a1c1	n/a	n/a	n/a	n/a
+PCA0254	M	Poland_PoznanSrodka_MA	n/a	n/a	n/a	n/a	n/a	śródka 194	Poland	PL	n/a	Poznań - Sródka	52.41	16.95	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U4b1b1	n/a	n/a	n/a	n/a	n/a
+PCA0391	M	Poland_Santok_MA	n/a	n/a	n/a	n/a	n/a	185	Poland	PL	n/a	Santok	52.74	15.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	T	R1b1a1b1a1a2b1	n/a	n/a	n/a	n/a
+PCA0392	M	Poland_Santok_MA	n/a	n/a	n/a	n/a	n/a	80	Poland	PL	n/a	Santok	52.74	15.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	J1c2i	R	n/a	n/a	n/a	n/a
+PCA0404	M	Poland_Santok_MA	n/a	n/a	n/a	n/a	n/a	19	Poland	PL	n/a	Santok	52.74	15.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	T2a1	R1a1a1b1a2b3a	n/a	n/a	n/a	n/a
+PCA0297	U	Poland_Plonsk_MA	n/a	n/a	n/a	n/a	n/a	1781/23 6 lewa szczęka	Poland	PL	n/a	Płońsk	52.62	20.37	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H5a1q	n/a	n/a	n/a	n/a	n/a
+PCA0411	F	Poland_Santok_MA	n/a	n/a	n/a	n/a	n/a	53	Poland	PL	n/a	Santok	52.74	15.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	T2b4	n/a	n/a	n/a	n/a	n/a
+PCA0423	M	Poland_Santok_MA	n/a	n/a	n/a	n/a	n/a	191	Poland	PL	n/a	Santok	52.74	15.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U4a2	R1b1a1	n/a	n/a	n/a	n/a
+PCA0313	U	Poland_Plonsk_MA	n/a	n/a	n/a	n/a	n/a	1894D/4 M1 prawa szczęka	Poland	PL	n/a	Płońsk	52.62	20.37	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U5a1b1e	n/a	n/a	n/a	n/a	n/a
+PCA0523	U	Poland_PruszczGdanski_IA	n/a	n/a	n/a	n/a	n/a	grób 8B, stanowisko 5	Poland	PL	n/a	Pruszcz Gdański	54.26	18.65	contextual	n/a	n/a	n/a	100	200	300	n/a	0	n/a	n/a	n/a	n/a	n/a
+PCA0323	M	Poland_Plonsk_MA	n/a	n/a	n/a	n/a	n/a	1781A/16, 6 prawa żuchwa	Poland	PL	n/a	Płońsk	52.62	20.37	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H49	n/a	n/a	n/a	n/a	n/a
+PCA0525	F	Poland_Czarnowko_IA	n/a	n/a	n/a	n/a	n/a	obiekt nr 697, stanowisko 5	Poland	PL	n/a	Czarnówko, gm. Nowa Wieś Lęborska	54.56	17.69	contextual	n/a	n/a	n/a	100	200	300	n/a	0	n/a	n/a	n/a	n/a	n/a
+PCA0336	M	Poland_OstrowLednicki_MA	n/a	n/a	n/a	n/a	n/a	464	Poland	PL	n/a	Ostrów Lednicki	52.53	17.38	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H1b1	R1a1a1b1a1a1c1	n/a	n/a	n/a	n/a
+PCA0526	M	Poland_Czarnowko_IA	n/a	n/a	n/a	n/a	n/a	obiekt nr 772, stanowisko 5	Poland	PL	n/a	Czarnówko, gm. Nowa Wieś Lęborska	54.56	17.69	contextual	n/a	n/a	n/a	100	200	300	n/a	H2	I1	n/a	n/a	n/a	n/a
+PCA0337	M	Poland_OstrowLednicki_MA	n/a	n/a	n/a	n/a	n/a	226	Poland	PL	n/a	Ostrów Lednicki	52.53	17.38	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	T1a3a	Unk	n/a	n/a	n/a	n/a
+PCA0532	U	Poland_Milicz_MA	n/a	n/a	n/a	n/a	n/a	gr. 275 (16M)	Poland	PL	n/a	Milicz	51.52	17.27	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	0	n/a	n/a	n/a	n/a	n/a
+PCA0340	F	Poland_OstrowLednicki_MA	n/a	n/a	n/a	n/a	n/a	1609a	Poland	PL	n/a	Ostrów Lednicki	52.53	17.38	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H11b	n/a	n/a	n/a	n/a	n/a
+PCA0473	F	Poland_PruszczGdanski_IA	n/a	n/a	n/a	n/a	n/a	ob. 19	Poland	PL	n/a	Pruszcz Gdański	54.26	18.65	contextual	n/a	n/a	n/a	100	200	300	n/a	U5a1b	n/a	n/a	n/a	n/a	n/a
+PCA0343	F	Poland_OstrowLednicki_MA	n/a	n/a	n/a	n/a	n/a	22/76	Poland	PL	n/a	Ostrów Lednicki	52.53	17.38	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U4a2a	n/a	n/a	n/a	n/a	n/a
+PCA0536	M	Poland_Milicz_MA	n/a	n/a	n/a	n/a	n/a	gr. 304 (206M)	Poland	PL	n/a	Milicz	51.52	17.27	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	0	n/a	n/a	n/a	n/a	n/a
+PCA0344	F	Poland_OstrowLednicki_MA	n/a	n/a	n/a	n/a	n/a	21/76	Poland	PL	n/a	Ostrów Lednicki	52.53	17.38	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U5	n/a	n/a	n/a	n/a	n/a
+PCA0540	F	Poland_Milicz_MA	n/a	n/a	n/a	n/a	n/a	22	Poland	PL	n/a	Milicz	51.52	17.27	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	rCRS	n/a	n/a	n/a	n/a	n/a
+PCA0491	U	Poland_PruszczGdanski_IA	n/a	n/a	n/a	n/a	n/a	ob. 12 dolny	Poland	PL	n/a	Pruszcz Gdański	54.26	18.65	contextual	n/a	n/a	n/a	100	200	300	n/a	H2a2a	n/a	n/a	n/a	n/a	n/a
+PCA0368	M	Poland_Dziekanowice_MA	n/a	n/a	n/a	n/a	n/a	50a/95	Poland	PL	n/a	Dziekanowice 22	52.519	17.388	C14	n/a	n/a	n/a	1020	1088	1155	n/a	H1a3	n/a	n/a	n/a	n/a	n/a
+PCA0378	M	Poland_Santok_MA	n/a	n/a	n/a	n/a	n/a	obiekt 5	Poland	PL	n/a	Santok	52.74	15.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H5a1	I1	n/a	n/a	n/a	n/a
+PCA0515	M	Poland_Milicz_MA	n/a	n/a	n/a	n/a	n/a	184 (102M)	Poland	PL	n/a	Milicz	51.52	17.27	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U	n/a	n/a	n/a	n/a	n/a
+PCA0379	M	Poland_Santok_MA	n/a	n/a	n/a	n/a	n/a	102	Poland	PL	n/a	Santok	52.74	15.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	W1e1	N1a1a1a	n/a	n/a	n/a	n/a
+PCA0516	M	Poland_Milicz_MA	n/a	n/a	n/a	n/a	n/a	92 (309M)	Poland	PL	n/a	Milicz	51.52	17.27	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U5a1b1e	R1b1a1b1b3a1	n/a	n/a	n/a	n/a
+PCA0413	U	Poland_Santok_MA	n/a	n/a	n/a	n/a	n/a	158	Poland	PL	n/a	Santok	52.74	15.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H7b	n/a	n/a	n/a	n/a	n/a
+PCA0544	M	Poland_Milicz_MA	n/a	n/a	n/a	n/a	n/a	sk 271 (279M)	Poland	PL	n/a	Milicz	51.52	17.27	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	rCRS	R1	n/a	n/a	n/a	n/a
+PCA0426	U	Poland_Santok_MA	n/a	n/a	n/a	n/a	n/a	164	Poland	PL	n/a	Santok	52.74	15.41	C14	n/a	n/a	n/a	1028	1106	1184	n/a	H4a1a1a3	n/a	n/a	n/a	n/a	n/a
+PCA0546	U	Poland_Milicz_MA	n/a	n/a	n/a	n/a	n/a	93	Poland	PL	n/a	Milicz	51.52	17.27	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	rCRS	n/a	n/a	n/a	n/a	n/a
+PCA0476	M	Poland_PruszczGdanski_IA	n/a	n/a	n/a	n/a	n/a	ob. 21	Poland	PL	n/a	Pruszcz Gdański	54.26	18.65	contextual	n/a	n/a	n/a	100	200	300	n/a	H11a	R1b1a1b	n/a	n/a	n/a	n/a
+PCA0556	M	Poland_PoznanSrodka_MA	n/a	n/a	n/a	n/a	n/a	g. 276	Poland	PL	n/a	Poznań Śródka	52.41	16.95	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	W3a1d	n/a	n/a	n/a	n/a	n/a
+PCA0493	F	Poland_PruszczGdanski_IA	n/a	n/a	n/a	n/a	n/a	ob. 14	Poland	PL	n/a	Pruszcz Gdański	54.26	18.65	contextual	n/a	n/a	n/a	100	200	300	n/a	H86	n/a	n/a	n/a	n/a	n/a
+PCA0558	M	Poland_PoznanSrodka_MA	PCA0558_relative_of_PCA0255	PCA0255	first	n/a	no information on relation degree but READ was used so first or second	g. 190	Poland	PL	n/a	Poznań Śródka	52.41	16.95	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H3d	n/a	n/a	n/a	n/a	n/a
+PCA0495	M	Poland_PruszczGdanski_IA	n/a	n/a	n/a	n/a	n/a	ob. 4A	Poland	PL	n/a	Pruszcz Gdański	54.26	18.65	contextual	n/a	n/a	n/a	100	200	300	n/a	H7c	E1b1b1a1b1a	n/a	n/a	n/a	n/a
+PCA0497	F	Poland_PruszczGdanski_IA	n/a	n/a	n/a	n/a	n/a	ob. 12 B górny	Poland	PL	n/a	Pruszcz Gdański	54.26	18.65	contextual	n/a	n/a	n/a	100	200	300	n/a	HV1a'b'c	n/a	n/a	n/a	n/a	n/a
+PCA0510	M	Poland_Milicz_MA	n/a	n/a	n/a	n/a	n/a	317 (98M)	Poland	PL	n/a	Milicz	51.52	17.27	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U5b1e1a	R1a1a1b1a1a1a	n/a	n/a	n/a	n/a
+PCA0016	U	Poland_Kowalewko_IA	n/a	n/a	n/a	n/a	n/a	166; ob. 195	Poland	PL	n/a	Kowalewko	52.59	16.78	contextual	n/a	n/a	n/a	100	200	300	n/a	0	n/a	n/a	n/a	n/a	n/a
+PCA0019	U	Poland_Kowalewko_IA	n/a	n/a	n/a	n/a	n/a	172; ob. 623	Poland	PL	n/a	Kowalewko	52.59	16.78	contextual	n/a	n/a	n/a	100	200	300	n/a	0	n/a	n/a	n/a	n/a	n/a
+PCA0023	M	Poland_Kowalewko_IA	n/a	n/a	n/a	n/a	n/a	170; ob. 183	Poland	PL	n/a	Kowalewko	52.59	16.78	contextual	n/a	n/a	n/a	100	200	300	n/a	rCRS	n/a	n/a	n/a	n/a	n/a
+PCA0041	M	Poland_Kowalewko_IA	n/a	n/a	n/a	n/a	n/a	ob. 518	Poland	PL	n/a	Kowalewko	52.59	16.78	contextual	n/a	n/a	n/a	100	200	300	n/a	0	n/a	n/a	n/a	n/a	n/a
+PCA0067	M	Poland_Sowinki_MA	n/a	n/a	n/a	n/a	n/a	ob. 246	Poland	PL	n/a	Sowinki	52.21	16.89	contextual	n/a	n/a	n/a	1000	1050	1100	n/a	H1e1a	n/a	n/a	n/a	n/a	n/a
+PCA0068	U	Poland_Sowinki_MA	n/a	n/a	n/a	n/a	n/a	ob. 76	Poland	PL	n/a	Sowinki	52.21	16.89	contextual	n/a	n/a	n/a	1000	1050	1100	n/a	H39	n/a	n/a	n/a	n/a	n/a
+PCA0074	U	Poland_Sowinki_MA	n/a	n/a	n/a	n/a	n/a	23A ob. 6	Poland	PL	n/a	Sowinki	52.21	16.89	contextual	n/a	n/a	n/a	1000	1050	1100	n/a	0	n/a	n/a	n/a	n/a	n/a
+PCA0082	U	Poland_Sowinki_MA	n/a	n/a	n/a	n/a	n/a	ob. 168	Poland	PL	n/a	Sowinki	52.21	16.89	contextual	n/a	n/a	n/a	1000	1050	1100	n/a	H16c	n/a	n/a	n/a	n/a	n/a
+PCA0085	F	Poland_Sowinki_MA	n/a	n/a	n/a	n/a	n/a	ob. 158	Poland	PL	n/a	Sowinki	52.21	16.89	contextual	n/a	n/a	n/a	1000	1050	1100	n/a	0	n/a	n/a	n/a	n/a	n/a
+PCA0091	M	Poland_Maslomecz_IA	n/a	n/a	n/a	n/a	n/a	M77	Poland	PL	n/a	Masłomęcz	50.72	23.89	contextual	n/a	n/a	n/a	200	300	400	n/a	U5a1b3	I1	n/a	n/a	n/a	n/a
+PCA0095	U	Poland_Maslomecz_IA	n/a	n/a	n/a	n/a	n/a	189 B	Poland	PL	n/a	Masłomęcz	50.72	23.89	contextual	n/a	n/a	n/a	200	300	400	n/a	H11a1	n/a	n/a	n/a	n/a	n/a
+PCA0120	M	Poland_Niemcza_MA	n/a	n/a	n/a	n/a	n/a	170	Poland	PL	n/a	Niemcza	50.72	16.84	contextual	n/a	n/a	n/a	900	950	1000	n/a	V2c	n/a	n/a	n/a	n/a	n/a
+PCA0139	M	Poland_Niemcza_MA	n/a	n/a	n/a	n/a	n/a	101	Poland	PL	n/a	Niemcza	50.72	16.84	contextual	n/a	n/a	n/a	900	950	1000	n/a	N1a1a1a1	n/a	n/a	n/a	n/a	n/a
+PCA0144	M	Poland_Niemcza_MA	n/a	n/a	n/a	n/a	n/a	98	Poland	PL	n/a	Niemcza	50.72	16.84	contextual	n/a	n/a	n/a	900	950	1000	n/a	J1c1b1a	n/a	n/a	n/a	n/a	n/a
+PCA0149	F	Poland_Niemcza_MA	n/a	n/a	n/a	n/a	n/a	109	Poland	PL	n/a	Niemcza	50.72	16.84	contextual	n/a	n/a	n/a	900	950	1000	n/a	H5a2	n/a	n/a	n/a	n/a	n/a
+PCA0154	M	Poland_Markowice_??	n/a	n/a	n/a	n/a	n/a	stan. 9, ob. 219	Poland	PL	n/a	Markowice	52.71	18.22	C14	n/a	n/a	n/a	771	601	431	n/a	T2b	n/a	n/a	n/a	n/a	n/a
+PCA0168	M	Poland_Legowo_MA	n/a	n/a	n/a	n/a	n/a	ob E52	Poland	PL	n/a	Łęgowo	52.79	17.17	C14	n/a	n/a	n/a	990	1072	1154	n/a	U4a1c	n/a	n/a	n/a	n/a	n/a
+PCA0170	M	Poland_Legowo_MA	n/a	n/a	n/a	n/a	n/a	ob E51	Poland	PL	n/a	Łęgowo	52.79	17.17	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	J2a1a1a3	n/a	n/a	n/a	n/a	n/a
+PCA0172	U	Poland_Legowo_MA	n/a	n/a	n/a	n/a	n/a	ob E33b	Poland	PL	n/a	Łęgowo	52.79	17.17	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U5a2b1a	n/a	n/a	n/a	n/a	n/a
+PCA0177	M	Poland_Lad_MA	n/a	n/a	n/a	n/a	n/a	404	Poland	PL	n/a	Ląd	52.21	17.89	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	rCRS	n/a	n/a	n/a	n/a	n/a
+PCA0223	M	Poland_Oblaczkowo_MA	n/a	n/a	n/a	n/a	n/a	stan. 9, obiekt 5, nr inw. 10/14	Poland	PL	n/a	Obłaczkowo	52.3	17.55	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	0	n/a	n/a	n/a	n/a	n/a
+PCA0355	M	Poland_Dziekanowice_MA	n/a	n/a	n/a	n/a	n/a	17/95	Poland	PL	n/a	Dziekanowice 22	52.519	17.388	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U5b2a6	n/a	n/a	n/a	n/a	n/a
+PCA0357	M	Poland_Dziekanowice_MA	n/a	n/a	n/a	n/a	n/a	37/01	Poland	PL	n/a	Dziekanowice 22	52.519	17.388	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	T1a1k	n/a	n/a	n/a	n/a	n/a
+PCA0362	M	Poland_Dziekanowice_MA	n/a	n/a	n/a	n/a	n/a	32/96	Poland	PL	n/a	Dziekanowice 22	52.519	17.388	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	0	n/a	n/a	n/a	n/a	n/a
+PCA0387	M	Poland_Santok_MA	n/a	n/a	n/a	n/a	n/a	130	Poland	PL	n/a	Santok	52.74	15.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U5a1b1e	R1a1a1b1a1a	n/a	n/a	n/a	n/a
+PCA0389	M	Poland_Santok_MA	n/a	n/a	n/a	n/a	n/a	154	Poland	PL	n/a	Santok	52.74	15.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	J2a1a1a	I1a1b1a4a	n/a	n/a	n/a	n/a
+PCA0397	M	Poland_Santok_MA	n/a	n/a	n/a	n/a	n/a	44	Poland	PL	n/a	Santok	52.74	15.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H	R1a1a1b1a1a1a1	n/a	n/a	n/a	n/a
+PCA0408	F	Poland_Santok_MA	n/a	n/a	n/a	n/a	n/a	grób 22/ob. 34	Poland	PL	n/a	Santok	52.74	15.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	T1a1'3	n/a	n/a	n/a	n/a	n/a
+PCA0412	F	Poland_Santok_MA	n/a	n/a	n/a	n/a	n/a	195	Poland	PL	n/a	Santok	52.74	15.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H1z1	n/a	n/a	n/a	n/a	n/a
+PCA0420	M	Poland_Santok_MA	n/a	n/a	n/a	n/a	n/a	104	Poland	PL	n/a	Santok	52.74	15.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H1	n/a	n/a	n/a	n/a	n/a
+PCA0454	M	Poland_Czarnowko_IA	n/a	n/a	n/a	n/a	n/a	ob.1805/15, 562/15	Poland	PL	n/a	Czarnówko	54.56	17.69	contextual	n/a	n/a	n/a	100	200	300	n/a	JT	n/a	n/a	n/a	n/a	n/a
+PCA0520	U	Poland_Poznan_MA	n/a	n/a	n/a	n/a	n/a	-	Poland	PL	n/a	Poznań	52.4	16.92	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	0	R1a1a1b1a2b3a	n/a	n/a	n/a	n/a
+PCA0530	F	Poland_Czarnowko_IA	n/a	n/a	n/a	n/a	n/a	obiekt nr 1632, stanowisko 5	Poland	PL	n/a	Czarnówko, gm. Nowa Wieś Lęborska	54.56	17.69	contextual	n/a	n/a	n/a	100	200	300	n/a	rCRS	n/a	n/a	n/a	n/a	n/a
+PCA0531	M	Poland_Czarnowko_IA	n/a	n/a	n/a	n/a	n/a	obiekt nr 830, stanowisko 5	Poland	PL	n/a	Czarnówko, gm. Nowa Wieś Lęborska	54.56	17.69	contextual	n/a	n/a	n/a	100	200	300	n/a	T2b4	R1b1a1b1a1a1b	n/a	n/a	n/a	n/a
+PCA0538	M	Poland_Milicz_MA	n/a	n/a	n/a	n/a	n/a	gr. 305 (54M)	Poland	PL	n/a	Milicz	51.52	17.27	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	rCRS	n/a	n/a	n/a	n/a	n/a
+PCA0475	M	Poland_PruszczGdanski_IA	n/a	n/a	n/a	n/a	n/a	ob. 20	Poland	PL	n/a	Pruszcz Gdański	54.26	18.65	contextual	n/a	n/a	n/a	100	200	300	n/a	T2b5	R1b1a1b1b3a1	n/a	n/a	n/a	n/a
+PCA0492	M	Poland_PruszczGdanski_IA	n/a	n/a	n/a	n/a	n/a	ob. 13	Poland	PL	n/a	Pruszcz Gdański	54.26	18.65	contextual	n/a	n/a	n/a	100	200	300	n/a	H14b	I2a1b1a2b1a2a	n/a	n/a	n/a	n/a
+PCA0499	M	Poland_PruszczGdanski_IA	n/a	n/a	n/a	n/a	n/a	luźna II	Poland	PL	n/a	Pruszcz Gdański	54.26	18.65	contextual	n/a	n/a	n/a	100	200	300	n/a	U5a1	J2a1a	n/a	n/a	n/a	n/a
+PCA0508	M	Poland_Milicz_MA	n/a	n/a	n/a	n/a	n/a	sk. 43	Poland	PL	n/a	Milicz	51.52	17.27	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	rCRS	n/a	n/a	n/a	n/a	n/a
+PCA0513	M	Poland_Milicz_MA	n/a	n/a	n/a	n/a	n/a	158	Poland	PL	n/a	Milicz	51.52	17.27	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	T2b2b	R1a1a1b1a1a1a	n/a	n/a	n/a	n/a
+PCA0542	F	Poland_Milicz_MA	n/a	n/a	n/a	n/a	n/a	"bez numeru"	Poland	PL	n/a	Milicz	51.52	17.27	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	0	n/a	n/a	n/a	n/a	n/a
+PCA0548	U	Poland_Poznan_MA	n/a	n/a	n/a	n/a	n/a	-	Poland	PL	n/a	Poznań	52.4	16.92	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	0	J2a1a1a2b2a1a	n/a	n/a	n/a	n/a
+PCA0549	U	Poland_Poznan_MA	n/a	n/a	n/a	n/a	n/a	-	Poland	PL	n/a	Poznań	52.4	16.92	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	0	R1b1a1b1a1a1c2a1	n/a	n/a	n/a	n/a
+PCA0555	M	Poland_PoznanSrodka_MA	n/a	n/a	n/a	n/a	n/a	g. 287	Poland	PL	n/a	Poznań Śródka	52.41	16.95	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	rCRS	n/a	n/a	n/a	n/a	n/a
+PCA0560	M	Poland_PoznanSrodka_MA	n/a	n/a	n/a	n/a	n/a	g. 182	Poland	PL	n/a	Poznań Śródka	52.41	16.95	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	T2b4b	R1a1a	n/a	n/a	n/a	n/a
+PCA0562	M	Poland_PoznanSrodka_MA	n/a	n/a	n/a	n/a	n/a	g. 280	Poland	PL	n/a	Poznań Śródka	52.41	16.95	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	J1b1a1	R1a1a1b1a2b	n/a	n/a	n/a	n/a
+PCA0004	F	Poland_Kowalewko_IA	n/a	n/a	n/a	n/a	n/a	86; ob. 502	Poland	PL	n/a	Kowalewko	52.59	16.78	C14	n/a	n/a	n/a	76	153	230	n/a	U3a1a1	n/a	n/a	n/a	n/a	n/a
+PCA0012	F	Poland_Gaski_IA	n/a	n/a	n/a	n/a	n/a	50; 18 ob. 58	Poland	PL	n/a	Gaski	52.83	18.43	contextual	n/a	n/a	n/a	100	200	300	n/a	U5a1a1	n/a	n/a	n/a	n/a	n/a
+PCA0013	M	Poland_Kowalewko_IA	n/a	n/a	n/a	n/a	n/a	163; ob.334	Poland	PL	n/a	Kowalewko	52.59	16.78	contextual	n/a	n/a	n/a	100	200	300	n/a	J1c3	n/a	n/a	n/a	n/a	n/a
+PCA0026	F	Poland_Kowalewko_IA	n/a	n/a	n/a	n/a	n/a	ob. 191	Poland	PL	n/a	Kowalewko	52.59	16.78	C14	n/a	n/a	n/a	52	134	215	n/a	T2b16	n/a	n/a	n/a	n/a	n/a
+PCA0029	U	Poland_Kowalewko_IA	n/a	n/a	n/a	n/a	n/a	ob. 319	Poland	PL	n/a	Kowalewko	52.59	16.78	C14	n/a	n/a	n/a	25	100	175	n/a	X2c1	n/a	n/a	n/a	n/a	n/a
+PCA0032	U	Poland_Kowalewko_IA	n/a	n/a	n/a	n/a	n/a	ob. 301	Poland	PL	n/a	Kowalewko	52.59	16.78	C14	n/a	n/a	n/a	16	79	141	n/a	T1a2	n/a	n/a	n/a	n/a	n/a
+PCA0045	F	Poland_Kowalewko_IA	PCA0045_relative_of_PCA0036	PCA0036	first	n/a	no information on relation degree but READ was used so first or second	ob. 297	Poland	PL	n/a	Kowalewko	52.59	16.78	C14	n/a	n/a	n/a	86	166	246	n/a	U5b1a	n/a	n/a	n/a	n/a	n/a
+PCA0047	F	Poland_Kowalewko_IA	n/a	n/a	n/a	n/a	n/a	047b/ob. 287	Poland	PL	n/a	Kowalewko	52.59	16.78	C14	n/a	n/a	n/a	4	68	131	n/a	H5a1	n/a	n/a	n/a	n/a	n/a
+PCA0057	M	Poland_Kowalewko_IA	n/a	n/a	n/a	n/a	n/a	ob.. 360	Poland	PL	n/a	Kowalewko	52.59	16.78	C14	n/a	n/a	n/a	45	61	77	n/a	J1c7a	n/a	n/a	n/a	n/a	n/a
+PCA0063	M	Poland_Kowalewko_IA	n/a	n/a	n/a	n/a	n/a	ob. 202	Poland	PL	n/a	Kowalewko	52.59	16.78	C14	n/a	n/a	n/a	45	65	85	n/a	H2a5	G2a2b2a1a1b1a1a2a	n/a	n/a	n/a	n/a
+PCA0088	M	Poland_Maslomecz_IA	n/a	n/a	n/a	n/a	n/a	M 344	Poland	PL	n/a	Masłomęcz	50.72	23.89	C14	n/a	n/a	n/a	211	297	383	n/a	U3a1a	N1a1a1a1a	n/a	n/a	n/a	n/a
+PCA0100	M	Poland_Maslomecz_IA	n/a	n/a	n/a	n/a	n/a	M307	Poland	PL	n/a	Masłomęcz	50.72	23.89	C14	n/a	n/a	n/a	128	193	258	n/a	HV0f	I1a2a2a	n/a	n/a	n/a	n/a
+PCA0111	U	Poland_Maslomecz_IA	n/a	n/a	n/a	n/a	n/a	13/414	Poland	PL	n/a	Masłomęcz	50.72	23.89	contextual	n/a	n/a	n/a	200	300	400	n/a	N1a1a1a2	n/a	n/a	n/a	n/a	n/a
+PCA0121	M	Poland_Niemcza_MA	n/a	n/a	n/a	n/a	n/a	177	Poland	PL	n/a	Niemcza	50.72	16.84	contextual	n/a	n/a	n/a	900	950	1000	n/a	H1c	n/a	n/a	n/a	n/a	n/a
+PCA0140	F	Poland_Niemcza_MA	n/a	n/a	n/a	n/a	n/a	137	Poland	PL	n/a	Niemcza	50.72	16.84	contextual	n/a	n/a	n/a	900	950	1000	n/a	T2b16	n/a	n/a	n/a	n/a	n/a
+PCA0146	U	Poland_Niemcza_MA	n/a	n/a	n/a	n/a	n/a	155	Poland	PL	n/a	Niemcza	50.72	16.84	contextual	n/a	n/a	n/a	900	950	1000	n/a	T2b	n/a	n/a	n/a	n/a	n/a
+PCA0166	M	Poland_Legowo_MA	n/a	n/a	n/a	n/a	n/a	ob E81	Poland	PL	n/a	Łęgowo	52.79	17.17	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	T2b	n/a	n/a	n/a	n/a	n/a
+PCA0185	U	Poland_Lad_MA	n/a	n/a	n/a	n/a	n/a	382/172	Poland	PL	n/a	Ląd	52.21	17.89	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H1ba	n/a	n/a	n/a	n/a	n/a
+PCA0187	M	Poland_Lad_MA	n/a	n/a	n/a	n/a	n/a	429/169	Poland	PL	n/a	Ląd	52.21	17.89	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U4a2	R1a1a	n/a	n/a	n/a	n/a
+PCA0197	M	Poland_Lad_MA	n/a	n/a	n/a	n/a	n/a	358/202	Poland	PL	n/a	Ląd	52.21	17.89	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U5a1a1	R1a1a1b1a1a	n/a	n/a	n/a	n/a
+PCA0218	M	Poland_Oblaczkowo_MA	n/a	n/a	n/a	n/a	n/a	stan. 9, obiekt 41, nr inw. 10/14	Poland	PL	n/a	Obłaczkowo	52.3	17.55	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H10e	R1a1a	n/a	n/a	n/a	n/a
+PCA0244	M	Poland_Rumin_MA	n/a	n/a	n/a	n/a	n/a	stan. 10 gr. 4	Poland	PL	n/a	Rumin	52.21	18.19	C14	n/a	n/a	n/a	1024	1090	1155	n/a	V1a1	R1a1a	n/a	n/a	n/a	n/a
+PCA0245	U	Poland_Rumin_MA	n/a	n/a	n/a	n/a	n/a	stan.10, gr.8	Poland	PL	n/a	Rumin	52.21	18.19	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	W3a1c	n/a	n/a	n/a	n/a	n/a
+PCA0298	M	Poland_Plonsk_MA	n/a	n/a	n/a	n/a	n/a	33 lewa żuchwa	Poland	PL	n/a	Płońsk	52.62	20.37	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U5a'b	F	n/a	n/a	n/a	n/a
+PCA0305	M	Poland_Konskie_MA	n/a	n/a	n/a	n/a	n/a	123, 6 prawa żuchwa	Poland	PL	n/a	Końskie	51.19	20.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U4a2b	n/a	n/a	n/a	n/a	n/a
+PCA0324	M	Poland_Plonsk_MA	n/a	n/a	n/a	n/a	n/a	25311T/37, 7 prawa szczęka	Poland	PL	n/a	Płońsk	52.62	20.37	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	R0	n/a	n/a	n/a	n/a	n/a
+PCA0328	M	Poland_Plonsk_MA	n/a	n/a	n/a	n/a	n/a	1781/D/58, 8 prawa szczęka	Poland	PL	n/a	Płońsk	52.62	20.37	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U5a1b1e	R1a1a1b1a1a	n/a	n/a	n/a	n/a
+PCA0333	M	Poland_OstrowLednicki_MA	n/a	n/a	n/a	n/a	n/a	1990	Poland	PL	n/a	Ostrów Lednicki	52.53	17.38	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	T2b	n/a	n/a	n/a	n/a	n/a
+PCA0334	M	Poland_OstrowLednicki_MA	n/a	n/a	n/a	n/a	n/a	20/57	Poland	PL	n/a	Ostrów Lednicki	52.53	17.38	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U5a1b1e	R1a	n/a	n/a	n/a	n/a
+PCA0339	F	Poland_OstrowLednicki_MA	n/a	n/a	n/a	n/a	n/a	380	Poland	PL	n/a	Ostrów Lednicki	52.53	17.38	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	V2c	n/a	n/a	n/a	n/a	n/a
+PCA0350	M	Poland_Dziekanowice_MA	n/a	n/a	n/a	n/a	n/a	grób 2/05 mężczyzna 1	Poland	PL	n/a	Dziekanowice 22	52.519	17.388	C14	n/a	n/a	n/a	986	1071	1155	n/a	K1b1a	R1a1a1b1a	n/a	n/a	n/a	n/a
+PCA0351	M	Poland_Dziekanowice_MA	n/a	n/a	n/a	n/a	n/a	15/94	Poland	PL	n/a	Dziekanowice 22	52.519	17.388	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	W3a1d	R1a1a1b1a2a	n/a	n/a	n/a	n/a
+PCA0353	M	Poland_Dziekanowice_MA	n/a	n/a	n/a	n/a	n/a	43/98	Poland	PL	n/a	Dziekanowice 22	52.519	17.388	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	HV17	E1b1b1a1b1a	n/a	n/a	n/a	n/a
+PCA0354	M	Poland_Dziekanowice_MA	n/a	n/a	n/a	n/a	n/a	31/92	Poland	PL	n/a	Dziekanowice 22	52.519	17.388	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H6a1a	R1a1a1b1a2a1	n/a	n/a	n/a	n/a
+PCA0359	M	Poland_Dziekanowice_MA	n/a	n/a	n/a	n/a	n/a	53/95	Poland	PL	n/a	Dziekanowice 22	52.519	17.388	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H13b1a	R1a1a1b1a1a	n/a	n/a	n/a	n/a
+PCA0388	M	Poland_Santok_MA	n/a	n/a	n/a	n/a	n/a	103	Poland	PL	n/a	Santok	52.74	15.41	C14	n/a	n/a	n/a	1215	1249	1282	n/a	U5a1b1e	E1b1b1a1b1	n/a	n/a	n/a	n/a
+PCA0393	M	Poland_Santok_MA	n/a	n/a	n/a	n/a	n/a	34	Poland	PL	n/a	Santok	52.74	15.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H1e	R1a1a1b1	n/a	n/a	n/a	n/a
+PCA0395	F	Poland_Santok_MA	n/a	n/a	n/a	n/a	n/a	173	Poland	PL	n/a	Santok	52.74	15.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	T1a1	n/a	n/a	n/a	n/a	n/a
+PCA0403	M	Poland_Santok_MA	PCA0403_relative_of_PCA0380	PCA0380	first	n/a	no information on relation degree but READ was used so first or second	61	Poland	PL	n/a	Santok	52.74	15.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H5a1a	n/a	n/a	n/a	n/a	n/a
+PCA0406	F	Poland_Santok_MA	n/a	n/a	n/a	n/a	n/a	46	Poland	PL	n/a	Santok	52.74	15.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U4a2a	n/a	n/a	n/a	n/a	n/a
+PCA0417	M	Poland_Santok_MA	n/a	n/a	n/a	n/a	n/a	157	Poland	PL	n/a	Santok	52.74	15.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U5b1b1a	N1a1a1a1a1a	n/a	n/a	n/a	n/a
+PCA0452	F	Poland_Czarnowko_IA	n/a	n/a	n/a	n/a	n/a	ob. 1632/13, 489/13	Poland	PL	n/a	Czarnówko	54.56	17.69	contextual	n/a	n/a	n/a	100	200	300	n/a	U3a1a	n/a	n/a	n/a	n/a	n/a
+PCA0481	M	Poland_PruszczGdanski_IA	n/a	n/a	n/a	n/a	n/a	ob. 29	Poland	PL	n/a	Pruszcz Gdański	54.26	18.65	contextual	n/a	n/a	n/a	100	200	300	n/a	W5a1	I2a1b1	n/a	n/a	n/a	n/a
+PCA0502	M	Poland_Milicz_MA	n/a	n/a	n/a	n/a	n/a	144 (231M)	Poland	PL	n/a	Milicz	51.52	17.27	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H11a1	R1a1a1b1a1a1a	n/a	n/a	n/a	n/a
+PCA0021	F	Poland_Kowalewko_IA	n/a	n/a	n/a	n/a	n/a	171; ob. 513	Poland	PL	n/a	Kowalewko	52.59	16.78	contextual	n/a	n/a	n/a	100	200	300	n/a	0	n/a	n/a	n/a	n/a	n/a
+PCA0061	F	Poland_Kowalewko_IA	n/a	n/a	n/a	n/a	n/a	ob. 290	Poland	PL	n/a	Kowalewko	52.59	16.78	C14	n/a	n/a	n/a	-2	63	128	n/a	H1ak	n/a	n/a	n/a	n/a	n/a
+PCA0064	F	Poland_Kowalewko_IA	n/a	n/a	n/a	n/a	n/a	ob. 471	Poland	PL	n/a	Kowalewko	52.59	16.78	contextual	n/a	n/a	n/a	100	200	300	n/a	rCRS	n/a	n/a	n/a	n/a	n/a
+PCA0071	U	Poland_Sowinki_MA	n/a	n/a	n/a	n/a	n/a	ob. 24	Poland	PL	n/a	Sowinki	52.21	16.89	contextual	n/a	n/a	n/a	1000	1050	1100	n/a	T1a1	n/a	n/a	n/a	n/a	n/a
+PCA0078	M	Poland_Sowinki_MA	n/a	n/a	n/a	n/a	n/a	ob. 50	Poland	PL	n/a	Sowinki	52.21	16.89	contextual	n/a	n/a	n/a	1000	1050	1100	n/a	0	n/a	n/a	n/a	n/a	n/a
+PCA0080	U	Poland_Sowinki_MA	n/a	n/a	n/a	n/a	n/a	ob. 264	Poland	PL	n/a	Sowinki	52.21	16.89	contextual	n/a	n/a	n/a	1000	1050	1100	n/a	0	n/a	n/a	n/a	n/a	n/a
+PCA0096	U	Poland_Maslomecz_IA	n/a	n/a	n/a	n/a	n/a	M210	Poland	PL	n/a	Masłomęcz	50.72	23.89	contextual	n/a	n/a	n/a	200	300	400	n/a	U4c1	n/a	n/a	n/a	n/a	n/a
+PCA0104	U	Poland_Maslomecz_IA	n/a	n/a	n/a	n/a	n/a	171, na żuchwie 8122	Poland	PL	n/a	Masłomęcz	50.72	23.89	contextual	n/a	n/a	n/a	200	300	400	n/a	H1a3	n/a	n/a	n/a	n/a	n/a
+PCA0106	U	Poland_Maslomecz_IA	n/a	n/a	n/a	n/a	n/a	M15/87	Poland	PL	n/a	Masłomęcz	50.72	23.89	contextual	n/a	n/a	n/a	200	300	400	n/a	T2b	n/a	n/a	n/a	n/a	n/a
+PCA0109	U	Poland_Maslomecz_IA	n/a	n/a	n/a	n/a	n/a	M15/87/137	Poland	PL	n/a	Masłomęcz	50.72	23.89	contextual	n/a	n/a	n/a	200	300	400	n/a	K1a27	n/a	n/a	n/a	n/a	n/a
+PCA0112	U	Poland_Maslomecz_IA	n/a	n/a	n/a	n/a	n/a	M15 617/449	Poland	PL	n/a	Masłomęcz	50.72	23.89	contextual	n/a	n/a	n/a	200	300	400	n/a	T2b2b	n/a	n/a	n/a	n/a	n/a
+PCA0128	M	Poland_Niemcza_MA	n/a	n/a	n/a	n/a	n/a	136	Poland	PL	n/a	Niemcza	50.72	16.84	contextual	n/a	n/a	n/a	900	950	1000	n/a	T2b4	n/a	n/a	n/a	n/a	n/a
+PCA0136	M	Poland_Niemcza_MA	n/a	n/a	n/a	n/a	n/a	93	Poland	PL	n/a	Niemcza	50.72	16.84	contextual	n/a	n/a	n/a	900	950	1000	n/a	T2f1a	n/a	n/a	n/a	n/a	n/a
+PCA0147	M	Poland_Niemcza_MA	n/a	n/a	n/a	n/a	n/a	164	Poland	PL	n/a	Niemcza	50.72	16.84	contextual	n/a	n/a	n/a	900	950	1000	n/a	U5a1a2a1	n/a	n/a	n/a	n/a	n/a
+PCA0178	M	Poland_Lad_MA	n/a	n/a	n/a	n/a	n/a	403/202	Poland	PL	n/a	Ląd	52.21	17.89	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	rCRS	n/a	n/a	n/a	n/a	n/a
+PCA0196	U	Poland_Lad_MA	n/a	n/a	n/a	n/a	n/a	408/202 os.I	Poland	PL	n/a	Ląd	52.21	17.89	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	rCRS	n/a	n/a	n/a	n/a	n/a
+PCA0224	U	Poland_Oblaczkowo_MA	n/a	n/a	n/a	n/a	n/a	stan. 9, obiekt 8, nr inw. 11/14	Poland	PL	n/a	Obłaczkowo	52.3	17.55	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	0	n/a	n/a	n/a	n/a	n/a
+PCA0226	U	Poland_Golun_MA	n/a	n/a	n/a	n/a	n/a	ob. 57, G 23/24	Poland	PL	n/a	Gołuń	52.46	17.34	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	0	n/a	n/a	n/a	n/a	n/a
+PCA0231	M	Poland_Golun_MA	n/a	n/a	n/a	n/a	n/a	ob. 65, G23/24	Poland	PL	n/a	Gołuń	52.46	17.34	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	0	n/a	n/a	n/a	n/a	n/a
+PCA0302	M	Poland_Konskie_MA	n/a	n/a	n/a	n/a	n/a	9, 8 lewa szczęka	Poland	PL	n/a	Końskie	51.19	20.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	T1a1c	R1a1a1b1a2b3a3a1a	n/a	n/a	n/a	n/a
+PCA0306	M	Poland_Konskie_MA	n/a	n/a	n/a	n/a	n/a	33, 6 prawa żuchwa	Poland	PL	n/a	Końskie	51.19	20.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	0	E1b1b1a1b1a10a	n/a	n/a	n/a	n/a
+PCA0321	M	Poland_Plonsk_MA	n/a	n/a	n/a	n/a	n/a	1781a -35, 7 lewa żuchwa	Poland	PL	n/a	Płońsk	52.62	20.37	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H1j2a	n/a	n/a	n/a	n/a	n/a
+PCA0326	U	Poland_Plonsk_MA	n/a	n/a	n/a	n/a	n/a	1781A/49, 6 lewa szczęka	Poland	PL	n/a	Płońsk	52.62	20.37	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	J1c10	n/a	n/a	n/a	n/a	n/a
+PCA0356	M	Poland_Dziekanowice_MA	n/a	n/a	n/a	n/a	n/a	27/08	Poland	PL	n/a	Dziekanowice 22	52.519	17.388	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U5a1b1e	n/a	n/a	n/a	n/a	n/a
+PCA0381	M	Poland_Santok_MA	n/a	n/a	n/a	n/a	n/a	33	Poland	PL	n/a	Santok	52.74	15.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H15a1	R1a1a1b1a2b3a	n/a	n/a	n/a	n/a
+PCA0410	F	Poland_Santok_MA	n/a	n/a	n/a	n/a	n/a	73	Poland	PL	n/a	Santok	52.74	15.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H66	n/a	n/a	n/a	n/a	n/a
+PCA0425	U	Poland_Santok_MA	n/a	n/a	n/a	n/a	n/a	37	Poland	PL	n/a	Santok	52.74	15.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H1a	n/a	n/a	n/a	n/a	n/a
+PCA0455	U	Poland_Czarnowko_IA	n/a	n/a	n/a	n/a	n/a	ob. 1316, 288/10	Poland	PL	n/a	Czarnówko	54.56	17.69	contextual	n/a	n/a	n/a	100	200	300	n/a	H27	Unk	n/a	n/a	n/a	n/a
+PCA0456	M	Poland_Czarnowko_IA	n/a	n/a	n/a	n/a	n/a	ob. 1713/14, 508/14	Poland	PL	n/a	Czarnówko	54.56	17.69	contextual	n/a	n/a	n/a	100	200	300	n/a	HV9c	n/a	n/a	n/a	n/a	n/a
+PCA0524	M	Poland_Czarnowko_IA	n/a	n/a	n/a	n/a	n/a	obiekt nr 512, stanowisko 5	Poland	PL	n/a	Czarnówko, gm. Nowa Wieś Lęborska	54.56	17.69	contextual	n/a	n/a	n/a	100	200	300	n/a	V	I	n/a	n/a	n/a	n/a
+PCA0527	M	Poland_Czarnowko_IA	n/a	n/a	n/a	n/a	n/a	obiekt nr 939, stanowisko 5	Poland	PL	n/a	Czarnówko, gm. Nowa Wieś Lęborska	54.56	17.69	contextual	n/a	n/a	n/a	100	200	300	n/a	K1b2a	I1	n/a	n/a	n/a	n/a
+PCA0539	M	Poland_Milicz_MA	n/a	n/a	n/a	n/a	n/a	gr. 279 (77M)	Poland	PL	n/a	Milicz	51.52	17.27	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	rCRS	R1a	n/a	n/a	n/a	n/a
+PCA0477	F	Poland_PruszczGdanski_IA	n/a	n/a	n/a	n/a	n/a	ob. 23 górny	Poland	PL	n/a	Pruszcz Gdański	54.26	18.65	contextual	n/a	n/a	n/a	100	200	300	n/a	H1b1e	n/a	n/a	n/a	n/a	n/a
+PCA0483	M	Poland_PruszczGdanski_IA	n/a	n/a	n/a	n/a	n/a	ob. 45	Poland	PL	n/a	Pruszcz Gdański	54.26	18.65	contextual	n/a	n/a	n/a	100	200	300	n/a	V3c	I1	n/a	n/a	n/a	n/a
+PCA0485	M	Poland_PruszczGdanski_IA	n/a	n/a	n/a	n/a	n/a	ob. 42	Poland	PL	n/a	Pruszcz Gdański	54.26	18.65	contextual	n/a	n/a	n/a	100	200	300	n/a	H3au	R1b1a1b1a1a1b	n/a	n/a	n/a	n/a
+PCA0490	M	Poland_PruszczGdanski_IA	n/a	n/a	n/a	n/a	n/a	ob. 10	Poland	PL	n/a	Pruszcz Gdański	54.26	18.65	contextual	n/a	n/a	n/a	100	200	300	n/a	H1	R1b1a1	n/a	n/a	n/a	n/a
+PCA0500	U	Poland_PruszczGdanski_IA	n/a	n/a	n/a	n/a	n/a	gr. 4	Poland	PL	n/a	Pruszcz Gdański	54.26	18.65	contextual	n/a	n/a	n/a	100	200	300	n/a	K2a3	I1	n/a	n/a	n/a	n/a
+PCA0507	M	Poland_Milicz_MA	n/a	n/a	n/a	n/a	n/a	225 (10M)	Poland	PL	n/a	Milicz	51.52	17.27	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U5a1b1e	n/a	n/a	n/a	n/a	n/a
+PCA0517	U	Poland_Poznan_MA	n/a	n/a	n/a	n/a	n/a	-	Poland	PL	n/a	Poznań	52.4	16.92	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	0	R1a1a1b1a1a1a	n/a	n/a	n/a	n/a
+PCA0547	U	Poland_Poznan_MA	n/a	n/a	n/a	n/a	n/a	-	Poland	PL	n/a	Poznań	52.4	16.92	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	0	n/a	n/a	n/a	n/a	n/a
+PCA0551	M	Poland_Balczewo_MA	n/a	n/a	n/a	n/a	n/a	H. G. 2119	Poland	PL	n/a	Balczewo	52.78	18.37	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	T2b13	R1a1a1b1a1a1c1	n/a	n/a	n/a	n/a
+PCA0553	M	Poland_PoznanSolacz_MA	n/a	n/a	n/a	n/a	n/a	80.10069444	Poland	PL	n/a	Poznań Sołacz	54.49	16.91	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	J1c4	I2a1a1a1a1	n/a	n/a	n/a	n/a
+PCA0563	M	Poland_PoznanSrodka_MA	n/a	n/a	n/a	n/a	n/a	g. 292	Poland	PL	n/a	Poznań Śródka	52.41	16.95	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	rCRS	n/a	n/a	n/a	n/a	n/a
+PCA0571	M	Poland_Zielonka_MA	n/a	n/a	n/a	n/a	n/a	stan. 3 grób 9	Poland	PL	n/a	Zielonka	52.55	17.11	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	J1c3f	n/a	n/a	n/a	n/a	n/a
+PCA0579	M	Poland_PoznanSrodka_MA	n/a	n/a	n/a	n/a	n/a	grób 7	Poland	PL	n/a	Poznań Śródka	52.41	16.95	C14	n/a	n/a	n/a	1018	1087	1155	n/a	T	n/a	n/a	n/a	n/a	n/a
+PCA0001	M	Poland_Kowalewko_IA	PCA0001_relative_of_PCA0007	PCA0007	first	n/a	no information on relation degree but READ was used so first or second	28/Kowalewko ob. 466	Poland	PL	n/a	Kowalewko	52.59	16.78	C14	n/a	n/a	n/a	59	144	229	n/a	W	n/a	n/a	n/a	n/a	n/a
+PCA0018	M	Poland_Kowalewko_IA	n/a	n/a	n/a	n/a	n/a	174; ob. 316	Poland	PL	n/a	Kowalewko	52.59	16.78	C14	n/a	n/a	n/a	85	160	235	n/a	H16	I1a3a1a1	n/a	n/a	n/a	n/a
+PCA0034	F	Poland_Kowalewko_IA	PCA0034_relative_of_PCA0051	PCA0051	first	n/a	no information on relation degree but READ was used so first or second	ob. 326	Poland	PL	n/a	Kowalewko	52.59	16.78	C14	n/a	n/a	n/a	553	1204	1875	n/a	U	n/a	n/a	n/a	n/a	n/a
+PCA0038	M	Poland_Kowalewko_IA	n/a	n/a	n/a	n/a	n/a	ob. 501	Poland	PL	n/a	Kowalewko	52.59	16.78	contextual	n/a	n/a	n/a	100	200	300	n/a	H1e1a	R1a1a1b1a1a	n/a	n/a	n/a	n/a
+PCA0044	F	Poland_Kowalewko_IA	n/a	n/a	n/a	n/a	n/a	ob. 442	Poland	PL	n/a	Kowalewko	52.59	16.78	C14	n/a	n/a	n/a	60	140	220	n/a	H5a1a	n/a	n/a	n/a	n/a	n/a
+PCA0060	M	Poland_Kowalewko_IA	n/a	n/a	n/a	n/a	n/a	ob. 491	Poland	PL	n/a	Kowalewko	52.59	16.78	C14	n/a	n/a	n/a	50	115	180	n/a	U5b1d1	I1a3a1a1	n/a	n/a	n/a	n/a
+PCA0065	M	Poland_Kowalewko_IA	PCA0065_sample_individual_PCA0035	PCA0035	identical	n/a	n/a	ob. 567	Poland	PL	n/a	Kowalewko	52.59	16.78	contextual	n/a	n/a	n/a	100	200	300	n/a	J2b1a5	I1	n/a	n/a	n/a	n/a
+PCA0075	U	Poland_Sowinki_MA	n/a	n/a	n/a	n/a	n/a	ob. 98	Poland	PL	n/a	Sowinki	52.21	16.89	contextual	n/a	n/a	n/a	1000	1050	1100	n/a	P	n/a	n/a	n/a	n/a	n/a
+PCA0092	U	Poland_Maslomecz_IA	n/a	n/a	n/a	n/a	n/a	294	Poland	PL	n/a	Masłomęcz	50.72	23.89	C14	n/a	n/a	n/a	133	232	330	n/a	H16	n/a	n/a	n/a	n/a	n/a
+PCA0093	M	Poland_Maslomecz_IA	n/a	n/a	n/a	n/a	n/a	M2	Poland	PL	n/a	Masłomęcz	50.72	23.89	C14	n/a	n/a	n/a	328	380	431	n/a	T	I1	n/a	n/a	n/a	n/a
+PCA0110	M	Poland_Maslomecz_IA	n/a	n/a	n/a	n/a	n/a	11, M15	Poland	PL	n/a	Masłomęcz	50.72	23.89	C14	n/a	n/a	n/a	124	191	257	n/a	H1ba	E1b1b1a1b1a10a	n/a	n/a	n/a	n/a
+PCA0122	M	Poland_Niemcza_MA	n/a	n/a	n/a	n/a	n/a	165	Poland	PL	n/a	Niemcza	50.72	16.84	contextual	n/a	n/a	n/a	900	950	1000	n/a	H13	n/a	n/a	n/a	n/a	n/a
+PCA0127	M	Poland_Niemcza_MA	n/a	n/a	n/a	n/a	n/a	175	Poland	PL	n/a	Niemcza	50.72	16.84	contextual	n/a	n/a	n/a	900	950	1000	n/a	J1c2q1	I2a1a2b	n/a	n/a	n/a	n/a
+PCA0132	M	Poland_Niemcza_MA	n/a	n/a	n/a	n/a	n/a	160	Poland	PL	n/a	Niemcza	50.72	16.84	contextual	n/a	n/a	n/a	900	950	1000	n/a	N1a1a1a1	I2a1a2b1a1	n/a	n/a	n/a	n/a
+PCA0143	M	Poland_Niemcza_MA	n/a	n/a	n/a	n/a	n/a	166	Poland	PL	n/a	Niemcza	50.72	16.84	C14	n/a	n/a	n/a	776	874	971	n/a	H	n/a	n/a	n/a	n/a	n/a
+PCA0157	F	Poland_Markowice_MA	n/a	n/a	n/a	n/a	n/a	stan.12, ob. 181	Poland	PL	n/a	Markowice	52.71	18.22	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H2b	n/a	n/a	n/a	n/a	n/a
+PCA0158	M	Poland_Markowice_MA	n/a	n/a	n/a	n/a	n/a	stan. 12, ob. 70	Poland	PL	n/a	Markowice	52.71	18.22	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	J1c	I1a2a1a1d1b	n/a	n/a	n/a	n/a
+PCA0169	M	Poland_Legowo_MA	n/a	n/a	n/a	n/a	n/a	ob E63	Poland	PL	n/a	Łęgowo	52.79	17.17	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H1b2	n/a	n/a	n/a	n/a	n/a
+PCA0191	M	Poland_Lad_MA	n/a	n/a	n/a	n/a	n/a	446	Poland	PL	n/a	Ląd	52.21	17.89	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U5a1b1e	n/a	n/a	n/a	n/a	n/a
+PCA0206	U	Poland_Lad_MA	n/a	n/a	n/a	n/a	n/a	434/169	Poland	PL	n/a	Ląd	52.21	17.89	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	V7b	n/a	n/a	n/a	n/a	n/a
+PCA0211	M	Poland_Lad_MA	n/a	n/a	n/a	n/a	n/a	299/203	Poland	PL	n/a	Ląd	52.21	17.89	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H79	R1a1a1b1a	n/a	n/a	n/a	n/a
+PCA0216	M	Poland_Oblaczkowo_MA	n/a	n/a	n/a	n/a	n/a	stan. 9, obiekt 108 nr inw. 17/14	Poland	PL	n/a	Obłaczkowo	52.3	17.55	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	T1a1b	R1a1a1b1	n/a	n/a	n/a	n/a
+PCA0233	M	Poland_PoznanSrodka_MA	n/a	n/a	n/a	n/a	n/a	275	Poland	PL	n/a	Poznań - Sródka	52.41	16.95	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U5a2a1b	R1a1a1b1a2b3a3a1a	n/a	n/a	n/a	n/a
+PCA0234	M	Poland_PoznanSrodka_MA	n/a	n/a	n/a	n/a	n/a	238	Poland	PL	n/a	Poznań - Sródka	52.41	16.95	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	T2a1a	R1a1	n/a	n/a	n/a	n/a
+PCA0235	U	Poland_PoznanSrodka_MA	n/a	n/a	n/a	n/a	n/a	195	Poland	PL	n/a	Poznań - Sródka	52.41	16.95	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H13a2c1	n/a	n/a	n/a	n/a	n/a
+PCA0239	M	Poland_PoznanSrodka_MA	n/a	n/a	n/a	n/a	n/a	222	Poland	PL	n/a	Poznań - Sródka	52.41	16.95	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U	n/a	n/a	n/a	n/a	n/a
+PCA0300	M	Poland_Groszowice_MA	n/a	n/a	n/a	n/a	n/a	16, 6 prawa szczęka	Poland	PL	n/a	Groszowice	50.63	17.96	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H2a5b	n/a	n/a	n/a	n/a	n/a
+PCA0308	M	Poland_Konskie_MA	n/a	n/a	n/a	n/a	n/a	25, 6 żuchwa prawa	Poland	PL	n/a	Końskie	51.19	20.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H6a1a	n/a	n/a	n/a	n/a	n/a
+PCA0311	M	Poland_Plonsk_MA	n/a	n/a	n/a	n/a	n/a	42, M1 lewa szczęka	Poland	PL	n/a	Płońsk	52.62	20.37	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H1e	n/a	n/a	n/a	n/a	n/a
+PCA0312	U	Poland_Plonsk_MA	n/a	n/a	n/a	n/a	n/a	57, M1 lewa szczęka	Poland	PL	n/a	Płońsk	52.62	20.37	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	T2b	n/a	n/a	n/a	n/a	n/a
+PCA0314	M	Poland_Plonsk_MA	n/a	n/a	n/a	n/a	n/a	1781A/6 M1 prawa żuchwa	Poland	PL	n/a	Płońsk	52.62	20.37	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U5a1c	R1a	n/a	n/a	n/a	n/a
+PCA0318	U	Poland_Plonsk_MA	n/a	n/a	n/a	n/a	n/a	25332D M1 prawa szczęka	Poland	PL	n/a	Płońsk	52.62	20.37	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	J1c4	BT	n/a	n/a	n/a	n/a
+PCA0341	F	Poland_OstrowLednicki_MA	n/a	n/a	n/a	n/a	n/a	35/78	Poland	PL	n/a	Ostrów Lednicki	52.53	17.38	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H11b1	n/a	n/a	n/a	n/a	n/a
+PCA0360	M	Poland_Dziekanowice_MA	n/a	n/a	n/a	n/a	n/a	38/97	Poland	PL	n/a	Dziekanowice 22	52.519	17.388	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	J1c3j	Unk	n/a	n/a	n/a	n/a
+PCA0385	M	Poland_Santok_MA	n/a	n/a	n/a	n/a	n/a	43	Poland	PL	n/a	Santok	52.74	15.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H1c3	I	n/a	n/a	n/a	n/a
+PCA0400	M	Poland_Santok_MA	n/a	n/a	n/a	n/a	n/a	111	Poland	PL	n/a	Santok	52.74	15.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	J1c5a1	E1b1b1a1b1a	n/a	n/a	n/a	n/a
+PCA0407	F	Poland_Santok_MA	n/a	n/a	n/a	n/a	n/a	70	Poland	PL	n/a	Santok	52.74	15.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	N1a1a1a1	n/a	n/a	n/a	n/a	n/a
+PCA0486	F	Poland_PruszczGdanski_IA	n/a	n/a	n/a	n/a	n/a	ob. 41	Poland	PL	n/a	Pruszcz Gdański	54.26	18.65	contextual	n/a	n/a	n/a	100	200	300	n/a	H6a1b4	n/a	n/a	n/a	n/a	n/a
+PCA0488	M	Poland_PruszczGdanski_IA	n/a	n/a	n/a	n/a	n/a	ob. 47	Poland	PL	n/a	Pruszcz Gdański	54.26	18.65	contextual	n/a	n/a	n/a	100	200	300	n/a	V3c	I1	n/a	n/a	n/a	n/a
+PCA0504	M	Poland_Milicz_MA	n/a	n/a	n/a	n/a	n/a	61 (239M)	Poland	PL	n/a	Milicz	51.52	17.27	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U5a1	n/a	n/a	n/a	n/a	n/a
+PCA0512	F	Poland_Milicz_MA	n/a	n/a	n/a	n/a	n/a	249 (281M)	Poland	PL	n/a	Milicz	51.52	17.27	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U5a1c1	n/a	n/a	n/a	n/a	n/a
+PCA0024	F	Poland_Kowalewko_IA	n/a	n/a	n/a	n/a	n/a	167; ob. 455	Poland	PL	n/a	Kowalewko	52.59	16.78	contextual	n/a	n/a	n/a	100	200	300	n/a	0	n/a	n/a	n/a	n/a	n/a
+PCA0033	U	Poland_Kowalewko_IA	n/a	n/a	n/a	n/a	n/a	ob. 192	Poland	PL	n/a	Kowalewko	52.59	16.78	contextual	n/a	n/a	n/a	100	200	300	n/a	rCRS	n/a	n/a	n/a	n/a	n/a
+PCA0055	U	Poland_Kowalewko_IA	n/a	n/a	n/a	n/a	n/a	ob. 448	Poland	PL	n/a	Kowalewko	52.59	16.78	contextual	n/a	n/a	n/a	100	200	300	n/a	0	n/a	n/a	n/a	n/a	n/a
+PCA0069	M	Poland_Sowinki_MA	n/a	n/a	n/a	n/a	n/a	ob. 27	Poland	PL	n/a	Sowinki	52.21	16.89	contextual	n/a	n/a	n/a	1000	1050	1100	n/a	H2	n/a	n/a	n/a	n/a	n/a
+PCA0072	F	Poland_Sowinki_MA	n/a	n/a	n/a	n/a	n/a	ob. 135	Poland	PL	n/a	Sowinki	52.21	16.89	contextual	n/a	n/a	n/a	1000	1050	1100	n/a	H6a1b4	n/a	n/a	n/a	n/a	n/a
+PCA0081	M	Poland_Sowinki_MA	n/a	n/a	n/a	n/a	n/a	ob. 19	Poland	PL	n/a	Sowinki	52.21	16.89	contextual	n/a	n/a	n/a	1000	1050	1100	n/a	H16c	n/a	n/a	n/a	n/a	n/a
+PCA0087	U	Poland_Sowinki_MA	n/a	n/a	n/a	n/a	n/a	ob. 201	Poland	PL	n/a	Sowinki	52.21	16.89	contextual	n/a	n/a	n/a	1000	1050	1100	n/a	0	n/a	n/a	n/a	n/a	n/a
+PCA0099	U	Poland_Maslomecz_IA	n/a	n/a	n/a	n/a	n/a	33	Poland	PL	n/a	Masłomęcz	50.72	23.89	contextual	n/a	n/a	n/a	200	300	400	n/a	H1cg	n/a	n/a	n/a	n/a	n/a
+PCA0101	M	Poland_Maslomecz_IA	n/a	n/a	n/a	n/a	n/a	242	Poland	PL	n/a	Masłomęcz	50.72	23.89	contextual	n/a	n/a	n/a	200	300	400	n/a	U5a2b3	n/a	n/a	n/a	n/a	n/a
+PCA0113	M	Poland_Maslomecz_IA	n/a	n/a	n/a	n/a	n/a	M15/260	Poland	PL	n/a	Masłomęcz	50.72	23.89	contextual	n/a	n/a	n/a	200	300	400	n/a	V	J2b2a1	n/a	n/a	n/a	n/a
+PCA0116	F	Poland_Niemcza_MA	n/a	n/a	n/a	n/a	n/a	132	Poland	PL	n/a	Niemcza	50.72	16.84	contextual	n/a	n/a	n/a	900	950	1000	n/a	H1b	n/a	n/a	n/a	n/a	n/a
+PCA0123	F	Poland_Niemcza_MA	n/a	n/a	n/a	n/a	n/a	159	Poland	PL	n/a	Niemcza	50.72	16.84	contextual	n/a	n/a	n/a	900	950	1000	n/a	U5a1j	n/a	n/a	n/a	n/a	n/a
+PCA0134	U	Poland_Niemcza_MA	n/a	n/a	n/a	n/a	n/a	94	Poland	PL	n/a	Niemcza	50.72	16.84	contextual	n/a	n/a	n/a	900	950	1000	n/a	J1c2r	n/a	n/a	n/a	n/a	n/a
+PCA0141	U	Poland_Niemcza_MA	n/a	n/a	n/a	n/a	n/a	127	Poland	PL	n/a	Niemcza	50.72	16.84	contextual	n/a	n/a	n/a	900	950	1000	n/a	T1a1i	n/a	n/a	n/a	n/a	n/a
+PCA0145	M	Poland_Niemcza_MA	n/a	n/a	n/a	n/a	n/a	126	Poland	PL	n/a	Niemcza	50.72	16.84	contextual	n/a	n/a	n/a	900	950	1000	n/a	J1c2c2a	n/a	n/a	n/a	n/a	n/a
+PCA0188	U	Poland_Lad_MA	n/a	n/a	n/a	n/a	n/a	394/202	Poland	PL	n/a	Ląd	52.21	17.89	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	0	n/a	n/a	n/a	n/a	n/a
+PCA0209	F	Poland_Lad_MA	n/a	n/a	n/a	n/a	n/a	251/191	Poland	PL	n/a	Ląd	52.21	17.89	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	0	n/a	n/a	n/a	n/a	n/a
+PCA0212	U	Poland_Lad_MA	n/a	n/a	n/a	n/a	n/a	371/202	Poland	PL	n/a	Ląd	52.21	17.89	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	rCRS	n/a	n/a	n/a	n/a	n/a
+PCA0217	M	Poland_Oblaczkowo_MA	n/a	n/a	n/a	n/a	n/a	stan. 9, obiekt 1, nr inw. 8/14	Poland	PL	n/a	Obłaczkowo	52.3	17.55	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	0	n/a	n/a	n/a	n/a	n/a
+PCA0219	U	Poland_Oblaczkowo_MA	n/a	n/a	n/a	n/a	n/a	stan. 9, obiekt 2, nr inw. 9/14	Poland	PL	n/a	Obłaczkowo	52.3	17.55	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	0	n/a	n/a	n/a	n/a	n/a
+PCA0325	M	Poland_Plonsk_MA	n/a	n/a	n/a	n/a	n/a	1781A/38, 7 prawa szczęka	Poland	PL	n/a	Płońsk	52.62	20.37	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	T2b33	n/a	n/a	n/a	n/a	n/a
+PCA0331	U	Poland_OstrowLednicki_MA	n/a	n/a	n/a	n/a	n/a	1205	Poland	PL	n/a	Ostrów Lednicki	52.53	17.38	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H1b	n/a	n/a	n/a	n/a	n/a
+PCA0361	U	Poland_Dziekanowice_MA	n/a	n/a	n/a	n/a	n/a	42/99	Poland	PL	n/a	Dziekanowice 22	52.519	17.388	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	W3a1	n/a	n/a	n/a	n/a	n/a
+PCA0363	M	Poland_Dziekanowice_MA	n/a	n/a	n/a	n/a	n/a	36/03	Poland	PL	n/a	Dziekanowice 22	52.519	17.388	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	rCRS	n/a	n/a	n/a	n/a	n/a
+PCA0375	M	Poland_Slaboszewo_MA	n/a	n/a	n/a	n/a	n/a	nr. 277, r. 1973	Poland	PL	n/a	Słaboszewo	52.79	17.97	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	0	n/a	n/a	n/a	n/a	n/a
+PCA0399	M	Poland_Santok_MA	n/a	n/a	n/a	n/a	n/a	190	Poland	PL	n/a	Santok	52.74	15.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U5a2d	R1a1a1b1a1a1c1	n/a	n/a	n/a	n/a
+PCA0422	M	Poland_Santok_MA	n/a	n/a	n/a	n/a	n/a	49/II	Poland	PL	n/a	Santok	52.74	15.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	J1c8a1	R1b1a1b1a1a1c2b2a1b1a4b1	n/a	n/a	n/a	n/a
+PCA0424	F	Poland_Santok_MA	n/a	n/a	n/a	n/a	n/a	75	Poland	PL	n/a	Santok	52.74	15.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U5b2b	R1a1a1b1a2b3a	n/a	n/a	n/a	n/a
+PCA0448	M	Poland_Krakow_MA	n/a	n/a	n/a	n/a	n/a	PM1	Poland	PL	n/a	Kraków	50.07	19.94	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U4a1c	n/a	n/a	n/a	n/a	n/a
+PCA0518	U	Poland_Poznan_MA	n/a	n/a	n/a	n/a	n/a	-	Poland	PL	n/a	Poznań	52.4	16.92	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	0	n/a	n/a	n/a	n/a	n/a
+PCA0519	U	Poland_Poznan_MA	n/a	n/a	n/a	n/a	n/a	-	Poland	PL	n/a	Poznań	52.4	16.92	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	0	CT	n/a	n/a	n/a	n/a
+PCA0521	U	Poland_Poznan_MA	n/a	n/a	n/a	n/a	n/a	-	Poland	PL	n/a	Poznań	52.4	16.92	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	0	I2a1a2b	n/a	n/a	n/a	n/a
+PCA0522	M	Poland_PruszczGdanski_IA	n/a	n/a	n/a	n/a	n/a	grób 8A, stanowisko 5	Poland	PL	n/a	Pruszcz Gdański	54.26	18.65	contextual	n/a	n/a	n/a	100	200	300	n/a	H1a	N1a1a1a1a1a	n/a	n/a	n/a	n/a
+PCA0528	F	Poland_Czarnowko_IA	n/a	n/a	n/a	n/a	n/a	obiekt nr 1316, stanowisko 5	Poland	PL	n/a	Czarnówko, gm. Nowa Wieś Lęborska	54.56	17.69	contextual	n/a	n/a	n/a	100	200	300	n/a	T2b4	n/a	n/a	n/a	n/a	n/a
+PCA0480	U	Poland_PruszczGdanski_IA	n/a	n/a	n/a	n/a	n/a	ob. 28	Poland	PL	n/a	Pruszcz Gdański	54.26	18.65	contextual	n/a	n/a	n/a	100	200	300	n/a	N1b1b	I1a1b1a1	n/a	n/a	n/a	n/a
+PCA0484	U	Poland_PruszczGdanski_IA	n/a	n/a	n/a	n/a	n/a	ob. 44	Poland	PL	n/a	Pruszcz Gdański	54.26	18.65	contextual	n/a	n/a	n/a	100	200	300	n/a	H2a2a	n/a	n/a	n/a	n/a	n/a
+PCA0509	M	Poland_Milicz_MA	n/a	n/a	n/a	n/a	n/a	325 (189M)	Poland	PL	n/a	Milicz	51.52	17.27	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	T1	n/a	n/a	n/a	n/a	n/a
+PCA0511	U	Poland_Milicz_MA	n/a	n/a	n/a	n/a	n/a	253 (220M)	Poland	PL	n/a	Milicz	51.52	17.27	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	T2a1a	n/a	n/a	n/a	n/a	n/a
+PCA0541	M	Poland_Milicz_MA	n/a	n/a	n/a	n/a	n/a	231 (255M)	Poland	PL	n/a	Milicz	51.52	17.27	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	T2e	R1a1a1b1a1a1a1	n/a	n/a	n/a	n/a
+PCA0554	M	Poland_PoznanSolacz_MA	n/a	n/a	n/a	n/a	n/a	1936:74; 1936:1324	Poland	PL	n/a	Poznań Sołacz	54.49	16.91	C14	n/a	n/a	n/a	978	1014	1050	n/a	H2	n/a	n/a	n/a	n/a	n/a
+PCA0557	M	Poland_PoznanSrodka_MA	n/a	n/a	n/a	n/a	n/a	g. 186	Poland	PL	n/a	Poznań Śródka	52.41	16.95	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	J1c	R1a1a1b1a1a1a	n/a	n/a	n/a	n/a
+PCA0559	M	Poland_PoznanSrodka_MA	n/a	n/a	n/a	n/a	n/a	g. 181	Poland	PL	n/a	Poznań Śródka	52.41	16.95	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	HV15	R1	n/a	n/a	n/a	n/a
+PCA0561	M	Poland_PoznanSrodka_MA	n/a	n/a	n/a	n/a	n/a	g. 191	Poland	PL	n/a	Poznań Śródka	52.41	16.95	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	rCRS	n/a	n/a	n/a	n/a	n/a
+PCA0565	M	Poland_PoznanSrodka_MA	n/a	n/a	n/a	n/a	n/a	g. 185	Poland	PL	n/a	Poznań Śródka	52.41	16.95	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H36	I2a1a2b	n/a	n/a	n/a	n/a
+PCA0566	M	Poland_PoznanSrodka_MA	n/a	n/a	n/a	n/a	n/a	g. 290	Poland	PL	n/a	Poznań Śródka	52.41	16.95	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U5a	R1b1a1b1a1	n/a	n/a	n/a	n/a
+PCA0002	M	Poland_Kowalewko_IA	PCA0002_relative_of_PCA0037	PCA0037	first	n/a	no information on relation degree but READ was used so first or second	84; stan.12 nr 1	Poland	PL	n/a	Kowalewko	52.59	16.78	contextual	n/a	n/a	n/a	100	200	300	n/a	H28a1	R1a1a	n/a	n/a	n/a	n/a
+PCA0015	M	Poland_Kowalewko_IA	n/a	n/a	n/a	n/a	n/a	165; ob. 459	Poland	PL	n/a	Kowalewko	52.59	16.78	C14	n/a	n/a	n/a	76	153	230	n/a	H1	G2a2b2a1a1b1a1a2a	n/a	n/a	n/a	n/a
+PCA0030	F	Poland_Kowalewko_IA	n/a	n/a	n/a	n/a	n/a	ob. 324	Poland	PL	n/a	Kowalewko	52.59	16.78	C14	n/a	n/a	n/a	-2	63	128	n/a	H2a2b	n/a	n/a	n/a	n/a	n/a
+PCA0037	M	Poland_Kowalewko_IA	PCA0037_relative_of_PCA0002	PCA0002	first	n/a	no information on relation degree but READ was used so first or second	ob. 190	Poland	PL	n/a	Kowalewko	52.59	16.78	C14	n/a	n/a	n/a	85	160	235	n/a	U	F	n/a	n/a	n/a	n/a
+PCA0040	M	Poland_Kowalewko_IA	n/a	n/a	n/a	n/a	n/a	ob. 265	Poland	PL	n/a	Kowalewko	52.59	16.78	C14	n/a	n/a	n/a	85	160	235	n/a	I4a	R1a1a	n/a	n/a	n/a	n/a
+PCA0049	U	Poland_Kowalewko_IA	n/a	n/a	n/a	n/a	n/a	049a/ob. 169	Poland	PL	n/a	Kowalewko	52.59	16.78	C14	n/a	n/a	n/a	25	100	175	n/a	H1a	n/a	n/a	n/a	n/a	n/a
+PCA0050	M	Poland_Kowalewko_IA	n/a	n/a	n/a	n/a	n/a	050a/ob. 474	Poland	PL	n/a	Kowalewko	52.59	16.78	C14	n/a	n/a	n/a	56	137	217	n/a	H1e1a	n/a	n/a	n/a	n/a	n/a
+PCA0051	F	Poland_Kowalewko_IA	PCA0051_relative_of_PCA0031_and_PCA0034	PCA0031;PCA0034	first;first	n/a	no information on relation degree but READ was used so first or second	051b/ob. 288	Poland	PL	n/a	Kowalewko	52.59	16.78	contextual	n/a	n/a	n/a	100	200	300	n/a	K2a	n/a	n/a	n/a	n/a	n/a
+PCA0090	F	Poland_Maslomecz_IA	n/a	n/a	n/a	n/a	n/a	M15 BA GR21/435	Poland	PL	n/a	Masłomęcz	50.72	23.89	contextual	n/a	n/a	n/a	200	300	400	n/a	U3a1a	n/a	n/a	n/a	n/a	n/a
+PCA0103	F	Poland_Maslomecz_IA	n/a	n/a	n/a	n/a	n/a	345	Poland	PL	n/a	Masłomęcz	50.72	23.89	C14	n/a	n/a	n/a	129	195	260	n/a	H2a1a	n/a	n/a	n/a	n/a	n/a
+PCA0126	U	Poland_Niemcza_MA	n/a	n/a	n/a	n/a	n/a	99	Poland	PL	n/a	Niemcza	50.72	16.84	contextual	n/a	n/a	n/a	900	950	1000	n/a	J1b1a1e	n/a	n/a	n/a	n/a	n/a
+PCA0133	U	Poland_Niemcza_MA	n/a	n/a	n/a	n/a	n/a	97	Poland	PL	n/a	Niemcza	50.72	16.84	contextual	n/a	n/a	n/a	900	950	1000	n/a	H2a2a	n/a	n/a	n/a	n/a	n/a
+PCA0150	U	Poland_Niemcza_MA	n/a	n/a	n/a	n/a	n/a	148	Poland	PL	n/a	Niemcza	50.72	16.84	contextual	n/a	n/a	n/a	900	950	1000	n/a	H2b	n/a	n/a	n/a	n/a	n/a
+PCA0156	M	Poland_Markowice_MA	PCA0156_relative_of_PCA0155	PCA0155	first	n/a	no information on relation degree but READ was used so first or second	stan. 12, ob. 125A	Poland	PL	n/a	Markowice	52.71	18.22	C14	n/a	n/a	n/a	884	949	1013	n/a	T2a1a	n/a	n/a	n/a	n/a	n/a
+PCA0162	M	Poland_Gniezno_MA	n/a	n/a	n/a	n/a	n/a	stan. 15B, gr 6/2010	Poland	PL	n/a	Gniezno	52.53	17.6	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H6a1a2b1	n/a	n/a	n/a	n/a	n/a
+PCA0171	U	Poland_Legowo_MA	n/a	n/a	n/a	n/a	n/a	ob E43	Poland	PL	n/a	Łęgowo	52.79	17.17	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U5a'b	n/a	n/a	n/a	n/a	n/a
+PCA0186	M	Poland_Lad_MA	n/a	n/a	n/a	n/a	n/a	423/169	Poland	PL	n/a	Ląd	52.21	17.89	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H13a1a1e	R1a	n/a	n/a	n/a	n/a
+PCA0189	M	Poland_Lad_MA	n/a	n/a	n/a	n/a	n/a	409/202	Poland	PL	n/a	Ląd	52.21	17.89	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H11a1	n/a	n/a	n/a	n/a	n/a
+PCA0192	F	Poland_Lad_MA	n/a	n/a	n/a	n/a	n/a	444/151	Poland	PL	n/a	Ląd	52.21	17.89	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	T2b9	n/a	n/a	n/a	n/a	n/a
+PCA0193	M	Poland_Lad_MA	n/a	n/a	n/a	n/a	n/a	255/210	Poland	PL	n/a	Ląd	52.21	17.89	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H1a1b	R1b1a1b1a1a1c1a	n/a	n/a	n/a	n/a
+PCA0200	M	Poland_Lad_MA	n/a	n/a	n/a	n/a	n/a	439/169	Poland	PL	n/a	Ląd	52.21	17.89	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U8a1a1b1	R1a	n/a	n/a	n/a	n/a
+PCA0225	U	Poland_Oblaczkowo_MA	n/a	n/a	n/a	n/a	n/a	stan. 9, obiekt 37, nr inw. 8/14	Poland	PL	n/a	Obłaczkowo	52.3	17.55	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H2a5b	n/a	n/a	n/a	n/a	n/a
+PCA0228	U	Poland_Golun_MA	n/a	n/a	n/a	n/a	n/a	ob. 42, G23/24	Poland	PL	n/a	Gołuń	52.46	17.34	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H1c1d	n/a	n/a	n/a	n/a	n/a
+PCA0230	M	Poland_Golun_MA	n/a	n/a	n/a	n/a	n/a	ob. 40, G23/24	Poland	PL	n/a	Gołuń	52.46	17.34	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H26a1	BT	n/a	n/a	n/a	n/a
+PCA0238	M	Poland_PoznanSrodka_MA	n/a	n/a	n/a	n/a	n/a	299	Poland	PL	n/a	Poznań - Sródka	52.41	16.95	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U2e2a1a	R1	n/a	n/a	n/a	n/a
+PCA0240	M	Poland_PoznanSrodka_MA	n/a	n/a	n/a	n/a	n/a	294	Poland	PL	n/a	Poznań - Sródka	52.41	16.95	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H79	P1	n/a	n/a	n/a	n/a
+PCA0299	M	Poland_Groszowice_MA	n/a	n/a	n/a	n/a	n/a	2, 6 prawa szczęka	Poland	PL	n/a	Groszowice	50.63	17.96	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	K1a	n/a	n/a	n/a	n/a	n/a
+PCA0315	U	Poland_Plonsk_MA	n/a	n/a	n/a	n/a	n/a	18776/18 M1 prawa szczęka	Poland	PL	n/a	Płońsk	52.62	20.37	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H94	n/a	n/a	n/a	n/a	n/a
+PCA0316	M	Poland_Plonsk_MA	n/a	n/a	n/a	n/a	n/a	1781A/20 M1 prawa szczęka	Poland	PL	n/a	Płońsk	52.62	20.37	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H1b5	I2a1a2	n/a	n/a	n/a	n/a
+PCA0319	F	Poland_Plonsk_MA	n/a	n/a	n/a	n/a	n/a	1781, 6 lewa żuchwa	Poland	PL	n/a	Płońsk	52.62	20.37	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H1c	n/a	n/a	n/a	n/a	n/a
+PCA0327	F	Poland_Plonsk_MA	n/a	n/a	n/a	n/a	n/a	1781D/50, 6 lewa szczęka	Poland	PL	n/a	Płońsk	52.62	20.37	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	T2a1a	n/a	n/a	n/a	n/a	n/a
+PCA0329	M	Poland_Plonsk_MA	n/a	n/a	n/a	n/a	n/a	1781D/59, 6 lewa szczęka	Poland	PL	n/a	Płońsk	52.62	20.37	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	T2b2b	n/a	n/a	n/a	n/a	n/a
+PCA0338	M	Poland_OstrowLednicki_MA	n/a	n/a	n/a	n/a	n/a	26/77	Poland	PL	n/a	Ostrów Lednicki	52.53	17.38	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U4a2	R	n/a	n/a	n/a	n/a
+PCA0342	M	Poland_OstrowLednicki_MA	n/a	n/a	n/a	n/a	n/a	21/83	Poland	PL	n/a	Ostrów Lednicki	52.53	17.38	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H5e1a	R1a1a1b1a2b	n/a	n/a	n/a	n/a
+PCA0366	M	Poland_Dziekanowice_MA	n/a	n/a	n/a	n/a	n/a	73/00	Poland	PL	n/a	Dziekanowice 22	52.519	17.388	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U5a1b1e	n/a	n/a	n/a	n/a	n/a
+PCA0384	M	Poland_Santok_MA	n/a	n/a	n/a	n/a	n/a	77	Poland	PL	n/a	Santok	52.74	15.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U2e2a1d	R1a1	n/a	n/a	n/a	n/a
+PCA0390	M	Poland_Santok_MA	n/a	n/a	n/a	n/a	n/a	23	Poland	PL	n/a	Santok	52.74	15.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	K1c1	n/a	n/a	n/a	n/a	n/a
+PCA0394	M	Poland_Santok_MA	n/a	n/a	n/a	n/a	n/a	134	Poland	PL	n/a	Santok	52.74	15.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	A12	R1a1a1b1a1a1c1	n/a	n/a	n/a	n/a
+PCA0398	M	Poland_Santok_MA	n/a	n/a	n/a	n/a	n/a	40/I	Poland	PL	n/a	Santok	52.74	15.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H1e2	R1a1a1b1a2b	n/a	n/a	n/a	n/a
+PCA0405	F	Poland_Santok_MA	n/a	n/a	n/a	n/a	n/a	89	Poland	PL	n/a	Santok	52.74	15.41	C14	n/a	n/a	n/a	1222	1255	1287	n/a	H6a1b	n/a	n/a	n/a	n/a	n/a
+PCA0414	F	Poland_Santok_MA	n/a	n/a	n/a	n/a	n/a	29	Poland	PL	n/a	Santok	52.74	15.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H1c	n/a	n/a	n/a	n/a	n/a
+PCA0415	F	Poland_Santok_MA	n/a	n/a	n/a	n/a	n/a	187	Poland	PL	n/a	Santok	52.74	15.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H1	n/a	n/a	n/a	n/a	n/a
+PCA0416	F	Poland_Santok_MA	n/a	n/a	n/a	n/a	n/a	178	Poland	PL	n/a	Santok	52.74	15.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H64	n/a	n/a	n/a	n/a	n/a
+PCA0418	F	Poland_Santok_MA	n/a	n/a	n/a	n/a	n/a	14	Poland	PL	n/a	Santok	52.74	15.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H28a	n/a	n/a	n/a	n/a	n/a
+PCA0478	F	Poland_PruszczGdanski_IA	n/a	n/a	n/a	n/a	n/a	ob. 23 dolny	Poland	PL	n/a	Pruszcz Gdański	54.26	18.65	contextual	n/a	n/a	n/a	100	200	300	n/a	H1e1a	n/a	n/a	n/a	n/a	n/a
+PCA0489	U	Poland_PruszczGdanski_IA	n/a	n/a	n/a	n/a	n/a	ob. 35	Poland	PL	n/a	Pruszcz Gdański	54.26	18.65	contextual	n/a	n/a	n/a	100	200	300	n/a	H7a1	n/a	n/a	n/a	n/a	n/a
+PCA0506	U	Poland_Milicz_MA	n/a	n/a	n/a	n/a	n/a	sk. 204	Poland	PL	n/a	Milicz	51.52	17.27	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	W6a	n/a	n/a	n/a	n/a	n/a
+PCA0005	M	Poland_Kowalewko_IA	n/a	n/a	n/a	n/a	n/a	87; ob. 314	Poland	PL	n/a	Kowalewko	52.59	16.78	C14	n/a	n/a	n/a	38	64	90	n/a	0	n/a	n/a	n/a	n/a	n/a
+PCA0017	U	Poland_Kowalewko_IA	n/a	n/a	n/a	n/a	n/a	173; ob 595	Poland	PL	n/a	Kowalewko	52.59	16.78	contextual	n/a	n/a	n/a	100	200	300	n/a	0	n/a	n/a	n/a	n/a	n/a
+PCA0025	U	Poland_Kowalewko_IA	n/a	n/a	n/a	n/a	n/a	175/ob. 627	Poland	PL	n/a	Kowalewko	52.59	16.78	contextual	n/a	n/a	n/a	100	200	300	n/a	0	n/a	n/a	n/a	n/a	n/a
+PCA0042	U	Poland_Kowalewko_IA	n/a	n/a	n/a	n/a	n/a	ob. 554	Poland	PL	n/a	Kowalewko	52.59	16.78	contextual	n/a	n/a	n/a	100	200	300	n/a	0	n/a	n/a	n/a	n/a	n/a
+PCA0058	U	Poland_Kowalewko_IA	n/a	n/a	n/a	n/a	n/a	ob. 320	Poland	PL	n/a	Kowalewko	52.59	16.78	contextual	n/a	n/a	n/a	100	200	300	n/a	rCRS	n/a	n/a	n/a	n/a	n/a
+PCA0073	U	Poland_Sowinki_MA	n/a	n/a	n/a	n/a	n/a	ob. 51	Poland	PL	n/a	Sowinki	52.21	16.89	contextual	n/a	n/a	n/a	1000	1050	1100	n/a	0	n/a	n/a	n/a	n/a	n/a
+PCA0076	M	Poland_Sowinki_MA	n/a	n/a	n/a	n/a	n/a	ob. 22	Poland	PL	n/a	Sowinki	52.21	16.89	contextual	n/a	n/a	n/a	1000	1050	1100	n/a	J1c12b	n/a	n/a	n/a	n/a	n/a
+PCA0077	M	Poland_Sowinki_MA	n/a	n/a	n/a	n/a	n/a	ob. 184	Poland	PL	n/a	Sowinki	52.21	16.89	contextual	n/a	n/a	n/a	1000	1050	1100	n/a	0	n/a	n/a	n/a	n/a	n/a
+PCA0079	U	Poland_Sowinki_MA	n/a	n/a	n/a	n/a	n/a	ob. 72	Poland	PL	n/a	Sowinki	52.21	16.89	contextual	n/a	n/a	n/a	1000	1050	1100	n/a	K1b2a1a	n/a	n/a	n/a	n/a	n/a
+PCA0086	U	Poland_Sowinki_MA	n/a	n/a	n/a	n/a	n/a	ob. 94	Poland	PL	n/a	Sowinki	52.21	16.89	contextual	n/a	n/a	n/a	1000	1050	1100	n/a	V1a1	n/a	n/a	n/a	n/a	n/a
+PCA0097	M	Poland_Maslomecz_IA	n/a	n/a	n/a	n/a	n/a	16/432	Poland	PL	n/a	Masłomęcz	50.72	23.89	contextual	n/a	n/a	n/a	200	300	400	n/a	T2a1a	n/a	n/a	n/a	n/a	n/a
+PCA0108	U	Poland_Maslomecz_IA	n/a	n/a	n/a	n/a	n/a	M15/289-B	Poland	PL	n/a	Masłomęcz	50.72	23.89	contextual	n/a	n/a	n/a	200	300	400	n/a	T2b23	n/a	n/a	n/a	n/a	n/a
+PCA0135	U	Poland_Niemcza_MA	n/a	n/a	n/a	n/a	n/a	88	Poland	PL	n/a	Niemcza	50.72	16.84	C14	n/a	n/a	n/a	951	992	1033	n/a	J1b	n/a	n/a	n/a	n/a	n/a
+PCA0152	U	Poland_Markowice_MA	n/a	n/a	n/a	n/a	n/a	stan. 12, ob.172	Poland	PL	n/a	Markowice	52.71	18.22	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U5a2b1c	n/a	n/a	n/a	n/a	n/a
+PCA0173	M	Poland_Legowo_MA	n/a	n/a	n/a	n/a	n/a	ob E59	Poland	PL	n/a	Łęgowo	52.79	17.17	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H1	n/a	n/a	n/a	n/a	n/a
+PCA0179	M	Poland_Lad_MA	n/a	n/a	n/a	n/a	n/a	398	Poland	PL	n/a	Ląd	52.21	17.89	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	rCRS	n/a	n/a	n/a	n/a	n/a
+PCA0190	M	Poland_Lad_MA	n/a	n/a	n/a	n/a	n/a	291/182	Poland	PL	n/a	Ląd	52.21	17.89	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H1c	n/a	n/a	n/a	n/a	n/a
+PCA0204	M	Poland_Lad_MA	n/a	n/a	n/a	n/a	n/a	298/182	Poland	PL	n/a	Ląd	52.21	17.89	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H2	n/a	n/a	n/a	n/a	n/a
+PCA0227	M	Poland_Golun_MA	n/a	n/a	n/a	n/a	n/a	ob. 44, G 23/24	Poland	PL	n/a	Gołuń	52.46	17.34	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	0	n/a	n/a	n/a	n/a	n/a
+PCA0229	U	Poland_Golun_MA	n/a	n/a	n/a	n/a	n/a	ob. 47, G23/24	Poland	PL	n/a	Gołuń	52.46	17.34	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	0	n/a	n/a	n/a	n/a	n/a
+PCA0255	M	Poland_PoznanSrodka_MA	PCA0255_relative_of_PCA0558	PCA0558	first	n/a	no information on relation degree but READ was used so first or second	śródka grób 190	Poland	PL	n/a	Poznań - Sródka	52.41	16.95	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H3d	E1b1b1a1b1a1	n/a	n/a	n/a	n/a
+PCA0330	U	Poland_OstrowLednicki_MA	n/a	n/a	n/a	n/a	n/a	208	Poland	PL	n/a	Ostrów Lednicki	52.53	17.38	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U5b2b	n/a	n/a	n/a	n/a	n/a
+PCA0365	M	Poland_Dziekanowice_MA	n/a	n/a	n/a	n/a	n/a	72/99	Poland	PL	n/a	Dziekanowice 22	52.519	17.388	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	0	n/a	n/a	n/a	n/a	n/a
+PCA0396	M	Poland_Santok_MA	n/a	n/a	n/a	n/a	n/a	40/II	Poland	PL	n/a	Santok	52.74	15.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U2'3'4'7'8'9	I1	n/a	n/a	n/a	n/a
+PCA0421	M	Poland_Santok_MA	n/a	n/a	n/a	n/a	n/a	81	Poland	PL	n/a	Santok	52.74	15.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	HV9a	BT	n/a	n/a	n/a	n/a
+PCA0427	M	Poland_Santok_MA	n/a	n/a	n/a	n/a	n/a	63	Poland	PL	n/a	Santok	52.74	15.41	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U5a1b1e	R1a1a1b1a1a1a1	n/a	n/a	n/a	n/a
+PCA0451	F	Poland_Czarnowko_IA	n/a	n/a	n/a	n/a	n/a	ob. 1005/10	Poland	PL	n/a	Czarnówko	54.56	17.69	contextual	n/a	n/a	n/a	100	200	300	n/a	H6a1a	n/a	n/a	n/a	n/a	n/a
+PCA0457	M	Poland_Czarnowko_IA	n/a	n/a	n/a	n/a	n/a	512/09, 141/09	Poland	PL	n/a	Czarnówko	54.56	17.69	contextual	n/a	n/a	n/a	100	200	300	n/a	T2b	R1a1a1b1a1a1c1	n/a	n/a	n/a	n/a
+PCA0472	F	Poland_PruszczGdanski_IA	n/a	n/a	n/a	n/a	n/a	ob. 17	Poland	PL	n/a	Pruszcz Gdański	54.26	18.65	contextual	n/a	n/a	n/a	100	200	300	n/a	rCRS	n/a	n/a	n/a	n/a	n/a
+PCA0533	M	Poland_Milicz_MA	n/a	n/a	n/a	n/a	n/a	gr. 226 (224M)	Poland	PL	n/a	Milicz	51.52	17.27	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	K1b2a2	R1a1a1b1a1a1a	n/a	n/a	n/a	n/a
+PCA0535	M	Poland_Milicz_MA	n/a	n/a	n/a	n/a	n/a	gr. 373 (290M)	Poland	PL	n/a	Milicz	51.52	17.27	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	rCRS	R1	n/a	n/a	n/a	n/a
+PCA0537	U	Poland_Milicz_MA	n/a	n/a	n/a	n/a	n/a	gr. 300 (121M)	Poland	PL	n/a	Milicz	51.52	17.27	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	rCRS	n/a	n/a	n/a	n/a	n/a
+PCA0482	U	Poland_PruszczGdanski_IA	n/a	n/a	n/a	n/a	n/a	ob..34	Poland	PL	n/a	Pruszcz Gdański	54.26	18.65	contextual	n/a	n/a	n/a	100	200	300	n/a	rCRS	n/a	n/a	n/a	n/a	n/a
+PCA0494	M	Poland_PruszczGdanski_IA	n/a	n/a	n/a	n/a	n/a	ob. 15	Poland	PL	n/a	Pruszcz Gdański	54.26	18.65	contextual	n/a	n/a	n/a	100	200	300	n/a	H36	CT	n/a	n/a	n/a	n/a
+PCA0498	M	Poland_PruszczGdanski_IA	n/a	n/a	n/a	n/a	n/a	luźna I	Poland	PL	n/a	Pruszcz Gdański	54.26	18.65	contextual	n/a	n/a	n/a	100	200	300	n/a	U4a1	I1	n/a	n/a	n/a	n/a
+PCA0501	M	Poland_Milicz_MA	n/a	n/a	n/a	n/a	n/a	28 (156M)	Poland	PL	n/a	Milicz	51.52	17.27	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H1ba	R1a	n/a	n/a	n/a	n/a
+PCA0514	F	Poland_Milicz_MA	n/a	n/a	n/a	n/a	n/a	298	Poland	PL	n/a	Milicz	51.52	17.27	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U5a1b1e	n/a	n/a	n/a	n/a	n/a
+PCA0543	F	Poland_Milicz_MA	n/a	n/a	n/a	n/a	n/a	7	Poland	PL	n/a	Milicz	51.52	17.27	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	rCRS	n/a	n/a	n/a	n/a	n/a
+PCA0545	M	Poland_Milicz_MA	n/a	n/a	n/a	n/a	n/a	sk 226 (245M)	Poland	PL	n/a	Milicz	51.52	17.27	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	H2	R1	n/a	n/a	n/a	n/a
+PCA0550	M	Poland_Balczewo_MA	n/a	n/a	n/a	n/a	n/a	H. G. 2120	Poland	PL	n/a	Balczewo	52.78	18.37	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U2e1b1	R1a1a1b1a1a1c1	n/a	n/a	n/a	n/a
+PCA0552	F	Poland_PoznanSolacz_MA	n/a	n/a	n/a	n/a	n/a	Grób 8	Poland	PL	n/a	Poznań Sołacz	54.49	16.91	C14	n/a	n/a	n/a	869	941	1013	n/a	J1b1a	n/a	n/a	n/a	n/a	n/a
+PCA0564	M	Poland_PoznanSrodka_MA	n/a	n/a	n/a	n/a	n/a	g. 188	Poland	PL	n/a	Poznań Śródka	52.41	16.95	contextual	n/a	n/a	n/a	1000	1100	1200	n/a	U5a2b1	R1a1a1b1	n/a	n/a	n/a	n/a
+PCA0572	M	Poland_Zielonka_MA	n/a	n/a	n/a	n/a	n/a	stan. 3 grób 5	Poland	PL	n/a	Zielonka	52.55	17.11	C14	n/a	n/a	n/a	948	988	1027	n/a	U4'9	n/a	n/a	n/a	n/a	n/a
